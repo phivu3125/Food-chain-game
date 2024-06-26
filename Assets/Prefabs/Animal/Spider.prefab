@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5567237574958694394}
   - component: {fileID: 6412146944612776142}
   - component: {fileID: -3161681182274347780}
+  - component: {fileID: 8986900981215750622}
   m_Layer: 0
   m_Name: Spider
   m_TagString: AnimalEnemy
@@ -53,6 +54,7 @@ MonoBehaviour:
   - Grasshopper
   _listAnimalPoisonnedBy: []
   _maxHealth: 20
+  _animator: {fileID: 8986900981215750622}
 --- !u!61 &6412146944612776142
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -85,18 +87,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.010676384, y: 0.7297138}
+  m_Offset: {x: 0.24648589, y: 0.7297138}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.32, y: 0.3}
-    newSize: {x: 0.32, y: 0.3}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.4353194, y: 0.94698596}
+  m_Size: {x: 1.9069384, y: 0.94698596}
   m_EdgeRadius: 0
 --- !u!50 &-3161681182274347780
 Rigidbody2D:
@@ -125,6 +127,27 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!95 &8986900981215750622
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5498986128311276879}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6fba11239541ada4da2f53b39699f09b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &8631075070089428446
 GameObject:
   m_ObjectHideFlags: 0
@@ -135,7 +158,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1860989024087539931}
   - component: {fileID: 380065715781753018}
-  - component: {fileID: 4170866232907812430}
   m_Layer: 0
   m_Name: SpiderSprite
   m_TagString: AnimalEnemy
@@ -152,7 +174,7 @@ Transform:
   m_GameObject: {fileID: 8631075070089428446}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.02, y: 0.013, z: 0}
+  m_LocalPosition: {x: 0.02, y: 1.78, z: 0}
   m_LocalScale: {x: 11.100001, y: 11.100001, z: 11.100001}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -199,35 +221,14 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: -1647827125, guid: 838e6a726b01d6e409929414bfe64df6, type: 3}
+  m_Sprite: {fileID: -679869877, guid: 30426406c2888fb418c11c95006b379a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.32, y: 0.3}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &4170866232907812430
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8631075070089428446}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d585b9db5fa41b046b8e9272807b2e02, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0

@@ -33,6 +33,7 @@ public class LaneHandler : MonoBehaviour
 
         Animal spawnedAnimal = AnimalEnemy.spawnAnimal(spawnPos);
         spawnedAnimal.transform.Rotate(0, 180, 0);
+        spawnedAnimal.CanRun = true;
 
         spawnedAnimal.gameObject.name = spawnedAnimal.gameObject.name.Replace("(Clone)", "").Trim();
     }

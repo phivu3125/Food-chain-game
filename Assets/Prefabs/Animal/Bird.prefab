@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2384469139055312207}
   - component: {fileID: 2909322697637733408}
-  - component: {fileID: 1958945776541452843}
   m_Layer: 0
   m_Name: BirdSprite
   m_TagString: AnimalEnemy
@@ -27,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 3476335702372274032}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.22, z: 0}
+  m_LocalPosition: {x: -2.76, y: 0.96, z: 0}
   m_LocalScale: {x: 9.04, y: 9.04, z: 9.04}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -79,33 +78,12 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 4.81, y: 5.19}
+  m_Size: {x: 0.64, y: 0.64}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &1958945776541452843
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3476335702372274032}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 58b9a3caf88c32348ad371c93d5169d5, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6967388312433205758
 GameObject:
   m_ObjectHideFlags: 0
@@ -118,6 +96,7 @@ GameObject:
   - component: {fileID: 6146646872360414790}
   - component: {fileID: 5208884340736088209}
   - component: {fileID: -694734593520157778}
+  - component: {fileID: 2341707537377106947}
   m_Layer: 0
   m_Name: Bird
   m_TagString: AnimalEnemy
@@ -134,7 +113,7 @@ Transform:
   m_GameObject: {fileID: 6967388312433205758}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.45, y: 5.29, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.85, y: 0.85, z: 0.85}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -160,6 +139,7 @@ MonoBehaviour:
   - Spider
   _listAnimalPoisonnedBy: []
   _maxHealth: 20
+  _animator: {fileID: 2341707537377106947}
 --- !u!61 &5208884340736088209
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -192,7 +172,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.4, y: 1.56}
+  m_Offset: {x: -2.3738961, y: 1.33}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -203,7 +183,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.7317345, y: 1.3358872}
+  m_Size: {x: 3.523055, y: 1.335887}
   m_EdgeRadius: 0
 --- !u!50 &-694734593520157778
 Rigidbody2D:
@@ -232,3 +212,24 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!95 &2341707537377106947
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6967388312433205758}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 58b9a3caf88c32348ad371c93d5169d5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
