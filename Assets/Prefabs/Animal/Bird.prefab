@@ -138,6 +138,9 @@ MonoBehaviour:
   - Grasshopper
   - Spider
   _listAnimalPoisonnedBy: []
+  _isBeingAttacked: 0
+  _isAttacking: 0
+  pricePerKill: 100
   _maxHealth: 20
   _animator: {fileID: 2341707537377106947}
 --- !u!61 &5208884340736088209

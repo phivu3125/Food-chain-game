@@ -53,6 +53,9 @@ MonoBehaviour:
   - Mantis
   - Grasshopper
   _listAnimalPoisonnedBy: []
+  _isBeingAttacked: 0
+  _isAttacking: 0
+  pricePerKill: 125
   _maxHealth: 20
   _animator: {fileID: 8986900981215750622}
 --- !u!61 &6412146944612776142

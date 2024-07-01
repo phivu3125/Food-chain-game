@@ -314,6 +314,7 @@ MonoBehaviour:
   - Mantis
   - Frog
   - Spider
+  pricePerKill: 0
   _maxHealth: 20
   _animator: {fileID: 8626184816621245184}
 --- !u!61 &7054431728641409612
@@ -435,7 +436,7 @@ Transform:
   m_GameObject: {fileID: 7814494502017068948}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.13, z: 0}
+  m_LocalPosition: {x: 0, y: 0.12999998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
