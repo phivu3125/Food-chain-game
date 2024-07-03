@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4444255010488292671}
   m_Layer: 0
   m_Name: Mantis
-  m_TagString: AnimalPlayer
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 1827419328571213194}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.361856, y: 1.47, z: 0}
+  m_LocalPosition: {x: -5.813519, y: -2.97, z: -0.19248147}
   m_LocalScale: {x: 0.37, y: 0.37, z: 0.37}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -53,6 +53,9 @@ MonoBehaviour:
   - Spider
   - Grasshopper
   _listAnimalPoisonnedBy: []
+  _isBeingAttacked: 0
+  _isAttacking: 0
+  pricePerKill: 0
   _maxHealth: 20
   _animator: {fileID: 4444255010488292671}
 --- !u!61 &1991364885405832155
@@ -87,7 +90,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.5516243, y: 2.16}
+  m_Offset: {x: 0.5516243, y: -0.6}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -174,9 +177,9 @@ Transform:
   m_GameObject: {fileID: 3545852621550394137}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.13, z: 0}
-  m_LocalScale: {x: 18.48, y: 18.48, z: 18.48}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 0, y: -0.04, z: 0}
+  m_LocalScale: {x: 19.9, y: 19.9, z: 19.9}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 846398226204002715}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -221,7 +224,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 491365556, guid: 060f7eddf7535364a959dbff737677a5, type: 3}
+  m_Sprite: {fileID: 167227580, guid: 060f7eddf7535364a959dbff737677a5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

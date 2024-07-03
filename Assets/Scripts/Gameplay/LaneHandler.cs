@@ -7,19 +7,22 @@ using UnityEngine.Tilemaps;
 
 public class LaneHandler : MonoBehaviour
 {
-    private TilemapCollider2D tilemapCollider;
-    void Start()
-    {
-        tilemapCollider = GetComponent<TilemapCollider2D>();
-    }
+    private Transform _firstCell;
+    private Transform _lastCell;
 
+    private void Start() {
+        char lastCharInName = gameObject.name[gameObject.name.Length - 1];
+        string  _firstCellName = $"Cell{lastCharInName}1";
+        _firstCell = transform.Find(_firstCellName);
+
+        string  _lastCellName = $"Cell{lastCharInName}10";
+        _lastCell = transform.Find(_lastCellName);
+    }
     public void SpawnAnimalAtLane(Animal AnimalPlayer)
     {
         AnimalPlayer.gameObject.tag = "AnimalPlayer";
-        Bounds bounds = tilemapCollider.bounds;
-        UnityEngine.Vector3 spawnPos = new UnityEngine.Vector3(bounds.min.x, (bounds.min.y + bounds.max.y) / 2, 0);
 
-        Animal spawnedAnimal = AnimalPlayer.spawnAnimal(spawnPos);
+        Animal spawnedAnimal = AnimalPlayer.spawnAnimal(_firstCell.position);
         spawnedAnimal.CanRun = true;
 
         spawnedAnimal.gameObject.name = spawnedAnimal.gameObject.name.Replace("(Clone)", "").Trim();
@@ -28,10 +31,8 @@ public class LaneHandler : MonoBehaviour
     public void SpawnEnemy(Animal AnimalEnemy)
     {
         AnimalEnemy.gameObject.tag = "AnimalEnemy";
-        Bounds bounds = tilemapCollider.bounds;
-        UnityEngine.Vector3 spawnPos = new UnityEngine.Vector3(bounds.max.x, (bounds.min.y + bounds.max.y) / 2, 0);
-
-        Animal spawnedAnimal = AnimalEnemy.spawnAnimal(spawnPos);
+        
+        Animal spawnedAnimal = AnimalEnemy.spawnAnimal(_lastCell.position);
         spawnedAnimal.transform.Rotate(0, 180, 0);
         spawnedAnimal.CanRun = true;
 

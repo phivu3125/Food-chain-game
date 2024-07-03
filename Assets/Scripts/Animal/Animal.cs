@@ -2,24 +2,27 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Animal : MonoBehaviour
 {
-    public float moveSpeed;
-    public String[] _listAnimalEat;
-    public String[] _listAnimalPoisonnedBy;
+    public float moveSpeed = 2;
+    public string[] _listAnimalEat;
+    public string[] _listAnimalPoisonnedBy;
     private bool _canRun = false;
-    private bool _isBeingAttacked = false;
-    private bool _isAttackedByPeer = false;
-
+    public bool _isBeingAttacked = false;
+    public bool _isAttacking = false;
+    [SerializeField] private int pricePerKill;
     [SerializeField] private int _maxHealth;
     [SerializeField] private Animator _animator;
     private int _health;
     private HealthBar _healthBar;
     private GameObject _targetAnimalDestroy = null;
+    private int _enemyAnimalPrice = 0;
     public bool CanRun { get => _canRun; set => _canRun = value; }
+    public string CurrentAnimalAttackerName { get => _currentAnimalAttackerName; set => _currentAnimalAttackerName = value; }
+
+    private String _currentAnimalAttackerName = null;
 
     private void Start()
     {
@@ -58,8 +61,11 @@ public class Animal : MonoBehaviour
     {
         if (_health <= 0)
         {
-            _isBeingAttacked = true;
-            StartCoroutine(Die());
+            if (!_isBeingAttacked)
+            {
+                _isBeingAttacked = true;
+                StartCoroutine(Die());
+            }
         }
     }
 
@@ -76,6 +82,11 @@ public class Animal : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (!_canRun) return; // Nếu đang trong lúc drag ko xử lí va chạm
+        if (_isAttacking) return; // Nếu đang tấn công thì không xử lý va chạm khác
+
+        if (_isBeingAttacked && !_listAnimalEat.Contains(_currentAnimalAttackerName)) return; // Nếu đang bị tấn công bởi con lớn hơn thì ko xử lí va chạm
+
         if (IsEnemyCollision(collision, out GameObject enemyAnimal))
         {
             HandleEnemyCollision(enemyAnimal);
@@ -85,11 +96,16 @@ public class Animal : MonoBehaviour
     private bool IsEnemyCollision(Collider2D collision, out GameObject enemyAnimal)
     {
         enemyAnimal = null;
+
         if ((collision.gameObject.tag == "AnimalEnemy" && gameObject.tag == "AnimalPlayer") ||
             (collision.gameObject.tag == "AnimalPlayer" && gameObject.tag == "AnimalEnemy"))
         {
-            enemyAnimal = collision.gameObject;
-            return true;
+            Animal enemyAnimalComponent = collision.gameObject.GetComponent<Animal>();
+            if (enemyAnimalComponent != null && !enemyAnimalComponent._isBeingAttacked)
+            {
+                enemyAnimal = collision.gameObject;
+                return true;
+            }
         }
         return false;
     }
@@ -97,33 +113,42 @@ public class Animal : MonoBehaviour
     private void HandleEnemyCollision(GameObject enemyAnimal)
     {
         Animal enemyAnimalComponent = enemyAnimal.GetComponent<Animal>();
-        if (_listAnimalEat.Contains(enemyAnimal.name) && !enemyAnimalComponent._isBeingAttacked)
+        _enemyAnimalPrice = enemyAnimalComponent.pricePerKill;
+
+        if (_listAnimalEat.Contains(enemyAnimal.name))
         {
-            // If 2 animal can eat each other
-            if (enemyAnimalComponent._listAnimalEat.Contains(gameObject.name) && !enemyAnimalComponent._isAttackedByPeer)
-            {
-                enemyAnimalComponent._isBeingAttacked = true; // to block others enemies attack
-                enemyAnimalComponent._isAttackedByPeer = true; // to block others same level enemies attack
-                PrepareForAttack(gameObject);
-            }
-            else if (!_isBeingAttacked) // to block this animal attack others enemies when dying
+            if (!enemyAnimalComponent._isBeingAttacked)
             {
                 enemyAnimalComponent._isBeingAttacked = true;
-                PrepareForAttack(enemyAnimal);
+                enemyAnimalComponent.CurrentAnimalAttackerName = gameObject.name;
+
+                if (_listAnimalEat.Contains(enemyAnimal.name) && enemyAnimalComponent._listAnimalEat.Contains(gameObject.name))
+                {
+                    PrepareForAttack(gameObject);
+                }
+                else
+                {
+                    PrepareForAttack(enemyAnimal);
+                }
             }
         }
-        else if (_listAnimalPoisonnedBy.Contains(enemyAnimal.name) && !enemyAnimalComponent._isBeingAttacked)
+        else if (_listAnimalPoisonnedBy.Contains(enemyAnimal.name))
         {
-            enemyAnimalComponent._isBeingAttacked = true;
-            PrepareForAttack(enemyAnimal);
-            StartCoroutine(ReduceHealthOverTime(5, 4));
+            if (!enemyAnimalComponent._isBeingAttacked)
+            {
+                enemyAnimalComponent._isBeingAttacked = true;
+                enemyAnimalComponent.CurrentAnimalAttackerName = gameObject.name;
+                PrepareForAttack(enemyAnimal);
+                StartCoroutine(ReduceHealthOverTime(5, 4));
+            }
         }
     }
 
     private void PrepareForAttack(GameObject enemyAnimal)
     {
         _canRun = false;
-        _targetAnimalDestroy = enemyAnimal;
+        _isAttacking = true; // Đặt trạng thái tấn công
+        _targetAnimalDestroy = enemyAnimal; // Gán đối tượng mục tiêu
         _animator?.SetTrigger("isAttacking");
     }
 
@@ -145,6 +170,11 @@ public class Animal : MonoBehaviour
             }
             yield return null;
         }
+
+        if (_health <= 0)
+        {
+            StartCoroutine(Die());
+        }
     }
 
     public void DestroyTargetAnimal()
@@ -163,17 +193,21 @@ public class Animal : MonoBehaviour
             {
                 StartCoroutine(targetAnimalComponent?.Die());
             }
-            if (_targetAnimalDestroy.Equals(gameObject)) // check if target animal is gameobject, set it can't run
-            {
-                _canRun = false;
-            }
-            else
-            {
-                _canRun = true;
-            }
-            _targetAnimalDestroy = null;
+            GameManager.Instance.AddMoney(_enemyAnimalPrice);
+        }
+
+        if (gameObject.Equals(_targetAnimalDestroy))// Nếu con vật tự gọi hàm Destroy, phải làm cho nó đứng yên khi chết.
+        {
+            _canRun = false;
+        }
+        else
+        {
+            _canRun = true;
+            _isAttacking = false; // Đặt lại trạng thái tấn công
+            _targetAnimalDestroy = null; // Xóa mục tiêu sau khi đã xử lý
         }
     }
+
     private IEnumerator Die()
     {
         _canRun = false;
@@ -182,5 +216,6 @@ public class Animal : MonoBehaviour
         transform.position = new Vector3(transform.position.x, transform.position.y, 1);
         yield return new WaitForSeconds(_animator.GetCurrentAnimatorStateInfo(0).length);
         Destroy(gameObject);
+        _enemyAnimalPrice = 0;
     }
 }
