@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - AnimalPlayer
   - AnimalEnemy
+  - Cell
   layers:
   - Default
   - TransparentFX

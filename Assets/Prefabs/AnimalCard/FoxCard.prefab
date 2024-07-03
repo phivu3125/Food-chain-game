@@ -253,6 +253,8 @@ MonoBehaviour:
   _costToDrop: 100
   slider: {fileID: 8681561899262129685}
   timeSpawn: 6
+  _isEnoughMoney: 0
+  _isLoading: 0
   _targetSliderValue: 0
 --- !u!61 &3786492950925147868
 BoxCollider2D:
@@ -742,7 +744,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &7351623627569866692
 MonoBehaviour:
   m_ObjectHideFlags: 0

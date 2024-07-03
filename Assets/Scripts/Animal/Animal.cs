@@ -82,6 +82,7 @@ public class Animal : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (!_canRun) return; // Nếu đang trong lúc drag ko xử lí va chạm
         if (_isAttacking) return; // Nếu đang tấn công thì không xử lý va chạm khác
 
         if (_isBeingAttacked && !_listAnimalEat.Contains(_currentAnimalAttackerName)) return; // Nếu đang bị tấn công bởi con lớn hơn thì ko xử lí va chạm

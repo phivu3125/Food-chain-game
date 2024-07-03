@@ -42,6 +42,7 @@ public class Player : MonoBehaviour
     {
         overlayInstance = Instantiate(overlayPrefab, Vector3.zero, Quaternion.identity);
         overlayInstance.SetActive(false);
+   
     }
 
     private void OnDragStart()
