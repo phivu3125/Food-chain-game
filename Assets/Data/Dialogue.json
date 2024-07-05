@@ -1,0 +1,67 @@
+{
+    "dialogues": [
+        {
+            "label": "Welcome",
+            "notes": [
+                "Hello everyone, I'm Tony, I'll be your guide on your adventure !",
+                "Get ready for the tutorial.",
+                "<b>Story mode</b> is a mode where you have to perform specific tasks to complete the level.",
+                "Click <b>New game</b> to start story mode.",
+                "<b>Challenge mode</b> is a ranking mode where you will have the opportunity to compete with other players.",
+                "Click <b>challenge</b> to start challenge mode."
+            ]
+        },
+        {
+            "label": "BeforeStartLevel",
+            "notes": [
+                "The reward for completing the level is gold or items.",
+                "Successfully completing the level will receive more rewards.",
+                "<b>You can only receive the reward once per level</b>",
+                "Successfully completing the level will receive more rewards.",
+                "For each level, you can carry up to 3 items."
+            ]
+        },
+        {
+            "label": "Gold",
+            "notes": [
+                "Gold is used to buy items or skins.",
+                "Gold can be earned by completing levels or purchasing in the store."
+            ]
+        },
+        {
+            "label": "StoryMode",
+            "notes": [
+                "Story mode is a mode where you have to perform specific tasks to complete the level.",
+                "Click new game to start story mode."
+            ]
+        },
+        {
+            "label": "ChallengeMode",
+            "notes": [
+                "Challenge mode is a ranking mode where you will have the opportunity to compete with other players.",
+                "Click challenge to start challenge mode."
+            ]
+        },
+        {
+            "label": "EnergyNote",
+            "notes": [
+                "Energy is used to summon animals.",
+                "Energy is produced by flowers."
+            ]
+        },
+        {
+            "label": "AnimalsNote",
+            "notes": [
+                "Animals are the creatures you will have to summon to protect your jungle",
+                "Each species will have different values."
+            ]
+        },
+        {
+            "label": "InventoryNote",
+            "notes": [
+                "Inventory is where you can see the items you have.",
+                "Click inventory to see your items."
+            ]
+        }
+    ]
+}
