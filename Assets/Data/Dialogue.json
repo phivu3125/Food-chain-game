@@ -43,24 +43,37 @@
             ]
         },
         {
-            "label": "EnergyNote",
+            "label": "Energy",
             "notes": [
                 "Energy is used to summon animals.",
                 "Energy is produced by flowers."
             ]
         },
         {
-            "label": "AnimalsNote",
+            "label": "AnimalCard",
             "notes": [
                 "Animals are the creatures you will have to summon to protect your jungle",
                 "Each species will have different values."
             ]
         },
         {
-            "label": "InventoryNote",
+            "label": "Inventory",
             "notes": [
                 "Inventory is where you can see the items you have.",
                 "Click inventory to see your items."
+            ]
+        },
+        {
+            "label": "HowToSummonAnimal",
+            "notes": [
+                "Hold the animal card, drag it to the lane and release it"
+            ]
+        },
+        {
+            "label": "HowToGenerateEnergy",
+            "notes": [
+                "Plant flowers along the lanes, after a period of time, they will generate energy",
+                "Tap the energy icon to collect energy."
             ]
         }
     ]

@@ -46,16 +46,19 @@ public class DialogueManager : MonoBehaviour
     protected int index;
 
     // Start is called before the first frame update
-    protected virtual void Start()
+    protected void Start()
     {
+        Init();
+        AddBtnComponentForComponents();
+        LoadDialogueData();
+        StartDialogue();
+    }
+
+    public void Init(){
         textComponent.text = string.Empty;
         nextBtn = GameObject.Find("NextBtn");
         prevBtn = GameObject.Find("PrevBtn");
         Note = transform.parent.gameObject;
-
-        AddBtnComponentForComponents();
-        LoadDialogueData();
-        StartDialogue();
     }
 
     // Update is called once per frame
@@ -123,7 +126,6 @@ public class DialogueManager : MonoBehaviour
     protected void StartDialogue()
     {
         StartCoroutine(TypeLine());
-        //DisableAllExceptDialogue();
     }
 
     protected IEnumerator TypeLine()
@@ -135,7 +137,7 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    protected void NextLine()
+    protected virtual void NextLine()
     {
         if (index < lines.Length - 1)
         {
@@ -148,11 +150,10 @@ public class DialogueManager : MonoBehaviour
             Note.SetActive(false);
             index = 0;
             textComponent.text = lines[index];
-            //EnableAllComponents();
         }
     }
 
-    protected void PrevLine()
+    protected virtual void PrevLine()
     {
         if (index > 0)
         {
@@ -165,7 +166,6 @@ public class DialogueManager : MonoBehaviour
             Note.SetActive(false);
             index = 0;
             textComponent.text = lines[index];
-            //EnableAllComponents();
         }
     }
 }
