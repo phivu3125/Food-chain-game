@@ -1,22 +1,22 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MainMenuAnimController : MonoBehaviour
 {
-    static Animator anim;
-    // Update is called once per frame
-    void Start()
+    public Animator animator;
+    private float pauseTime;
+
+    public void PauseAndPlayOtherAnimation()
     {
-        anim = GetComponent<Animator>();
-        if(anim == null){Debug.Log("Animator is null");}
+        // Lưu trữ thời điểm hiện tại của Animation 1
+        AnimatorStateInfo animStateInfo = animator.GetCurrentAnimatorStateInfo(0);
+        pauseTime = animStateInfo.normalizedTime;
+
+        // Dừng Animation 1 và bắt đầu Animation 2
+        animator.Play("MainMenuIdle");
     }
 
-    public void Enable(){
-        anim.SetBool("run", true);
-    }
-
-    public void Disable(){
-        anim.SetBool("run", false);
+    public void ResumeAnimation()
+    {
+        animator.Play("MenuAnimation", 0, pauseTime + 0.1f);
     }
 }

@@ -5,21 +5,8 @@ using UnityEngine;
 public class OpeningDialogue : DialogueManager
 {
     public GameObject scrollBtn = null;
-    MainMenuAnimController mainMenuAnimCtrl = null;
-    void Start()
-    {
-        // Assuming you have a GameObject in your scene named "MainMenuController"
-        GameObject mainMenuControllerObject = GameObject.Find("MainMenu");
-        if (mainMenuControllerObject != null)
-        {
-            mainMenuAnimCtrl = mainMenuControllerObject.AddComponent<MainMenuAnimController>();
-        }
-        else
-        {
-            Debug.LogError("MainMenuController GameObject not found!");
-        }
-    }
-
+    public MainMenuAnimController animController;
+  
     protected override void NextLine()
     {
         if (index < lines.Length - 1)
@@ -34,7 +21,14 @@ public class OpeningDialogue : DialogueManager
             index = 0;
             textComponent.text = lines[index];
             scrollBtn.SetActive(true);
-            mainMenuAnimCtrl.Enable(); 
+            if (animController != null)
+            {
+                animController.ResumeAnimation();
+            }
+            else
+            {
+                Debug.LogError("Animator not assigned!");
+            }
         }
     }
 
@@ -52,7 +46,14 @@ public class OpeningDialogue : DialogueManager
             index = 0;
             textComponent.text = lines[index];
             scrollBtn.SetActive(true);
-            if(mainMenuAnimCtrl != null){mainMenuAnimCtrl.Disable();}else{Debug.Log("anim is null");}
+            if (animController != null)
+            {
+                animController.ResumeAnimation();
+            }
+            else
+            {
+                Debug.LogError("Animator not assigned!");
+            }
         }
     }
 }
