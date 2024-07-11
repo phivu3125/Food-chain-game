@@ -50,6 +50,7 @@ public class DialogueManager : MonoBehaviour
     {
         Init();
         AddBtnComponentForComponents();
+        LoadJsonData();
         LoadDialogueData();
         StartDialogue();
     }
@@ -108,10 +109,15 @@ public class DialogueManager : MonoBehaviour
         PrevLine();
     }
 
-    protected void LoadDialogueData()
-    {
+    protected void LoadJsonData(){
         string json = File.ReadAllText(jsonFilePath);
         dialogueDataList = JsonUtility.FromJson<DialogueDataList>(json);
+    }
+
+    protected void LoadDialogueData()
+    {
+        textComponent.text = string.Empty;
+        index = 0;
 
         foreach (DialogueData e in dialogueDataList.dialogues)
         {

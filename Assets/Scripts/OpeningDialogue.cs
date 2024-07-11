@@ -1,12 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using TMPro;
 public class OpeningDialogue : DialogueManager
 {
     public GameObject scrollBtn = null;
     public MainMenuAnimController animController;
-  
     protected override void NextLine()
     {
         if (index < lines.Length - 1)
@@ -17,10 +16,10 @@ public class OpeningDialogue : DialogueManager
         }
         else
         {
-            Note.SetActive(false);
-            index = 0;
-            textComponent.text = lines[index];
             scrollBtn.SetActive(true);
+
+            ReassignTextComponent();
+
             if (animController != null)
             {
                 animController.ResumeAnimation();
@@ -42,10 +41,10 @@ public class OpeningDialogue : DialogueManager
         }
         else
         {
-            Note.SetActive(false);
-            index = 0;
-            textComponent.text = lines[index];
             scrollBtn.SetActive(true);
+
+            ReassignTextComponent();
+
             if (animController != null)
             {
                 animController.ResumeAnimation();
@@ -54,6 +53,18 @@ public class OpeningDialogue : DialogueManager
             {
                 Debug.LogError("Animator not assigned!");
             }
+        }
+    }
+
+    public void ReassignTextComponent()
+    {
+        GameObject parentObject = GameObject.Find("Note");
+        if (parentObject != null){
+            TextMeshProUGUI storyModeTransform = parentObject.transform.Find("StoryMode").GetComponent<TextMeshProUGUI>();
+            TextMeshProUGUI challengeModeTransform = parentObject.transform.Find("ChallengeMode").GetComponent<TextMeshProUGUI>();
+            textComponent = (textComponent == storyModeTransform) ? challengeModeTransform : storyModeTransform;
+            LoadDialogueData();
+            StartDialogue();
         }
     }
 }
