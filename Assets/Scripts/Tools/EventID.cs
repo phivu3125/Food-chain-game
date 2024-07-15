@@ -3,5 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public enum EventID{
-    MONEY_CHANGED
+    MONEY_CHANGED,
+    LIVE_CHANGED
 }

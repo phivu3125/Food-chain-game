@@ -5,41 +5,72 @@ using UnityEngine;
 
 public class GameManager : Singleton<GameManager>
 {
-    public int currentMoney;
     public int initialMoney;
+    public int maxLives;
+
+    public int currentMoney;
+    public int currentLives;
+
+    public int CurrentLives { get => currentLives; set => currentLives = value; }
+    public int CurrentMoney { get => currentMoney; set => currentMoney = value; }
 
     protected override void Awake()
     {
         base.Awake();
-        currentMoney = initialMoney;
-        ListenerManager.Instance.Broadcast(EventID.MONEY_CHANGED, currentMoney);
+        ResetGameManager();
+    }
+
+    private void InitializeMoney()
+    {
+        CurrentMoney = initialMoney;
+    }
+
+    private void InitializePlayerLives()
+    {
+        CurrentLives = maxLives;
+    }
+
+    public void ResetGameManager()
+    {
+        InitializeMoney();
+        InitializePlayerLives();
+        
+        ListenerManager.Instance.Broadcast(EventID.MONEY_CHANGED, CurrentMoney);
+        ListenerManager.Instance.Broadcast(EventID.LIVE_CHANGED, CurrentLives);
     }
 
     public bool SpendMoney(int amount)
     {
-        if (currentMoney >= amount)
+        if (CurrentMoney >= amount)
         {
-            currentMoney -= amount;
-            ListenerManager.Instance.Broadcast(EventID.MONEY_CHANGED, currentMoney);
-            // Debug.Log("Money spent: " + amount + ". Current money: " + currentMoney);
+            CurrentMoney -= amount;
+            ListenerManager.Instance.Broadcast(EventID.MONEY_CHANGED, CurrentMoney);
             return true;
         }
         else
         {
-            // Debug.Log("Not enough money. Current money: " + currentMoney);
             return false;
         }
     }
 
     public void AddMoney(int amount)
     {
-        currentMoney += amount;
-        ListenerManager.Instance.Broadcast(EventID.MONEY_CHANGED, currentMoney);
-        // Debug.Log("Money added: " + amount + ". Current money: " + currentMoney);
+        CurrentMoney += amount;
+        ListenerManager.Instance.Broadcast(EventID.MONEY_CHANGED, CurrentMoney);
     }
 
-    public int GetCurrentMoney()
+    public void AddLives(int amount)
     {
-        return currentMoney;
+        CurrentLives += amount;
+        ListenerManager.Instance.Broadcast(EventID.LIVE_CHANGED, CurrentLives);
+    }
+
+    public void DecreaseLives(int amount)
+    {
+        if (CurrentLives >= amount)
+        {
+            CurrentLives -= amount;
+            ListenerManager.Instance.Broadcast(EventID.LIVE_CHANGED, CurrentLives);
+        }
     }
 }

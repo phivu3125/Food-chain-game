@@ -12,10 +12,12 @@ public class InputReader : ScriptableObject, GameInput.IGameplayActions
     private Action _onPointerClickedRelease;
     private Action<Vector2> _onPointerDrag;
     private GameInput _gameInput;
+    private Vector2 _pointerPos;
 
     public Action OnPointerClicked { get => _onPointerClicked; set => _onPointerClicked = value; }
     public Action OnPointerClickedRelease { get => _onPointerClickedRelease; set => _onPointerClickedRelease = value; }
     public Action<Vector2> OnPointerDrag { get => _onPointerDrag; set => _onPointerDrag = value; }
+    public Vector2 PointerPos { get => _pointerPos; set => _pointerPos = value; }
 
     private void OnEnable()
     {
@@ -39,10 +41,12 @@ public class InputReader : ScriptableObject, GameInput.IGameplayActions
 
     public void OnPointerClick(InputAction.CallbackContext context)
     {
-        if(context.phase == InputActionPhase.Started){
+        if (context.phase == InputActionPhase.Started)
+        {
             OnPointerClicked?.Invoke();
         }
-        else if(context.phase == InputActionPhase.Canceled){
+        else if (context.phase == InputActionPhase.Canceled)
+        {
             OnPointerClickedRelease?.Invoke();
         }
     }
@@ -50,5 +54,6 @@ public class InputReader : ScriptableObject, GameInput.IGameplayActions
     public void OnPointerPosition(InputAction.CallbackContext context)
     {
         OnPointerDrag?.Invoke(context.ReadValue<Vector2>());
+        PointerPos = context.ReadValue<Vector2>();
     }
 }

@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 5498986128311276879}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -1, z: 0, w: 0.00000004371139}
-  m_LocalPosition: {x: 6.528976, y: -6.44, z: -0.19248147}
+  m_LocalPosition: {x: 3.6366928, y: -2.5, z: 0}
   m_LocalScale: {x: 0.89, y: 0.89, z: 0.89}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -48,16 +48,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10a5fafd88b38d340bff0fd4f9d2cedf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
-  _listAnimalEat:
+  moveSpeed: 1
+  edibleAnimals:
   - Mantis
   - Grasshopper
-  _listAnimalPoisonnedBy: []
-  _isBeingAttacked: 0
-  _isAttacking: 0
+  - Flower
+  poisonedByAnimals:
+  - 
   pricePerKill: 125
-  _maxHealth: 20
-  _animator: {fileID: 8986900981215750622}
+  maxHealth: 20
+  animator: {fileID: 8986900981215750622}
+  animalPlayerBound: 15
+  animalEnemyBound: -6
 --- !u!61 &6412146944612776142
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -90,7 +92,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.32, y: -0.7}
+  m_Offset: {x: 0.31178465, y: 0.1597868}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -101,7 +103,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.9069384, y: 0.94698596}
+  m_Size: {x: 1.2004204, y: 0.4977127}
   m_EdgeRadius: 0
 --- !u!50 &-3161681182274347780
 Rigidbody2D:
@@ -177,9 +179,9 @@ Transform:
   m_GameObject: {fileID: 8631075070089428446}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.04, y: 0.74, z: -0}
-  m_LocalScale: {x: 12.58, y: 12.58, z: 12.58}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 0.04, y: 0.83, z: -0}
+  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 6714267013196073416}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
