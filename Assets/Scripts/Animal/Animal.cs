@@ -1,91 +1,95 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
 public class Animal : MonoBehaviour
 {
-    public float moveSpeed = 2;
-    public string[] _listAnimalEat;
-    public string[] _listAnimalPoisonnedBy;
-    private bool _canRun = false;
-    public bool _isBeingAttacked = false;
-    public bool _isAttacking = false;
-    [SerializeField] private int pricePerKill;
-    [SerializeField] private int _maxHealth;
-    [SerializeField] private Animator _animator;
-    private int _health;
-    private HealthBar _healthBar;
-    private GameObject _targetAnimalDestroy = null;
-    private int _enemyAnimalPrice = 0;
-    public bool CanRun { get => _canRun; set => _canRun = value; }
-    public string CurrentAnimalAttackerName { get => _currentAnimalAttackerName; set => _currentAnimalAttackerName = value; }
+    public float moveSpeed = 2; // Tốc độ di chuyển của động vật
+    public string[] edibleAnimals; // Danh sách các động vật mà động vật này có thể ăn
+    public string[] poisonedByAnimals; // Danh sách các động vật mà động vật này bị trúng độc
 
-    private String _currentAnimalAttackerName = null;
+    [SerializeField] protected int pricePerKill; // Giá trị khi giết được động vật này
+    [SerializeField] protected int maxHealth; // Máu tối đa của động vật này
+    [SerializeField] protected Animator animator; // Animator của động vật
+    [SerializeField] protected float animalPlayerBound; // Giới hạn của player animal
+    [SerializeField] protected float animalEnemyBound; // Giới hạn của player animal
 
-    private void Start()
+
+
+    protected int currentHealth; // Máu hiện tại của động vật
+    protected HealthBar healthBar; // Thanh máu của động vật
+    protected GameObject targetAnimal = null; // Đối tượng mục tiêu mà động vật này đang tấn công
+    protected int targetAnimalPrice = 0; // Giá trị của đối tượng mục tiêu
+    protected bool canRun = false; // Động vật có thể di chuyển hay không
+    protected bool isBeingAttacked = false; // Động vật có đang bị tấn công hay không
+    protected bool isAttacking = false; // Động vật có đang tấn công hay không
+    protected string currentAttackerName = null; // Tên của động vật đang tấn công động vật này
+
+    public bool CanRun { get => canRun; set => canRun = value; }
+    public string CurrentAttackerName { get => currentAttackerName; set => currentAttackerName = value; }
+
+    protected void Start()
     {
-        InitializeHealth();
+        InitializeHealth(); // Khởi tạo máu của động vật
     }
 
-    private void InitializeHealth()
+    protected void InitializeHealth()
     {
-        _health = _maxHealth;
-        _healthBar = transform.Find("Health")?.Find("HealthBar")?.GetComponent<HealthBar>();
-        _healthBar?.SetMaxHealth(_maxHealth);
-        _healthBar?.SetHealth(_maxHealth);
-        _healthBar?.gameObject.SetActive(false);
+        currentHealth = maxHealth;
+        healthBar = transform.Find("Health")?.Find("HealthBar")?.GetComponent<HealthBar>();
+        healthBar?.SetMaxHealth(maxHealth);
+        healthBar?.SetHealth(maxHealth);
+        healthBar?.gameObject.SetActive(false); // Ẩn thanh máu khi khởi tạo
     }
 
-    private void Update()
+    protected void Update()
     {
-        HandleMovement();
-        CheckHealth();
+        HandleMovement(); // Xử lý di chuyển của động vật
+        DestroyAnimalsOutOfBounds();
+        CheckHealth(); // Kiểm tra tình trạng máu của động vật
     }
 
-    private void HandleMovement()
+    protected void HandleMovement()
     {
-        if (!_canRun) return;
+        if (!canRun) return;
 
         Vector3 direction = gameObject.CompareTag("AnimalPlayer") ? Vector3.right : Vector3.left;
         transform.position += direction * moveSpeed * Time.deltaTime;
+    }
 
-        if (transform.position.x > 20 || transform.position.x < -15)
+    protected void DestroyAnimalsOutOfBounds()
+    {
+        if (transform.position.x >= animalPlayerBound && transform.gameObject.CompareTag("AnimalPlayer"))
         {
             Destroy(gameObject);
         }
-    }
-
-    private void CheckHealth()
-    {
-        if (_health <= 0)
+        else if (transform.position.x <= animalEnemyBound && transform.gameObject.CompareTag("AnimalEnemy"))
         {
-            if (!_isBeingAttacked)
-            {
-                _isBeingAttacked = true;
-                StartCoroutine(Die());
-            }
+            Destroy(gameObject);
+            GameManager.Instance.DecreaseLives(1);
         }
     }
 
-    public Animal spawnAnimal(Vector3 spawnPos)
+    protected void CheckHealth()
+    {
+        if (currentHealth <= 0 && !isBeingAttacked)
+        {
+            isBeingAttacked = true;
+            StartCoroutine(Die()); // Bắt đầu quá trình chết
+        }
+    }
+
+    public Animal SpawnAnimal(Vector3 spawnPos)
     {
         GameObject animalObject = Instantiate(gameObject, spawnPos, Quaternion.identity);
+        animalObject.name = animalObject.name.Replace("(Clone)", "").Trim();
         Animal animalComponent = animalObject.GetComponent<Animal>();
-        if (animalComponent == null)
-        {
-            animalComponent = animalObject.AddComponent<Animal>();
-        }
-        return animalComponent;
+        return animalComponent ?? animalObject.AddComponent<Animal>(); // Thêm component Animal nếu chưa có
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    protected void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!_canRun) return; // Nếu đang trong lúc drag ko xử lí va chạm
-        if (_isAttacking) return; // Nếu đang tấn công thì không xử lý va chạm khác
-
-        if (_isBeingAttacked && !_listAnimalEat.Contains(_currentAnimalAttackerName)) return; // Nếu đang bị tấn công bởi con lớn hơn thì ko xử lí va chạm
+        if (!canRun || isAttacking || (isBeingAttacked && !edibleAnimals.Contains(currentAttackerName))) return;
 
         if (IsEnemyCollision(collision, out GameObject enemyAnimal))
         {
@@ -93,15 +97,16 @@ public class Animal : MonoBehaviour
         }
     }
 
-    private bool IsEnemyCollision(Collider2D collision, out GameObject enemyAnimal)
+    protected bool IsEnemyCollision(Collider2D collision, out GameObject enemyAnimal)
     {
         enemyAnimal = null;
+        bool isEnemy = (collision.gameObject.tag == "AnimalEnemy" && gameObject.tag == "AnimalPlayer") ||
+                       (collision.gameObject.tag == "AnimalPlayer" && gameObject.tag == "AnimalEnemy");
 
-        if ((collision.gameObject.tag == "AnimalEnemy" && gameObject.tag == "AnimalPlayer") ||
-            (collision.gameObject.tag == "AnimalPlayer" && gameObject.tag == "AnimalEnemy"))
+        if (isEnemy)
         {
             Animal enemyAnimalComponent = collision.gameObject.GetComponent<Animal>();
-            if (enemyAnimalComponent != null && !enemyAnimalComponent._isBeingAttacked)
+            if (enemyAnimalComponent != null && !enemyAnimalComponent.isBeingAttacked)
             {
                 enemyAnimal = collision.gameObject;
                 return true;
@@ -110,51 +115,51 @@ public class Animal : MonoBehaviour
         return false;
     }
 
-    private void HandleEnemyCollision(GameObject enemyAnimal)
+    protected void HandleEnemyCollision(GameObject enemyAnimal)
     {
         Animal enemyAnimalComponent = enemyAnimal.GetComponent<Animal>();
-        _enemyAnimalPrice = enemyAnimalComponent.pricePerKill;
+        targetAnimalPrice = enemyAnimalComponent.pricePerKill;
 
-        if (_listAnimalEat.Contains(enemyAnimal.name))
+        if (edibleAnimals.Contains(enemyAnimal.name))
         {
-            if (!enemyAnimalComponent._isBeingAttacked)
+            if (!enemyAnimalComponent.isBeingAttacked)
             {
-                enemyAnimalComponent._isBeingAttacked = true;
-                enemyAnimalComponent.CurrentAnimalAttackerName = gameObject.name;
+                enemyAnimalComponent.isBeingAttacked = true;
+                enemyAnimalComponent.CurrentAttackerName = gameObject.name;
 
-                if (_listAnimalEat.Contains(enemyAnimal.name) && enemyAnimalComponent._listAnimalEat.Contains(gameObject.name))
+                if (edibleAnimals.Contains(enemyAnimal.name) && enemyAnimalComponent.edibleAnimals.Contains(gameObject.name))
                 {
-                    PrepareForAttack(gameObject);
+                    PrepareForAttack(gameObject); // Tấn công qua lại
                 }
                 else
                 {
-                    PrepareForAttack(enemyAnimal);
+                    PrepareForAttack(enemyAnimal); // Tấn công đơn phương
                 }
             }
         }
-        else if (_listAnimalPoisonnedBy.Contains(enemyAnimal.name))
+        else if (poisonedByAnimals.Contains(enemyAnimal.name))
         {
-            if (!enemyAnimalComponent._isBeingAttacked)
+            if (!enemyAnimalComponent.isBeingAttacked)
             {
-                enemyAnimalComponent._isBeingAttacked = true;
-                enemyAnimalComponent.CurrentAnimalAttackerName = gameObject.name;
-                PrepareForAttack(enemyAnimal);
+                enemyAnimalComponent.isBeingAttacked = true;
+                enemyAnimalComponent.CurrentAttackerName = gameObject.name;
+                PrepareForAttack(enemyAnimal); // Tấn công khi bị trúng độc
                 StartCoroutine(ReduceHealthOverTime(5, 4));
             }
         }
     }
 
-    private void PrepareForAttack(GameObject enemyAnimal)
+    protected void PrepareForAttack(GameObject enemyAnimal)
     {
-        _canRun = false;
-        _isAttacking = true; // Đặt trạng thái tấn công
-        _targetAnimalDestroy = enemyAnimal; // Gán đối tượng mục tiêu
-        _animator?.SetTrigger("isAttacking");
+        canRun = false;
+        isAttacking = true;
+        targetAnimal = enemyAnimal;
+        animator?.SetTrigger("isAttacking");
     }
 
-    private IEnumerator ReduceHealthOverTime(int damagePerTick, float interval)
+    protected IEnumerator ReduceHealthOverTime(int damagePerTick, float interval)
     {
-        _healthBar?.gameObject.SetActive(true);
+        healthBar?.gameObject.SetActive(true);
         float timeSinceLastReduceHealth = 0f;
         float totalDmg = damagePerTick * interval;
 
@@ -163,15 +168,15 @@ public class Animal : MonoBehaviour
             timeSinceLastReduceHealth += Time.deltaTime;
             if (timeSinceLastReduceHealth >= 1f)
             {
-                _health -= damagePerTick;
+                currentHealth -= damagePerTick;
                 totalDmg -= damagePerTick;
-                _healthBar?.SetHealth(_health);
+                healthBar?.SetHealth(currentHealth);
                 timeSinceLastReduceHealth = 0f;
             }
             yield return null;
         }
 
-        if (_health <= 0)
+        if (currentHealth <= 0)
         {
             StartCoroutine(Die());
         }
@@ -179,12 +184,12 @@ public class Animal : MonoBehaviour
 
     public void DestroyTargetAnimal()
     {
-        if (_targetAnimalDestroy != null)
+        if (targetAnimal != null)
         {
-            Animal targetAnimalComponent = _targetAnimalDestroy.GetComponent<Animal>();
-            if (targetAnimalComponent._listAnimalEat.Contains(gameObject.name))
+            Animal targetAnimalComponent = targetAnimal.GetComponent<Animal>();
+            if (targetAnimalComponent.edibleAnimals.Contains(gameObject.name))
             {
-                if (targetAnimalComponent._targetAnimalDestroy != null)
+                if (targetAnimalComponent.targetAnimal != null)
                 {
                     StartCoroutine(Die());
                 }
@@ -193,29 +198,42 @@ public class Animal : MonoBehaviour
             {
                 StartCoroutine(targetAnimalComponent?.Die());
             }
-            GameManager.Instance.AddMoney(_enemyAnimalPrice);
+            GameManager.Instance.AddMoney(targetAnimalPrice);
         }
 
-        if (gameObject.Equals(_targetAnimalDestroy))// Nếu con vật tự gọi hàm Destroy, phải làm cho nó đứng yên khi chết.
+        if (gameObject.Equals(targetAnimal)) // Nếu động vật tự gọi hàm Destroy, phải làm cho nó đứng yên khi chết.
         {
-            _canRun = false;
+            canRun = false;
         }
         else
         {
-            _canRun = true;
-            _isAttacking = false; // Đặt lại trạng thái tấn công
-            _targetAnimalDestroy = null; // Xóa mục tiêu sau khi đã xử lý
+            canRun = true;
+            isAttacking = false;
+            targetAnimal = null; // Xóa mục tiêu sau khi đã xử lý
         }
     }
 
-    private IEnumerator Die()
+    protected IEnumerator Die()
     {
-        _canRun = false;
+        canRun = false;
         gameObject.GetComponent<BoxCollider2D>().enabled = false;
-        _animator?.SetTrigger("isDying");
-        transform.position = new Vector3(transform.position.x, transform.position.y, 1);
-        yield return new WaitForSeconds(_animator.GetCurrentAnimatorStateInfo(0).length);
+        animator?.SetTrigger("isDying");
+        SetLayerForAllChildSprites(gameObject, "Dying");
+        yield return null;
+    }
+    private void SetLayerForAllChildSprites(GameObject parent, string sortingLayerName)
+    {
+        SpriteRenderer[] spriteRenderers = parent.GetComponentsInChildren<SpriteRenderer>();
+
+        foreach (var spriteRenderer in spriteRenderers)
+        {
+            spriteRenderer.sortingLayerName = sortingLayerName;
+        }
+    }
+
+    public void OnDyingAnimationEnd()
+    {
         Destroy(gameObject);
-        _enemyAnimalPrice = 0;
+        targetAnimalPrice = 0;
     }
 }

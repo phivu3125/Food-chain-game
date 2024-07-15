@@ -6,10 +6,10 @@ TagManager:
   tags:
   - Card
   - Lane
-  - Enemy
   - AnimalPlayer
   - AnimalEnemy
   - Cell
+  - Energy
   layers:
   - Default
   - TransparentFX
@@ -46,6 +46,9 @@ TagManager:
   m_SortingLayers:
   - name: Background
     uniqueID: 1780568117
+    locked: 0
+  - name: Dying
+    uniqueID: 706549833
     locked: 0
   - name: Default
     uniqueID: 0
