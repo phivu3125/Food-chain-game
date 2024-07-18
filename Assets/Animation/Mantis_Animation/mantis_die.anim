@@ -38,7 +38,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_back_back_leg1
+    path: Sprite/mantis_sprite/mantis_back_back_leg1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -63,7 +63,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_back_leg1
+    path: Sprite/mantis_sprite/mantis_back_leg1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -88,7 +88,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_body/mantis_head
+    path: Sprite/mantis_sprite/mantis_body/mantis_head
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -113,7 +113,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_body/mantis_lower_body
+    path: Sprite/mantis_sprite/mantis_body/mantis_lower_body
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -138,7 +138,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_body/mantis_mid_body
+    path: Sprite/mantis_sprite/mantis_body/mantis_mid_body
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -163,7 +163,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_hand_back/mantis_lower_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_lower_hand_back
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -188,7 +188,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_hand_back/mantis_mid_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_mid_hand_back
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -213,7 +213,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_hand_back/mantis_upper_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_upper_hand_back
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -238,7 +238,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_hand_front/mantis_lower_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_lower_hand_front
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -263,7 +263,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_hand_front/mantis_mid_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_mid_hand_front
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -288,7 +288,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_hand_front/mantis_upper_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_upper_hand_front
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -313,7 +313,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_leg_back/mantis_lower_leg
+    path: Sprite/mantis_sprite/mantis_leg_back/mantis_lower_leg
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -338,7 +338,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_leg_back/mantis_upper_leg
+    path: Sprite/mantis_sprite/mantis_leg_back/mantis_upper_leg
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -363,7 +363,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_leg_front/mantis_lower_leg1
+    path: Sprite/mantis_sprite/mantis_leg_front/mantis_lower_leg1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -388,7 +388,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_leg_front/mantis_upper_leg1
+    path: Sprite/mantis_sprite/mantis_leg_front/mantis_upper_leg1
   m_PositionCurves:
   - curve:
       serializedVersion: 2
@@ -414,7 +414,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_back_back_leg1
+    path: Sprite/mantis_sprite/mantis_back_back_leg1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -439,7 +439,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_back_leg1
+    path: Sprite/mantis_sprite/mantis_back_leg1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -464,7 +464,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_body
+    path: Sprite/mantis_sprite/mantis_body
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -489,7 +489,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_body/mantis_head
+    path: Sprite/mantis_sprite/mantis_body/mantis_head
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -514,7 +514,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_body/mantis_head/mantis_eye
+    path: Sprite/mantis_sprite/mantis_body/mantis_head/mantis_eye
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -539,7 +539,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_body/mantis_head/mantis_eye_shadow
+    path: Sprite/mantis_sprite/mantis_body/mantis_head/mantis_eye_shadow
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -564,7 +564,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_body/mantis_mid_body
+    path: Sprite/mantis_sprite/mantis_body/mantis_mid_body
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -589,7 +589,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -614,7 +614,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_hand_back/mantis_lower_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_lower_hand_back
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -639,7 +639,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_hand_back/mantis_mid_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_mid_hand_back
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -664,7 +664,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_hand_back/mantis_upper_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_upper_hand_back
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -689,7 +689,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -714,7 +714,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_hand_front/mantis_lower_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_lower_hand_front
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -739,7 +739,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_hand_front/mantis_mid_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_mid_hand_front
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -764,7 +764,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_hand_front/mantis_upper_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_upper_hand_front
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -789,7 +789,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_leg_back
+    path: Sprite/mantis_sprite/mantis_leg_back
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -814,7 +814,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_leg_back/mantis_lower_leg
+    path: Sprite/mantis_sprite/mantis_leg_back/mantis_lower_leg
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -839,7 +839,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_leg_back/mantis_upper_leg
+    path: Sprite/mantis_sprite/mantis_leg_back/mantis_upper_leg
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -864,7 +864,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_leg_front
+    path: Sprite/mantis_sprite/mantis_leg_front
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -889,7 +889,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_leg_front/mantis_lower_leg1
+    path: Sprite/mantis_sprite/mantis_leg_front/mantis_lower_leg1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -914,7 +914,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_leg_front/mantis_upper_leg1
+    path: Sprite/mantis_sprite/mantis_leg_front/mantis_upper_leg1
   m_ScaleCurves:
   - curve:
       serializedVersion: 2
@@ -940,7 +940,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_body/mantis_head/mantis_eye
+    path: Sprite/mantis_sprite/mantis_body/mantis_head/mantis_eye
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -965,7 +965,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mantis_sprite/mantis_body/mantis_head/mantis_eye_shadow
+    path: Sprite/mantis_sprite/mantis_body/mantis_head/mantis_eye_shadow
   m_FloatCurves: []
   m_PPtrCurves: []
   m_SampleRate: 60
@@ -976,7 +976,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 882152105
+      path: 2428267634
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -985,7 +985,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1176422135
+      path: 2556835404
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -994,7 +994,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1530516379
+      path: 628825193
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -1003,7 +1003,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1221798649
+      path: 1880771870
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -1012,7 +1012,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1048149477
+      path: 1090529555
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -1021,7 +1021,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2388131629
+      path: 3648555099
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -1030,7 +1030,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3463623395
+      path: 4202218078
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -1039,7 +1039,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1270168957
+      path: 2513292742
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -1048,7 +1048,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2827435569
+      path: 3625661919
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -1057,7 +1057,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3752166750
+      path: 2581781387
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -1066,7 +1066,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3619829971
+      path: 2807968573
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -1075,7 +1075,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1758769540
+      path: 884581232
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -1084,7 +1084,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 485751575
+      path: 1272745057
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -1093,7 +1093,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 177111948
+      path: 2048034914
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -1102,7 +1102,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1384660293
+      path: 94849587
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -1111,7 +1111,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 59952203
+      path: 3237786278
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -1120,7 +1120,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 4140291369
+      path: 3272789809
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -1129,7 +1129,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2526559242
+      path: 2739742226
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -1138,7 +1138,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2804286444
+      path: 2036265815
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -1147,7 +1147,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3342415556
+      path: 3091227186
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -1156,7 +1156,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 882152105
+      path: 2428267634
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -1165,7 +1165,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1176422135
+      path: 2556835404
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -1174,7 +1174,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1221798649
+      path: 1880771870
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -1183,7 +1183,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3294965082
+      path: 3305879705
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -1192,7 +1192,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3463623395
+      path: 4202218078
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -1201,7 +1201,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2827435569
+      path: 3625661919
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -1210,7 +1210,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3752166750
+      path: 2581781387
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -1219,7 +1219,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3619829971
+      path: 2807968573
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -1228,7 +1228,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 485751575
+      path: 1272745057
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -1237,7 +1237,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 177111948
+      path: 2048034914
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -1246,7 +1246,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1384660293
+      path: 94849587
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -1255,7 +1255,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 4140291369
+      path: 3272789809
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -1264,7 +1264,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2526559242
+      path: 2739742226
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -1273,7 +1273,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3342415556
+      path: 3091227186
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -1282,7 +1282,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1698568287
+      path: 440880297
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -1291,7 +1291,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1048149477
+      path: 1090529555
       attribute: 3
       script: {fileID: 0}
       typeID: 4
@@ -1300,7 +1300,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2388131629
+      path: 3648555099
       attribute: 3
       script: {fileID: 0}
       typeID: 4
@@ -1309,7 +1309,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1698568287
+      path: 440880297
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -1365,7 +1365,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: mantis_sprite/mantis_back_back_leg1
+    path: Sprite/mantis_sprite/mantis_back_back_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1395,7 +1395,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: mantis_sprite/mantis_back_back_leg1
+    path: Sprite/mantis_sprite/mantis_back_back_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1425,7 +1425,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: mantis_sprite/mantis_back_back_leg1
+    path: Sprite/mantis_sprite/mantis_back_back_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1455,7 +1455,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: mantis_sprite/mantis_back_back_leg1
+    path: Sprite/mantis_sprite/mantis_back_back_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1485,7 +1485,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: mantis_sprite/mantis_back_back_leg1
+    path: Sprite/mantis_sprite/mantis_back_back_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1515,7 +1515,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: mantis_sprite/mantis_back_back_leg1
+    path: Sprite/mantis_sprite/mantis_back_back_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1545,7 +1545,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: mantis_sprite/mantis_back_leg1
+    path: Sprite/mantis_sprite/mantis_back_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1575,7 +1575,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: mantis_sprite/mantis_back_leg1
+    path: Sprite/mantis_sprite/mantis_back_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1605,7 +1605,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: mantis_sprite/mantis_back_leg1
+    path: Sprite/mantis_sprite/mantis_back_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1635,7 +1635,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: mantis_sprite/mantis_back_leg1
+    path: Sprite/mantis_sprite/mantis_back_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1665,7 +1665,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: mantis_sprite/mantis_back_leg1
+    path: Sprite/mantis_sprite/mantis_back_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1695,7 +1695,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: mantis_sprite/mantis_back_leg1
+    path: Sprite/mantis_sprite/mantis_back_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1725,7 +1725,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: mantis_sprite/mantis_body
+    path: Sprite/mantis_sprite/mantis_body
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1755,7 +1755,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: mantis_sprite/mantis_body
+    path: Sprite/mantis_sprite/mantis_body
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1785,7 +1785,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: mantis_sprite/mantis_body
+    path: Sprite/mantis_sprite/mantis_body
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1815,7 +1815,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: mantis_sprite/mantis_body/mantis_head
+    path: Sprite/mantis_sprite/mantis_body/mantis_head
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1845,7 +1845,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: mantis_sprite/mantis_body/mantis_head
+    path: Sprite/mantis_sprite/mantis_body/mantis_head
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1875,7 +1875,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: mantis_sprite/mantis_body/mantis_head
+    path: Sprite/mantis_sprite/mantis_body/mantis_head
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1905,7 +1905,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: mantis_sprite/mantis_body/mantis_head
+    path: Sprite/mantis_sprite/mantis_body/mantis_head
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1935,7 +1935,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: mantis_sprite/mantis_body/mantis_head
+    path: Sprite/mantis_sprite/mantis_body/mantis_head
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1965,7 +1965,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: mantis_sprite/mantis_body/mantis_head
+    path: Sprite/mantis_sprite/mantis_body/mantis_head
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1995,7 +1995,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: mantis_sprite/mantis_body/mantis_head/mantis_eye
+    path: Sprite/mantis_sprite/mantis_body/mantis_head/mantis_eye
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2025,7 +2025,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: mantis_sprite/mantis_body/mantis_head/mantis_eye
+    path: Sprite/mantis_sprite/mantis_body/mantis_head/mantis_eye
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2055,7 +2055,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: mantis_sprite/mantis_body/mantis_head/mantis_eye
+    path: Sprite/mantis_sprite/mantis_body/mantis_head/mantis_eye
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2085,7 +2085,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalScale.x
-    path: mantis_sprite/mantis_body/mantis_head/mantis_eye
+    path: Sprite/mantis_sprite/mantis_body/mantis_head/mantis_eye
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2115,7 +2115,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalScale.y
-    path: mantis_sprite/mantis_body/mantis_head/mantis_eye
+    path: Sprite/mantis_sprite/mantis_body/mantis_head/mantis_eye
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2145,7 +2145,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalScale.z
-    path: mantis_sprite/mantis_body/mantis_head/mantis_eye
+    path: Sprite/mantis_sprite/mantis_body/mantis_head/mantis_eye
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2175,7 +2175,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: mantis_sprite/mantis_body/mantis_head/mantis_eye_shadow
+    path: Sprite/mantis_sprite/mantis_body/mantis_head/mantis_eye_shadow
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2205,7 +2205,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: mantis_sprite/mantis_body/mantis_head/mantis_eye_shadow
+    path: Sprite/mantis_sprite/mantis_body/mantis_head/mantis_eye_shadow
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2235,7 +2235,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: mantis_sprite/mantis_body/mantis_head/mantis_eye_shadow
+    path: Sprite/mantis_sprite/mantis_body/mantis_head/mantis_eye_shadow
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2265,7 +2265,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalScale.x
-    path: mantis_sprite/mantis_body/mantis_head/mantis_eye_shadow
+    path: Sprite/mantis_sprite/mantis_body/mantis_head/mantis_eye_shadow
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2295,7 +2295,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalScale.y
-    path: mantis_sprite/mantis_body/mantis_head/mantis_eye_shadow
+    path: Sprite/mantis_sprite/mantis_body/mantis_head/mantis_eye_shadow
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2325,7 +2325,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalScale.z
-    path: mantis_sprite/mantis_body/mantis_head/mantis_eye_shadow
+    path: Sprite/mantis_sprite/mantis_body/mantis_head/mantis_eye_shadow
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2355,7 +2355,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: mantis_sprite/mantis_body/mantis_lower_body
+    path: Sprite/mantis_sprite/mantis_body/mantis_lower_body
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2385,7 +2385,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: mantis_sprite/mantis_body/mantis_lower_body
+    path: Sprite/mantis_sprite/mantis_body/mantis_lower_body
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2415,7 +2415,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: mantis_sprite/mantis_body/mantis_lower_body
+    path: Sprite/mantis_sprite/mantis_body/mantis_lower_body
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2445,7 +2445,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: mantis_sprite/mantis_body/mantis_mid_body
+    path: Sprite/mantis_sprite/mantis_body/mantis_mid_body
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2475,7 +2475,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: mantis_sprite/mantis_body/mantis_mid_body
+    path: Sprite/mantis_sprite/mantis_body/mantis_mid_body
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2505,7 +2505,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: mantis_sprite/mantis_body/mantis_mid_body
+    path: Sprite/mantis_sprite/mantis_body/mantis_mid_body
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2535,7 +2535,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: mantis_sprite/mantis_body/mantis_mid_body
+    path: Sprite/mantis_sprite/mantis_body/mantis_mid_body
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2565,7 +2565,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: mantis_sprite/mantis_body/mantis_mid_body
+    path: Sprite/mantis_sprite/mantis_body/mantis_mid_body
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2595,7 +2595,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: mantis_sprite/mantis_body/mantis_mid_body
+    path: Sprite/mantis_sprite/mantis_body/mantis_mid_body
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2625,7 +2625,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: mantis_sprite/mantis_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2655,7 +2655,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: mantis_sprite/mantis_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2685,7 +2685,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: mantis_sprite/mantis_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2715,7 +2715,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: mantis_sprite/mantis_hand_back/mantis_lower_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_lower_hand_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2745,7 +2745,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: mantis_sprite/mantis_hand_back/mantis_lower_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_lower_hand_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2775,7 +2775,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: mantis_sprite/mantis_hand_back/mantis_lower_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_lower_hand_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2805,7 +2805,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: mantis_sprite/mantis_hand_back/mantis_lower_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_lower_hand_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2835,7 +2835,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: mantis_sprite/mantis_hand_back/mantis_lower_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_lower_hand_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2865,7 +2865,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: mantis_sprite/mantis_hand_back/mantis_lower_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_lower_hand_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2895,7 +2895,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: mantis_sprite/mantis_hand_back/mantis_mid_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_mid_hand_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2925,7 +2925,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: mantis_sprite/mantis_hand_back/mantis_mid_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_mid_hand_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2955,7 +2955,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: mantis_sprite/mantis_hand_back/mantis_mid_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_mid_hand_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2985,7 +2985,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: mantis_sprite/mantis_hand_back/mantis_mid_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_mid_hand_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3015,7 +3015,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: mantis_sprite/mantis_hand_back/mantis_mid_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_mid_hand_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3045,7 +3045,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: mantis_sprite/mantis_hand_back/mantis_mid_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_mid_hand_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3075,7 +3075,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: mantis_sprite/mantis_hand_back/mantis_upper_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_upper_hand_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3105,7 +3105,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: mantis_sprite/mantis_hand_back/mantis_upper_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_upper_hand_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3135,7 +3135,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: mantis_sprite/mantis_hand_back/mantis_upper_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_upper_hand_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3165,7 +3165,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: mantis_sprite/mantis_hand_back/mantis_upper_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_upper_hand_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3195,7 +3195,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: mantis_sprite/mantis_hand_back/mantis_upper_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_upper_hand_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3225,7 +3225,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: mantis_sprite/mantis_hand_back/mantis_upper_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_upper_hand_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3255,7 +3255,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: mantis_sprite/mantis_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3285,7 +3285,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: mantis_sprite/mantis_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3315,7 +3315,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: mantis_sprite/mantis_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3345,7 +3345,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: mantis_sprite/mantis_hand_front/mantis_lower_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_lower_hand_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3375,7 +3375,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: mantis_sprite/mantis_hand_front/mantis_lower_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_lower_hand_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3405,7 +3405,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: mantis_sprite/mantis_hand_front/mantis_lower_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_lower_hand_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3435,7 +3435,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: mantis_sprite/mantis_hand_front/mantis_lower_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_lower_hand_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3465,7 +3465,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: mantis_sprite/mantis_hand_front/mantis_lower_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_lower_hand_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3495,7 +3495,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: mantis_sprite/mantis_hand_front/mantis_lower_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_lower_hand_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3525,7 +3525,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: mantis_sprite/mantis_hand_front/mantis_mid_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_mid_hand_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3555,7 +3555,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: mantis_sprite/mantis_hand_front/mantis_mid_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_mid_hand_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3585,7 +3585,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: mantis_sprite/mantis_hand_front/mantis_mid_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_mid_hand_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3615,7 +3615,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: mantis_sprite/mantis_hand_front/mantis_mid_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_mid_hand_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3645,7 +3645,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: mantis_sprite/mantis_hand_front/mantis_mid_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_mid_hand_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3675,7 +3675,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: mantis_sprite/mantis_hand_front/mantis_mid_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_mid_hand_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3705,7 +3705,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: mantis_sprite/mantis_hand_front/mantis_upper_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_upper_hand_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3735,7 +3735,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: mantis_sprite/mantis_hand_front/mantis_upper_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_upper_hand_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3765,7 +3765,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: mantis_sprite/mantis_hand_front/mantis_upper_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_upper_hand_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3795,7 +3795,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: mantis_sprite/mantis_hand_front/mantis_upper_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_upper_hand_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3825,7 +3825,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: mantis_sprite/mantis_hand_front/mantis_upper_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_upper_hand_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3855,7 +3855,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: mantis_sprite/mantis_hand_front/mantis_upper_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_upper_hand_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3885,7 +3885,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: mantis_sprite/mantis_leg_back
+    path: Sprite/mantis_sprite/mantis_leg_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3915,7 +3915,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: mantis_sprite/mantis_leg_back
+    path: Sprite/mantis_sprite/mantis_leg_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3945,7 +3945,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: mantis_sprite/mantis_leg_back
+    path: Sprite/mantis_sprite/mantis_leg_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3975,7 +3975,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: mantis_sprite/mantis_leg_back/mantis_lower_leg
+    path: Sprite/mantis_sprite/mantis_leg_back/mantis_lower_leg
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4005,7 +4005,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: mantis_sprite/mantis_leg_back/mantis_lower_leg
+    path: Sprite/mantis_sprite/mantis_leg_back/mantis_lower_leg
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4035,7 +4035,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: mantis_sprite/mantis_leg_back/mantis_lower_leg
+    path: Sprite/mantis_sprite/mantis_leg_back/mantis_lower_leg
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4065,7 +4065,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: mantis_sprite/mantis_leg_back/mantis_lower_leg
+    path: Sprite/mantis_sprite/mantis_leg_back/mantis_lower_leg
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4095,7 +4095,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: mantis_sprite/mantis_leg_back/mantis_lower_leg
+    path: Sprite/mantis_sprite/mantis_leg_back/mantis_lower_leg
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4125,7 +4125,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: mantis_sprite/mantis_leg_back/mantis_lower_leg
+    path: Sprite/mantis_sprite/mantis_leg_back/mantis_lower_leg
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4155,7 +4155,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: mantis_sprite/mantis_leg_back/mantis_upper_leg
+    path: Sprite/mantis_sprite/mantis_leg_back/mantis_upper_leg
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4185,7 +4185,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: mantis_sprite/mantis_leg_back/mantis_upper_leg
+    path: Sprite/mantis_sprite/mantis_leg_back/mantis_upper_leg
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4215,7 +4215,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: mantis_sprite/mantis_leg_back/mantis_upper_leg
+    path: Sprite/mantis_sprite/mantis_leg_back/mantis_upper_leg
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4245,7 +4245,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: mantis_sprite/mantis_leg_back/mantis_upper_leg
+    path: Sprite/mantis_sprite/mantis_leg_back/mantis_upper_leg
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4275,7 +4275,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: mantis_sprite/mantis_leg_back/mantis_upper_leg
+    path: Sprite/mantis_sprite/mantis_leg_back/mantis_upper_leg
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4305,7 +4305,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: mantis_sprite/mantis_leg_back/mantis_upper_leg
+    path: Sprite/mantis_sprite/mantis_leg_back/mantis_upper_leg
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4335,7 +4335,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: mantis_sprite/mantis_leg_front
+    path: Sprite/mantis_sprite/mantis_leg_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4365,7 +4365,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: mantis_sprite/mantis_leg_front
+    path: Sprite/mantis_sprite/mantis_leg_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4395,7 +4395,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: mantis_sprite/mantis_leg_front
+    path: Sprite/mantis_sprite/mantis_leg_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4425,7 +4425,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: mantis_sprite/mantis_leg_front/mantis_lower_leg1
+    path: Sprite/mantis_sprite/mantis_leg_front/mantis_lower_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4455,7 +4455,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: mantis_sprite/mantis_leg_front/mantis_lower_leg1
+    path: Sprite/mantis_sprite/mantis_leg_front/mantis_lower_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4485,7 +4485,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: mantis_sprite/mantis_leg_front/mantis_lower_leg1
+    path: Sprite/mantis_sprite/mantis_leg_front/mantis_lower_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4515,7 +4515,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: mantis_sprite/mantis_leg_front/mantis_lower_leg1
+    path: Sprite/mantis_sprite/mantis_leg_front/mantis_lower_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4545,7 +4545,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: mantis_sprite/mantis_leg_front/mantis_lower_leg1
+    path: Sprite/mantis_sprite/mantis_leg_front/mantis_lower_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4575,7 +4575,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: mantis_sprite/mantis_leg_front/mantis_lower_leg1
+    path: Sprite/mantis_sprite/mantis_leg_front/mantis_lower_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4605,7 +4605,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: mantis_sprite/mantis_leg_front/mantis_upper_leg1
+    path: Sprite/mantis_sprite/mantis_leg_front/mantis_upper_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4635,7 +4635,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: mantis_sprite/mantis_leg_front/mantis_upper_leg1
+    path: Sprite/mantis_sprite/mantis_leg_front/mantis_upper_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4665,7 +4665,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: mantis_sprite/mantis_leg_front/mantis_upper_leg1
+    path: Sprite/mantis_sprite/mantis_leg_front/mantis_upper_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4695,7 +4695,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: mantis_sprite/mantis_leg_front/mantis_upper_leg1
+    path: Sprite/mantis_sprite/mantis_leg_front/mantis_upper_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4725,7 +4725,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: mantis_sprite/mantis_leg_front/mantis_upper_leg1
+    path: Sprite/mantis_sprite/mantis_leg_front/mantis_upper_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4755,7 +4755,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: mantis_sprite/mantis_leg_front/mantis_upper_leg1
+    path: Sprite/mantis_sprite/mantis_leg_front/mantis_upper_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4768,7 +4768,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: mantis_sprite/mantis_body/mantis_head
+    path: Sprite/mantis_sprite/mantis_back_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4780,7 +4780,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: mantis_sprite/mantis_body/mantis_head
+    path: Sprite/mantis_sprite/mantis_back_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4792,7 +4792,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: mantis_sprite/mantis_body/mantis_head
+    path: Sprite/mantis_sprite/mantis_back_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4804,7 +4804,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: mantis_sprite/mantis_back_back_leg1
+    path: Sprite/mantis_sprite/mantis_leg_front/mantis_lower_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4816,7 +4816,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: mantis_sprite/mantis_back_back_leg1
+    path: Sprite/mantis_sprite/mantis_leg_front/mantis_lower_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4828,7 +4828,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: mantis_sprite/mantis_back_back_leg1
+    path: Sprite/mantis_sprite/mantis_leg_front/mantis_lower_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4840,7 +4840,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: mantis_sprite/mantis_hand_front/mantis_upper_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_mid_hand_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4852,7 +4852,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: mantis_sprite/mantis_hand_front/mantis_upper_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_mid_hand_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4864,7 +4864,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: mantis_sprite/mantis_hand_front/mantis_upper_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_mid_hand_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4876,7 +4876,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: mantis_sprite/mantis_leg_back/mantis_lower_leg
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_upper_hand_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4888,7 +4888,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: mantis_sprite/mantis_leg_back/mantis_lower_leg
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_upper_hand_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4900,7 +4900,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: mantis_sprite/mantis_leg_back/mantis_lower_leg
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_upper_hand_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4912,7 +4912,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: mantis_sprite/mantis_leg_back/mantis_upper_leg
+    path: Sprite/mantis_sprite/mantis_leg_back/mantis_lower_leg
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4924,7 +4924,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: mantis_sprite/mantis_leg_back/mantis_upper_leg
+    path: Sprite/mantis_sprite/mantis_leg_back/mantis_lower_leg
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4936,7 +4936,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: mantis_sprite/mantis_leg_back/mantis_upper_leg
+    path: Sprite/mantis_sprite/mantis_leg_back/mantis_lower_leg
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4948,7 +4948,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: mantis_sprite/mantis_leg_front/mantis_lower_leg1
+    path: Sprite/mantis_sprite/mantis_leg_back/mantis_upper_leg
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4960,7 +4960,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: mantis_sprite/mantis_leg_front/mantis_lower_leg1
+    path: Sprite/mantis_sprite/mantis_leg_back/mantis_upper_leg
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4972,7 +4972,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: mantis_sprite/mantis_leg_front/mantis_lower_leg1
+    path: Sprite/mantis_sprite/mantis_leg_back/mantis_upper_leg
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4984,7 +4984,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: mantis_sprite/mantis_body/mantis_mid_body
+    path: Sprite/mantis_sprite/mantis_body/mantis_lower_body
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -4996,7 +4996,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: mantis_sprite/mantis_body/mantis_mid_body
+    path: Sprite/mantis_sprite/mantis_body/mantis_lower_body
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -5008,7 +5008,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: mantis_sprite/mantis_body/mantis_mid_body
+    path: Sprite/mantis_sprite/mantis_body/mantis_lower_body
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -5020,7 +5020,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: mantis_sprite/mantis_hand_back/mantis_lower_hand_back
+    path: Sprite/mantis_sprite/mantis_body/mantis_mid_body
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -5032,7 +5032,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: mantis_sprite/mantis_hand_back/mantis_lower_hand_back
+    path: Sprite/mantis_sprite/mantis_body/mantis_mid_body
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -5044,7 +5044,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: mantis_sprite/mantis_hand_back/mantis_lower_hand_back
+    path: Sprite/mantis_sprite/mantis_body/mantis_mid_body
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -5056,7 +5056,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: mantis_sprite/mantis_hand_back/mantis_upper_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_mid_hand_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -5068,7 +5068,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: mantis_sprite/mantis_hand_back/mantis_upper_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_mid_hand_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -5080,7 +5080,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: mantis_sprite/mantis_hand_back/mantis_upper_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_mid_hand_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -5092,7 +5092,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: mantis_sprite/mantis_body/mantis_lower_body
+    path: Sprite/mantis_sprite/mantis_body/mantis_head
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -5104,7 +5104,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: mantis_sprite/mantis_body/mantis_lower_body
+    path: Sprite/mantis_sprite/mantis_body/mantis_head
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -5116,7 +5116,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: mantis_sprite/mantis_body/mantis_lower_body
+    path: Sprite/mantis_sprite/mantis_body/mantis_head
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -5128,7 +5128,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: mantis_sprite/mantis_back_leg1
+    path: Sprite/mantis_sprite/mantis_back_back_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -5140,7 +5140,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: mantis_sprite/mantis_back_leg1
+    path: Sprite/mantis_sprite/mantis_back_back_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -5152,7 +5152,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: mantis_sprite/mantis_back_leg1
+    path: Sprite/mantis_sprite/mantis_back_back_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -5164,7 +5164,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: mantis_sprite/mantis_hand_front/mantis_lower_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_upper_hand_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -5176,7 +5176,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: mantis_sprite/mantis_hand_front/mantis_lower_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_upper_hand_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -5188,7 +5188,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: mantis_sprite/mantis_hand_front/mantis_lower_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_upper_hand_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -5200,7 +5200,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: mantis_sprite/mantis_hand_front/mantis_mid_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_lower_hand_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -5212,7 +5212,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: mantis_sprite/mantis_hand_front/mantis_mid_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_lower_hand_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -5224,7 +5224,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: mantis_sprite/mantis_hand_front/mantis_mid_hand_front
+    path: Sprite/mantis_sprite/mantis_hand_front/mantis_lower_hand_front
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -5236,7 +5236,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: mantis_sprite/mantis_hand_back/mantis_mid_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_lower_hand_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -5248,7 +5248,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: mantis_sprite/mantis_hand_back/mantis_mid_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_lower_hand_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -5260,7 +5260,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: mantis_sprite/mantis_hand_back/mantis_mid_hand_back
+    path: Sprite/mantis_sprite/mantis_hand_back/mantis_lower_hand_back
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -5272,7 +5272,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: mantis_sprite/mantis_leg_front/mantis_upper_leg1
+    path: Sprite/mantis_sprite/mantis_leg_front/mantis_upper_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -5284,7 +5284,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: mantis_sprite/mantis_leg_front/mantis_upper_leg1
+    path: Sprite/mantis_sprite/mantis_leg_front/mantis_upper_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -5296,7 +5296,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: mantis_sprite/mantis_leg_front/mantis_upper_leg1
+    path: Sprite/mantis_sprite/mantis_leg_front/mantis_upper_leg1
     classID: 4
     script: {fileID: 0}
     flags: 0

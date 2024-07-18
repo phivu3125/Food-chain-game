@@ -47,7 +47,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: bird_sprite/bird_whole_body
+    path: Sprite/bird_sprite/bird_whole_body
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -99,7 +99,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: bird_sprite/bird_whole_body/bird_head/bird_beak
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_beak
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -151,7 +151,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: bird_sprite/bird_whole_body/bird_head/bird_eye
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_eye
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -203,7 +203,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: bird_sprite/bird_whole_body/bird_head/bird_eye_shadow
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_eye_shadow
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -255,7 +255,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: bird_sprite/bird_whole_body/bird_head/bird_head_no_eye
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_head_no_eye
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -307,8 +307,24 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: 'bird_sprite/bird_wing '
+    path: 'Sprite/bird_sprite/bird_wing '
   m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0, y: 14.2, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Sprite/bird_sprite
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -342,7 +358,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: bird_sprite/bird_whole_body
+    path: Sprite/bird_sprite/bird_whole_body
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -394,7 +410,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: bird_sprite/bird_whole_body/bird_head/bird_beak
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_beak
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -446,7 +462,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: bird_sprite/bird_whole_body/bird_head/bird_eye
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_eye
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -498,7 +514,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: bird_sprite/bird_whole_body/bird_head/bird_eye_shadow
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_eye_shadow
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -550,7 +566,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: bird_sprite/bird_whole_body/bird_head/bird_head_no_eye
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_head_no_eye
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -584,25 +600,30 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: 'bird_sprite/bird_wing '
-  - curve:
+    path: 'Sprite/bird_sprite/bird_wing '
+  m_ScaleCurves: []
+  m_FloatCurves:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: {x: 0, y: 8.2, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
+        time: 0.18333334
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
         weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: bird_sprite
-  m_ScaleCurves: []
-  m_FloatCurves: []
+    attribute: m_IsActive
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/ded
+    classID: 1
+    script: {fileID: 0}
+    flags: 0
   m_PPtrCurves: []
   m_SampleRate: 60
   m_WrapMode: 0
@@ -612,7 +633,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 3392611740
+      path: 3882223552
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -621,7 +642,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1043106504
+      path: 762693508
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -630,7 +651,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2848124011
+      path: 2618816115
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -639,7 +660,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3351530364
+      path: 3076014226
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -648,7 +669,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 279537708
+      path: 1466645336
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -657,7 +678,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1410353697
+      path: 1794867119
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -666,7 +687,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3392611740
+      path: 3882223552
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -675,7 +696,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1043106504
+      path: 762693508
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -684,7 +705,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2848124011
+      path: 2618816115
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -693,7 +714,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3351530364
+      path: 3076014226
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -702,7 +723,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 279537708
+      path: 1466645336
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -711,7 +732,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1410353697
+      path: 1794867119
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -720,7 +741,16 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2507883486
+      path: 2754486132
+      attribute: 2086281974
+      script: {fileID: 0}
+      typeID: 1
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 1707857786
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -756,6 +786,69 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Sprite/bird_sprite
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 14.2
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Sprite/bird_sprite
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Sprite/bird_sprite
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
         value: 0.1031723
         inSlope: 0
         outSlope: 0
@@ -785,7 +878,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: bird_sprite/bird_whole_body
+    path: Sprite/bird_sprite/bird_whole_body
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -824,7 +917,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: bird_sprite/bird_whole_body
+    path: Sprite/bird_sprite/bird_whole_body
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -863,7 +956,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: bird_sprite/bird_whole_body
+    path: Sprite/bird_sprite/bird_whole_body
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -902,7 +995,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: bird_sprite/bird_whole_body
+    path: Sprite/bird_sprite/bird_whole_body
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -941,7 +1034,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: bird_sprite/bird_whole_body
+    path: Sprite/bird_sprite/bird_whole_body
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -980,7 +1073,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: bird_sprite/bird_whole_body
+    path: Sprite/bird_sprite/bird_whole_body
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1037,7 +1130,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: bird_sprite/bird_whole_body/bird_head/bird_beak
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_beak
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1094,7 +1187,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: bird_sprite/bird_whole_body/bird_head/bird_beak
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_beak
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1151,7 +1244,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: bird_sprite/bird_whole_body/bird_head/bird_beak
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_beak
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1208,7 +1301,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: bird_sprite/bird_whole_body/bird_head/bird_beak
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_beak
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1265,7 +1358,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: bird_sprite/bird_whole_body/bird_head/bird_beak
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_beak
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1322,7 +1415,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: bird_sprite/bird_whole_body/bird_head/bird_beak
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_beak
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1379,7 +1472,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: bird_sprite/bird_whole_body/bird_head/bird_eye
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_eye
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1436,7 +1529,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: bird_sprite/bird_whole_body/bird_head/bird_eye
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_eye
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1493,7 +1586,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: bird_sprite/bird_whole_body/bird_head/bird_eye
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_eye
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1550,7 +1643,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: bird_sprite/bird_whole_body/bird_head/bird_eye
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_eye
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1607,7 +1700,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: bird_sprite/bird_whole_body/bird_head/bird_eye
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_eye
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1664,7 +1757,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: bird_sprite/bird_whole_body/bird_head/bird_eye
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_eye
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1721,7 +1814,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: bird_sprite/bird_whole_body/bird_head/bird_eye_shadow
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_eye_shadow
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1778,7 +1871,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: bird_sprite/bird_whole_body/bird_head/bird_eye_shadow
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_eye_shadow
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1835,7 +1928,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: bird_sprite/bird_whole_body/bird_head/bird_eye_shadow
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_eye_shadow
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1892,7 +1985,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: bird_sprite/bird_whole_body/bird_head/bird_eye_shadow
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_eye_shadow
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1949,7 +2042,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: bird_sprite/bird_whole_body/bird_head/bird_eye_shadow
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_eye_shadow
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2006,7 +2099,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: bird_sprite/bird_whole_body/bird_head/bird_eye_shadow
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_eye_shadow
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2063,7 +2156,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: bird_sprite/bird_whole_body/bird_head/bird_head_no_eye
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_head_no_eye
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2120,7 +2213,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: bird_sprite/bird_whole_body/bird_head/bird_head_no_eye
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_head_no_eye
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2177,7 +2270,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: bird_sprite/bird_whole_body/bird_head/bird_head_no_eye
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_head_no_eye
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2234,7 +2327,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: bird_sprite/bird_whole_body/bird_head/bird_head_no_eye
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_head_no_eye
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2291,7 +2384,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: bird_sprite/bird_whole_body/bird_head/bird_head_no_eye
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_head_no_eye
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2348,8 +2441,29 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: bird_sprite/bird_whole_body/bird_head/bird_head_no_eye
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_head_no_eye
     classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.18333334
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/ded
+    classID: 1
     script: {fileID: 0}
     flags: 0
   - serializedVersion: 2
@@ -2387,7 +2501,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: 'bird_sprite/bird_wing '
+    path: 'Sprite/bird_sprite/bird_wing '
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2426,7 +2540,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: 'bird_sprite/bird_wing '
+    path: 'Sprite/bird_sprite/bird_wing '
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2465,7 +2579,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: 'bird_sprite/bird_wing '
+    path: 'Sprite/bird_sprite/bird_wing '
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2522,7 +2636,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: 'bird_sprite/bird_wing '
+    path: 'Sprite/bird_sprite/bird_wing '
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2579,7 +2693,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: 'bird_sprite/bird_wing '
+    path: 'Sprite/bird_sprite/bird_wing '
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2636,70 +2750,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: 'bird_sprite/bird_wing '
-    classID: 4
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.x
-    path: bird_sprite
-    classID: 4
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 8.2
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.y
-    path: bird_sprite
-    classID: 4
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.z
-    path: bird_sprite
+    path: 'Sprite/bird_sprite/bird_wing '
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2712,7 +2763,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: bird_sprite/bird_whole_body/bird_head/bird_head_no_eye
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_head_no_eye
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2724,7 +2775,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: bird_sprite/bird_whole_body/bird_head/bird_head_no_eye
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_head_no_eye
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2736,7 +2787,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: bird_sprite/bird_whole_body/bird_head/bird_head_no_eye
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_head_no_eye
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2748,7 +2799,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: bird_sprite/bird_whole_body
+    path: Sprite/bird_sprite/bird_whole_body
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2760,7 +2811,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: bird_sprite/bird_whole_body
+    path: Sprite/bird_sprite/bird_whole_body
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2772,7 +2823,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: bird_sprite/bird_whole_body
+    path: Sprite/bird_sprite/bird_whole_body
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2784,7 +2835,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: bird_sprite/bird_whole_body/bird_head/bird_beak
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_beak
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2796,7 +2847,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: bird_sprite/bird_whole_body/bird_head/bird_beak
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_beak
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2808,7 +2859,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: bird_sprite/bird_whole_body/bird_head/bird_beak
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_beak
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2820,7 +2871,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: bird_sprite/bird_whole_body/bird_head/bird_eye_shadow
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_eye_shadow
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2832,7 +2883,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: bird_sprite/bird_whole_body/bird_head/bird_eye_shadow
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_eye_shadow
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2844,7 +2895,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: bird_sprite/bird_whole_body/bird_head/bird_eye_shadow
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_eye_shadow
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2856,7 +2907,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: bird_sprite/bird_whole_body/bird_head/bird_eye
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_eye
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2868,7 +2919,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: bird_sprite/bird_whole_body/bird_head/bird_eye
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_eye
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2880,7 +2931,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: bird_sprite/bird_whole_body/bird_head/bird_eye
+    path: Sprite/bird_sprite/bird_whole_body/bird_head/bird_eye
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2892,7 +2943,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: 'bird_sprite/bird_wing '
+    path: 'Sprite/bird_sprite/bird_wing '
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2904,7 +2955,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: 'bird_sprite/bird_wing '
+    path: 'Sprite/bird_sprite/bird_wing '
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2916,7 +2967,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: 'bird_sprite/bird_wing '
+    path: 'Sprite/bird_sprite/bird_wing '
     classID: 4
     script: {fileID: 0}
     flags: 0

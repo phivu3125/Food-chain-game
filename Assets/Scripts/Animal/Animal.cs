@@ -61,12 +61,12 @@ public class Animal : MonoBehaviour
     {
         if (transform.position.x >= animalPlayerBound && transform.gameObject.CompareTag("AnimalPlayer"))
         {
-            Destroy(gameObject);
+            // Destroy(gameObject);
         }
         else if (transform.position.x <= animalEnemyBound && transform.gameObject.CompareTag("AnimalEnemy"))
         {
-            Destroy(gameObject);
-            GameManager.Instance.DecreaseLives(1);
+            // Destroy(gameObject);
+            // GameManager.Instance.DecreaseLives(1);
         }
     }
 
@@ -81,13 +81,13 @@ public class Animal : MonoBehaviour
 
     public Animal SpawnAnimal(Vector3 spawnPos)
     {
-        GameObject animalObject = Instantiate(gameObject, spawnPos, Quaternion.identity);
+        GameObject animalObject = Instantiate(gameObject, spawnPos, Quaternion.Euler(30, 0, 0));
         animalObject.name = animalObject.name.Replace("(Clone)", "").Trim();
         Animal animalComponent = animalObject.GetComponent<Animal>();
         return animalComponent ?? animalObject.AddComponent<Animal>(); // Thêm component Animal nếu chưa có
     }
 
-    protected void OnTriggerEnter2D(Collider2D collision)
+    protected void OnTriggerEnter(Collider collision)
     {
         if (!canRun || isAttacking || (isBeingAttacked && !edibleAnimals.Contains(currentAttackerName))) return;
 
@@ -97,7 +97,7 @@ public class Animal : MonoBehaviour
         }
     }
 
-    protected bool IsEnemyCollision(Collider2D collision, out GameObject enemyAnimal)
+    protected bool IsEnemyCollision(Collider collision, out GameObject enemyAnimal)
     {
         enemyAnimal = null;
         bool isEnemy = (collision.gameObject.tag == "AnimalEnemy" && gameObject.tag == "AnimalPlayer") ||
@@ -216,20 +216,20 @@ public class Animal : MonoBehaviour
     protected IEnumerator Die()
     {
         canRun = false;
-        gameObject.GetComponent<BoxCollider2D>().enabled = false;
+        gameObject.GetComponent<BoxCollider>().enabled = false;
         animator?.SetTrigger("isDying");
-        SetLayerForAllChildSprites(gameObject, "Dying");
+        // SetLayerForAllChildSprites(gameObject, "Dying");
         yield return null;
     }
-    private void SetLayerForAllChildSprites(GameObject parent, string sortingLayerName)
-    {
-        SpriteRenderer[] spriteRenderers = parent.GetComponentsInChildren<SpriteRenderer>();
+    // private void SetLayerForAllChildSprites(GameObject parent, string sortingLayerName)
+    // {
+    //     SpriteRenderer[] spriteRenderers = parent.GetComponentsInChildren<SpriteRenderer>();
 
-        foreach (var spriteRenderer in spriteRenderers)
-        {
-            spriteRenderer.sortingLayerName = sortingLayerName;
-        }
-    }
+    //     foreach (var spriteRenderer in spriteRenderers)
+    //     {
+    //         spriteRenderer.sortingLayerName = sortingLayerName;
+    //     }
+    // }
 
     public void OnDyingAnimationEnd()
     {

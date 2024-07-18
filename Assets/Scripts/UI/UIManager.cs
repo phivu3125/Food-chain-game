@@ -32,7 +32,7 @@ public class UIManager : MonoBehaviour
 
         if (newLives == 0)
         {
-            losePanel.Lose();
+            // losePanel.Lose();
         }
     }
 
