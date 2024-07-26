@@ -1,0 +1,4112 @@
+fileFormatVersion: 2
+guid: 151cafa40a8f9954a8fd7a50e7629802
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Day & Nignt Cycle_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 62
+      height: 61
+    spriteID: 4bb1a65a5574bc44a9452292d11867e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Day & Nignt Cycle_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 74
+      y: 4
+      width: 62
+      height: 61
+    spriteID: 1f21d90f303f29f40bb6219d78ac7937
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 74, y: 4}
+  - name: Day & Nignt Cycle_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 4
+      width: 62
+      height: 61
+    spriteID: 5fd0c6b4879a88840872e5f7089a30bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 144, y: 4}
+  - name: Day & Nignt Cycle_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 214
+      y: 4
+      width: 62
+      height: 61
+    spriteID: 59cef7e9086792844a5079db81356e53
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 214, y: 4}
+  - name: Day & Nignt Cycle_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 284
+      y: 4
+      width: 62
+      height: 61
+    spriteID: a0a5e6f13778e6041acb0976a1418c76
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 284, y: 4}
+  - name: Day & Nignt Cycle_Frame_38
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 354
+      y: 4
+      width: 62
+      height: 61
+    spriteID: ecd158af796aa5d4a863949db51f01e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 354, y: 4}
+  - name: Day & Nignt Cycle_Frame_47
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 424
+      y: 4
+      width: 62
+      height: 61
+    spriteID: 7d39261b18febf2458bb284b0be71ece
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 424, y: 4}
+  - name: Day & Nignt Cycle_Frame_56
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 494
+      y: 4
+      width: 62
+      height: 61
+    spriteID: 6b2374370abb19649a3729afd2d682bd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 494, y: 4}
+  - name: Day & Nignt Cycle_Frame_65
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 564
+      y: 4
+      width: 62
+      height: 61
+    spriteID: 8ca8e12df9244b548ba6678c9e4494e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 564, y: 4}
+  - name: Day & Nignt Cycle_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 634
+      y: 4
+      width: 62
+      height: 61
+    spriteID: 42a62b9b1ce73f842affcc2f220aefa7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 634, y: 4}
+  - name: Day & Nignt Cycle_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 704
+      y: 4
+      width: 62
+      height: 61
+    spriteID: 0a457497917ca9341a60be9d7b7ccb27
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 704, y: 4}
+  - name: Day & Nignt Cycle_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 774
+      y: 4
+      width: 62
+      height: 61
+    spriteID: 81bd19df75f4cae479ac33daa475dabc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 774, y: 4}
+  - name: Day & Nignt Cycle_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 844
+      y: 4
+      width: 62
+      height: 61
+    spriteID: 5e4fceab35f76fa4d9361ba9130a139a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 844, y: 4}
+  - name: Day & Nignt Cycle_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 914
+      y: 4
+      width: 62
+      height: 61
+    spriteID: 37987249c59beb94bb3b54f6ae46b58c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 914, y: 4}
+  - name: Day & Nignt Cycle_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 73
+      width: 62
+      height: 61
+    spriteID: 0c7e9ffc7da434742a133b6e0fe713b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 73}
+  - name: Day & Nignt Cycle_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 74
+      y: 73
+      width: 62
+      height: 61
+    spriteID: 3231b1ddf034bd4479e85601ebb18aac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 74, y: 73}
+  - name: Day & Nignt Cycle_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 73
+      width: 62
+      height: 61
+    spriteID: 778a85606615ba546a2ab65bb05c2896
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 144, y: 73}
+  - name: Day & Nignt Cycle_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 214
+      y: 73
+      width: 62
+      height: 61
+    spriteID: 2695c48adb553fd4b98b741eac9669fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 214, y: 73}
+  - name: Day & Nignt Cycle_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 284
+      y: 73
+      width: 62
+      height: 61
+    spriteID: 77fd2f5ba55101642bafa4a06ebbfad6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 284, y: 73}
+  - name: Day & Nignt Cycle_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 354
+      y: 73
+      width: 62
+      height: 61
+    spriteID: 8a4df90b538f67b4fa0cc8bccd5637f0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 354, y: 73}
+  - name: Day & Nignt Cycle_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 424
+      y: 73
+      width: 62
+      height: 61
+    spriteID: 61f369c3514302048bef40bd59e40ad3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 424, y: 73}
+  - name: Day & Nignt Cycle_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 494
+      y: 73
+      width: 62
+      height: 61
+    spriteID: fd7ecdd291c8c44478f8d94349e10e2c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 494, y: 73}
+  - name: Day & Nignt Cycle_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 564
+      y: 73
+      width: 62
+      height: 61
+    spriteID: 84abdafe8cd944f4e8ddce95782f91d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 564, y: 73}
+  - name: Day & Nignt Cycle_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 634
+      y: 73
+      width: 62
+      height: 61
+    spriteID: 70be6f4ad750fc8489ada9bf1ba6f97c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 634, y: 73}
+  - name: Day & Nignt Cycle_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 704
+      y: 73
+      width: 62
+      height: 61
+    spriteID: c6c9373ecde29344d9888dedf074aa8f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 704, y: 73}
+  - name: Day & Nignt Cycle_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 774
+      y: 73
+      width: 62
+      height: 61
+    spriteID: 4951e8f5b8a782b4aaac700ffff00b0c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 774, y: 73}
+  - name: Day & Nignt Cycle_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 844
+      y: 73
+      width: 62
+      height: 61
+    spriteID: face9065263ba8044b782e08d7bd8287
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 844, y: 73}
+  - name: Day & Nignt Cycle_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 914
+      y: 73
+      width: 62
+      height: 61
+    spriteID: bd112357cc73ddd40bff53e5594561ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 914, y: 73}
+  - name: Day & Nignt Cycle_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 142
+      width: 62
+      height: 61
+    spriteID: 6e72393e5914c854e8e41a26ce678b5c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 142}
+  - name: Day & Nignt Cycle_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 74
+      y: 142
+      width: 62
+      height: 61
+    spriteID: 995372306877df54fb2614d7722c3bd0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 74, y: 142}
+  - name: Day & Nignt Cycle_Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 142
+      width: 62
+      height: 61
+    spriteID: 183170f5b9239d94cbd7f86123550cfe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 144, y: 142}
+  - name: Day & Nignt Cycle_Frame_31
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 214
+      y: 142
+      width: 62
+      height: 61
+    spriteID: 397fe6e3d66036c4d8cfc73789d252a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 214, y: 142}
+  - name: Day & Nignt Cycle_Frame_32
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 284
+      y: 142
+      width: 62
+      height: 61
+    spriteID: 0b5d0cd07c12add47a79b058120f9b5e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 284, y: 142}
+  - name: Day & Nignt Cycle_Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 354
+      y: 142
+      width: 62
+      height: 61
+    spriteID: c17842dd7b650274b9072a4a9d2ea08d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 354, y: 142}
+  - name: Day & Nignt Cycle_Frame_34
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 424
+      y: 142
+      width: 62
+      height: 61
+    spriteID: cec05a22db315794ca0dbd62719db87e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 424, y: 142}
+  - name: Day & Nignt Cycle_Frame_35
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 494
+      y: 142
+      width: 62
+      height: 61
+    spriteID: 2e3aed27984df454c91b0bd019797972
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 494, y: 142}
+  - name: Day & Nignt Cycle_Frame_36
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 564
+      y: 142
+      width: 62
+      height: 61
+    spriteID: 14cfd04bd76df1a489010f0524d97aaf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 564, y: 142}
+  - name: Day & Nignt Cycle_Frame_39
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 634
+      y: 142
+      width: 62
+      height: 61
+    spriteID: a02c761d7a8a72a4fb060966e4705a46
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 634, y: 142}
+  - name: Day & Nignt Cycle_Frame_40
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 704
+      y: 142
+      width: 62
+      height: 61
+    spriteID: db0dcd15f3f3def468c4a3ab7059dca0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 704, y: 142}
+  - name: Day & Nignt Cycle_Frame_41
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 774
+      y: 142
+      width: 62
+      height: 61
+    spriteID: 6bc40e3d377203942bc038c2c9566fb5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 774, y: 142}
+  - name: Day & Nignt Cycle_Frame_42
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 844
+      y: 142
+      width: 62
+      height: 61
+    spriteID: 3b116d31c60a3c348bcf9c3fef10fb49
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 844, y: 142}
+  - name: Day & Nignt Cycle_Frame_43
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 914
+      y: 142
+      width: 62
+      height: 61
+    spriteID: 0e8a686ec6133ca4cbc91880b06fb461
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 914, y: 142}
+  - name: Day & Nignt Cycle_Frame_44
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 211
+      width: 62
+      height: 61
+    spriteID: 3fdb56db4f6293f4c849b81b3ccf36c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 211}
+  - name: Day & Nignt Cycle_Frame_45
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 74
+      y: 211
+      width: 62
+      height: 61
+    spriteID: aa781e4d9d22c68428df8046af2fc8d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 74, y: 211}
+  - name: Day & Nignt Cycle_Frame_48
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 211
+      width: 62
+      height: 61
+    spriteID: 4ed7430aa33103540b3380b4b0e96b15
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 144, y: 211}
+  - name: Day & Nignt Cycle_Frame_49
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 214
+      y: 211
+      width: 62
+      height: 61
+    spriteID: 9477d9d40d9e0e94b84b776df6bbf880
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 214, y: 211}
+  - name: Day & Nignt Cycle_Frame_50
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 284
+      y: 211
+      width: 62
+      height: 61
+    spriteID: 8d154838ffe3d1543804d3f8edde90f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 284, y: 211}
+  - name: Day & Nignt Cycle_Frame_51
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 354
+      y: 211
+      width: 62
+      height: 61
+    spriteID: 0d17c1e5aae13a84ca77b1a23fdce322
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 354, y: 211}
+  - name: Day & Nignt Cycle_Frame_52
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 424
+      y: 211
+      width: 62
+      height: 61
+    spriteID: 6993ec2f99684b14f90457e1661f50f1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 424, y: 211}
+  - name: Day & Nignt Cycle_Frame_53
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 494
+      y: 211
+      width: 62
+      height: 61
+    spriteID: 1bcd12199caf0f843876bbae7ff247fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 494, y: 211}
+  - name: Day & Nignt Cycle_Frame_54
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 564
+      y: 211
+      width: 62
+      height: 61
+    spriteID: c427918399dcf014889d7e9a167632eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 564, y: 211}
+  - name: Day & Nignt Cycle_Frame_57
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 634
+      y: 211
+      width: 62
+      height: 61
+    spriteID: 361524a5fa1e1fb48a1040f5ecd78e9f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 634, y: 211}
+  - name: Day & Nignt Cycle_Frame_58
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 704
+      y: 211
+      width: 62
+      height: 61
+    spriteID: 759feab60f44cac4dafd3cc77ee6613a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 704, y: 211}
+  - name: Day & Nignt Cycle_Frame_59
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 774
+      y: 211
+      width: 62
+      height: 61
+    spriteID: 93e749361fff2084eb9ef97b0d784b3e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 774, y: 211}
+  - name: Day & Nignt Cycle_Frame_60
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 844
+      y: 211
+      width: 62
+      height: 61
+    spriteID: 70edf774db63b0f40a74a3b2dde8b651
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 844, y: 211}
+  - name: Day & Nignt Cycle_Frame_61
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 914
+      y: 211
+      width: 62
+      height: 61
+    spriteID: 68d7ac1800a99474587f1745a86ca77a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 914, y: 211}
+  - name: Day & Nignt Cycle_Frame_62
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 280
+      width: 62
+      height: 61
+    spriteID: 78242fb913a0c5a4ab30cc5af85f4e26
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 280}
+  - name: Day & Nignt Cycle_Frame_63
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 74
+      y: 280
+      width: 62
+      height: 61
+    spriteID: f41011ab4f4f5a54181fad2500dac3f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 74, y: 280}
+  - name: Day & Nignt Cycle_Frame_66
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 280
+      width: 62
+      height: 61
+    spriteID: 9ffbe2f2df6ba5240b7df6077e97353a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 144, y: 280}
+  - name: Day & Nignt Cycle_Frame_67
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 214
+      y: 280
+      width: 62
+      height: 61
+    spriteID: cb8b2e6ef1c2f7f42892e92929817c46
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 214, y: 280}
+  - name: Day & Nignt Cycle_Frame_68
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 284
+      y: 280
+      width: 62
+      height: 61
+    spriteID: 111765b734ca4e24b94d274c1bb3b095
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 284, y: 280}
+  - name: Day & Nignt Cycle_Frame_69
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 354
+      y: 280
+      width: 62
+      height: 61
+    spriteID: 8ac3b1d0b2fa6d14d8348489a839c2af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 354, y: 280}
+  - name: Day & Nignt Cycle_Frame_70
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 424
+      y: 280
+      width: 62
+      height: 61
+    spriteID: ad28c5987e0d2ea4c9c2acc6527bb556
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 424, y: 280}
+  - name: Day & Nignt Cycle_Frame_71
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 494
+      y: 280
+      width: 62
+      height: 61
+    spriteID: b82d7f47b33bae943a288ad22278bc28
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 494, y: 280}
+  - name: Day & Nignt Cycle_Frame_72
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 564
+      y: 280
+      width: 62
+      height: 61
+    spriteID: 9d4b113e916df1c479a30c23f9e6572e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 564, y: 280}
+  - name: Day & Nignt Cycle_Frame_76
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 634
+      y: 280
+      width: 62
+      height: 61
+    spriteID: 64c30d0bf2333554684e6cdd00b6ecf7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 634, y: 280}
+  - name: Day & Nignt Cycle_Frame_77
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 704
+      y: 280
+      width: 62
+      height: 61
+    spriteID: dd61e375396e4134f9ff6c1c4764417a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 704, y: 280}
+  - name: Day & Nignt Cycle_Frame_78
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 774
+      y: 280
+      width: 62
+      height: 61
+    spriteID: c0f160a24d9a68f44b3f5311ddf40455
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 774, y: 280}
+  - name: Day & Nignt Cycle_Frame_79
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 844
+      y: 280
+      width: 62
+      height: 61
+    spriteID: 0efd5a9c355e58348b6dcfb164685b59
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 844, y: 280}
+  - name: Day & Nignt Cycle_Frame_80
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 914
+      y: 280
+      width: 62
+      height: 61
+    spriteID: cc54f5f39997dbe4d85c07654231a8ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 914, y: 280}
+  - name: Day & Nignt Cycle_Frame_81
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 349
+      width: 62
+      height: 61
+    spriteID: c081d5dbab459e8478b8b32aed203e49
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 349}
+  - name: Day & Nignt Cycle_Frame_82
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 74
+      y: 349
+      width: 62
+      height: 61
+    spriteID: ffb563bd97c9f824cab4b7dd5c782d40
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 74, y: 349}
+  - name: Day & Nignt Cycle_Frame_83
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 349
+      width: 62
+      height: 61
+    spriteID: 553c11e9e3fe21d45a771556c017f0f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 144, y: 349}
+  - name: Day & Nignt Cycle_Frame_85
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 214
+      y: 349
+      width: 62
+      height: 61
+    spriteID: b4fd24e04a22b01469a8d80358651e1b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 214, y: 349}
+  - name: Day & Nignt Cycle_Frame_86
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 284
+      y: 349
+      width: 62
+      height: 61
+    spriteID: 968f9503cc5ffa74da0401087551db21
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 284, y: 349}
+  - name: Day & Nignt Cycle_Frame_87
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 354
+      y: 349
+      width: 62
+      height: 61
+    spriteID: 152ca23d32808714ba3af941dc0c6b93
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 354, y: 349}
+  - name: Day & Nignt Cycle_Frame_88
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 424
+      y: 349
+      width: 62
+      height: 61
+    spriteID: 663f15414679a88469cfe975cf98a919
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 424, y: 349}
+  - name: Day & Nignt Cycle_Frame_89
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 494
+      y: 349
+      width: 62
+      height: 61
+    spriteID: 5341741219f61a54aa3d69b60a046c82
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 494, y: 349}
+  - name: Day & Nignt Cycle_Frame_90
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 564
+      y: 349
+      width: 62
+      height: 61
+    spriteID: 0f8693e2da468b34a888aa630f8546de
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 564, y: 349}
+  - name: Day & Nignt Cycle_Frame_91
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 634
+      y: 349
+      width: 62
+      height: 61
+    spriteID: 5f85d49ba39f967438834dbb3fea361f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 634, y: 349}
+  - name: Day & Nignt Cycle_Frame_92
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 704
+      y: 349
+      width: 62
+      height: 61
+    spriteID: 5f9020bdf83722a449937ab6fd851301
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 704, y: 349}
+  - name: Day & Nignt Cycle_Frame_94
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 774
+      y: 349
+      width: 62
+      height: 61
+    spriteID: 7f8cb78653b018e4c903386bed891978
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 774, y: 349}
+  - name: Day & Nignt Cycle_Frame_95
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 844
+      y: 349
+      width: 62
+      height: 61
+    spriteID: 2fa748bcf1949774b9375f10afb73974
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 844, y: 349}
+  - name: Day & Nignt Cycle_Frame_96
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 914
+      y: 349
+      width: 62
+      height: 61
+    spriteID: 6d19b3eb44c1e5e4b91a1c4856ba3c81
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 914, y: 349}
+  - name: Day & Nignt Cycle_Frame_97
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 418
+      width: 62
+      height: 61
+    spriteID: 306305a57b23927439c7f22944564946
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 418}
+  - name: Day & Nignt Cycle_Frame_98
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 74
+      y: 418
+      width: 62
+      height: 61
+    spriteID: 07877bd971fbbca47bb744b4a96ba32f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 74, y: 418}
+  - name: Day & Nignt Cycle_Frame_99
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 418
+      width: 62
+      height: 61
+    spriteID: 60c388dee00383a48883235caceb4129
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 144, y: 418}
+  - name: Day & Nignt Cycle_Frame_100
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 214
+      y: 418
+      width: 62
+      height: 61
+    spriteID: 09e66b32b323e0343ac18c36a826ba7c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 214, y: 418}
+  - name: Day & Nignt Cycle_Frame_101
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 284
+      y: 418
+      width: 62
+      height: 61
+    spriteID: 61d8e355e94a92249ac7c136ac41b4a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 284, y: 418}
+  - name: Day & Nignt Cycle_Frame_103
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 354
+      y: 418
+      width: 62
+      height: 61
+    spriteID: 5ed177b2dffba19499d4042dc5511ef0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 354, y: 418}
+  - name: Day & Nignt Cycle_Frame_104
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 424
+      y: 418
+      width: 62
+      height: 61
+    spriteID: 03fa5cc1be1712d4a87aceed7cdd2f11
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 424, y: 418}
+  - name: Day & Nignt Cycle_Frame_105
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 494
+      y: 418
+      width: 62
+      height: 61
+    spriteID: af6af1128d6e36342859b2b87fbbea1c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 494, y: 418}
+  - name: Day & Nignt Cycle_Frame_106
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 564
+      y: 418
+      width: 62
+      height: 61
+    spriteID: ee101f4de1d4e7043b3af66fd582ebed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 564, y: 418}
+  - name: Day & Nignt Cycle_Frame_107
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 634
+      y: 418
+      width: 62
+      height: 61
+    spriteID: 5240f84c14f33af4aaf2950eb640da5d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 634, y: 418}
+  - name: Day & Nignt Cycle_Frame_108
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 704
+      y: 418
+      width: 62
+      height: 61
+    spriteID: df2dc70ab92a42a4baa762b29240e243
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 704, y: 418}
+  - name: Day & Nignt Cycle_Frame_109
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 774
+      y: 418
+      width: 62
+      height: 61
+    spriteID: 91c6024b796d6854691be0339f20be53
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 774, y: 418}
+  - name: Day & Nignt Cycle_Frame_110
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 844
+      y: 418
+      width: 62
+      height: 61
+    spriteID: f1c7c4dab7cbe9541b4252c61dda0a2f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 844, y: 418}
+  - name: Day & Nignt Cycle_Frame_112
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 914
+      y: 418
+      width: 62
+      height: 61
+    spriteID: adc3c8428002bfe41818ed244a7c7214
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 914, y: 418}
+  - name: Day & Nignt Cycle_Frame_113
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 487
+      width: 62
+      height: 61
+    spriteID: f8158330211db77419793d84256f6ae4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 487}
+  - name: Day & Nignt Cycle_Frame_114
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 74
+      y: 487
+      width: 62
+      height: 61
+    spriteID: fb38d8aab1610c748b89ce5c40aabef2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 74, y: 487}
+  - name: Day & Nignt Cycle_Frame_115
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 487
+      width: 62
+      height: 61
+    spriteID: 4460c420d5325e24a81657230f8b338a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 144, y: 487}
+  - name: Day & Nignt Cycle_Frame_116
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 214
+      y: 487
+      width: 62
+      height: 61
+    spriteID: c7751d09ad162fb4e91ec5c7c5360071
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 214, y: 487}
+  - name: Day & Nignt Cycle_Frame_117
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 284
+      y: 487
+      width: 62
+      height: 61
+    spriteID: 0e7934071deae9b4fb59975b5049d141
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 284, y: 487}
+  - name: Day & Nignt Cycle_Frame_118
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 354
+      y: 487
+      width: 62
+      height: 61
+    spriteID: 44804017234c8f0498ac9ae6cc30fd12
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 354, y: 487}
+  - name: Day & Nignt Cycle_Frame_119
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 424
+      y: 487
+      width: 62
+      height: 61
+    spriteID: e28cebf1a183f1447a2a46a25288e28e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 424, y: 487}
+  - name: Day & Nignt Cycle_Frame_121
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 494
+      y: 487
+      width: 62
+      height: 61
+    spriteID: 778e9c3c8d3d1e44590146984ebc5326
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 494, y: 487}
+  - name: Day & Nignt Cycle_Frame_122
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 564
+      y: 487
+      width: 62
+      height: 61
+    spriteID: 3bb7b4f2cd4c41c40ad3faee2a8fc09c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 564, y: 487}
+  - name: Day & Nignt Cycle_Frame_123
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 634
+      y: 487
+      width: 62
+      height: 61
+    spriteID: fefde3ad60b4b234b8b849ac8d455551
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 634, y: 487}
+  - name: Day & Nignt Cycle_Frame_124
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 704
+      y: 487
+      width: 62
+      height: 61
+    spriteID: 65e06258e405b3a42989005c5a31e770
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 704, y: 487}
+  - name: Day & Nignt Cycle_Frame_125
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 774
+      y: 487
+      width: 62
+      height: 61
+    spriteID: b8f06b36d94f38a4eb391ecd5b0b9af8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 774, y: 487}
+  - name: Day & Nignt Cycle_Frame_126
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 844
+      y: 487
+      width: 62
+      height: 61
+    spriteID: 437205a2ecd00014086183cdc2b249dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 844, y: 487}
+  - name: Day & Nignt Cycle_Frame_127
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 914
+      y: 487
+      width: 62
+      height: 61
+    spriteID: 5183dfaaa44a6f943ab3ebb282f4da52
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 914, y: 487}
+  - name: Day & Nignt Cycle_Frame_128
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 556
+      width: 62
+      height: 61
+    spriteID: 7c7ba6975d3c0c348ab4420122b69ef0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 556}
+  - name: Day & Nignt Cycle_Frame_130
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 74
+      y: 556
+      width: 62
+      height: 61
+    spriteID: a8c5e22176d45144ebd06386a22a77fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 74, y: 556}
+  - name: Day & Nignt Cycle_Frame_131
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 556
+      width: 62
+      height: 61
+    spriteID: 94b07fb36faf3bf408fe30290c49152e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 144, y: 556}
+  - name: Day & Nignt Cycle_Frame_132
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 214
+      y: 556
+      width: 62
+      height: 61
+    spriteID: 2236cd018e8e2d54ab9d64053b75e60c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 214, y: 556}
+  - name: Day & Nignt Cycle_Frame_133
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 284
+      y: 556
+      width: 62
+      height: 61
+    spriteID: f4b2aaeb5fe931144bdf7f431990e718
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 284, y: 556}
+  - name: Day & Nignt Cycle_Frame_134
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 354
+      y: 556
+      width: 62
+      height: 61
+    spriteID: 219e8e5df571fb142ba49f8ac8043f7b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 354, y: 556}
+  - name: Day & Nignt Cycle_Frame_135
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 424
+      y: 556
+      width: 62
+      height: 61
+    spriteID: 934f66b3c49819a449fb0c0aa7661e50
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 424, y: 556}
+  - name: Day & Nignt Cycle_Frame_136
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 494
+      y: 556
+      width: 62
+      height: 61
+    spriteID: eb4de8f4a524727478371c150a5131aa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 494, y: 556}
+  - name: Day & Nignt Cycle_Frame_137
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 564
+      y: 556
+      width: 62
+      height: 61
+    spriteID: 2778bb66c65ab2d4da8de14bdeec1c1b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 564, y: 556}
+  - name: Day & Nignt Cycle_Frame_139
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 634
+      y: 556
+      width: 62
+      height: 61
+    spriteID: 30780f209b92e474db01e141715ab2be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 634, y: 556}
+  - name: Day & Nignt Cycle_Frame_140
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 704
+      y: 556
+      width: 62
+      height: 61
+    spriteID: 7b98349fdbc0f04429eea2ad19dbb7da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 704, y: 556}
+  - name: Day & Nignt Cycle_Frame_141
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 774
+      y: 556
+      width: 62
+      height: 61
+    spriteID: 0927ecc23e8d9cf43a92c25d63b7e2d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 774, y: 556}
+  - name: Day & Nignt Cycle_Frame_142
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 844
+      y: 556
+      width: 62
+      height: 61
+    spriteID: 11aa22a5f4f514e41ae3f60c7d691669
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 844, y: 556}
+  - name: Day & Nignt Cycle_Frame_143
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 914
+      y: 556
+      width: 62
+      height: 61
+    spriteID: 7e2f55ced428aff42a299e38b183cb48
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 914, y: 556}
+  - name: Day & Nignt Cycle_Frame_144
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 625
+      width: 62
+      height: 61
+    spriteID: b358327f7d03b8841bba71ec9bb8df38
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 625}
+  - name: Day & Nignt Cycle_Frame_145
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 74
+      y: 625
+      width: 62
+      height: 61
+    spriteID: d807c15dccc94cd42b47e0fae7ae869c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 74, y: 625}
+  - name: Day & Nignt Cycle_Frame_146
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 625
+      width: 62
+      height: 61
+    spriteID: beff8d1f4a811204bb71fd2f4dd32ad3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 144, y: 625}
+  - name: Day & Nignt Cycle_Frame_148
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 214
+      y: 625
+      width: 62
+      height: 61
+    spriteID: 62c1d89dcaf91664580f570438935592
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 214, y: 625}
+  - name: Day & Nignt Cycle_Frame_149
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 284
+      y: 625
+      width: 62
+      height: 61
+    spriteID: 034dc5e7afeb2064dae4a2693dc4bff5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 284, y: 625}
+  - name: Day & Nignt Cycle_Frame_150
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 354
+      y: 625
+      width: 62
+      height: 61
+    spriteID: dafb5e249f9f3a048b5c4c421709476f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 354, y: 625}
+  - name: Day & Nignt Cycle_Frame_151
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 424
+      y: 625
+      width: 62
+      height: 61
+    spriteID: e44c655e06b388846b7a535dd2e3755f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 424, y: 625}
+  - name: Day & Nignt Cycle_Frame_152
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 494
+      y: 625
+      width: 62
+      height: 61
+    spriteID: 15b22361ff5db454599c6a5bb4f279ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 494, y: 625}
+  - name: Day & Nignt Cycle_Frame_153
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 564
+      y: 625
+      width: 62
+      height: 61
+    spriteID: e36756638f294334e9a946119a43e29e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 564, y: 625}
+  - name: Day & Nignt Cycle_Frame_154
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 634
+      y: 625
+      width: 62
+      height: 61
+    spriteID: ea8dd4a0aa9747244bb9af580b68e54a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 634, y: 625}
+  - name: Day & Nignt Cycle_Frame_155
+    originalName: 
+    pivot: {x: 0.5, y: -0.13114755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 704
+      y: 625
+      width: 62
+      height: 61
+    spriteID: f4fb0baa65f7c9e42b9752f086d72735
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 704, y: 625}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 2126741252
+    name: Day & Nignt Cycle
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Day & Nignt Cycle_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 4bb1a65a5574bc44a9452292d11867e4
+    - name: Day & Nignt Cycle_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 1f21d90f303f29f40bb6219d78ac7937
+    - name: Day & Nignt Cycle_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 5fd0c6b4879a88840872e5f7089a30bc
+    - name: Day & Nignt Cycle_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 59cef7e9086792844a5079db81356e53
+    - name: Day & Nignt Cycle_Frame_29
+      frameIndex: 29
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: a0a5e6f13778e6041acb0976a1418c76
+    - name: Day & Nignt Cycle_Frame_38
+      frameIndex: 38
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: ecd158af796aa5d4a863949db51f01e4
+    - name: Day & Nignt Cycle_Frame_47
+      frameIndex: 47
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 7d39261b18febf2458bb284b0be71ece
+    - name: Day & Nignt Cycle_Frame_56
+      frameIndex: 56
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 6b2374370abb19649a3729afd2d682bd
+    - name: Day & Nignt Cycle_Frame_65
+      frameIndex: 65
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 8ca8e12df9244b548ba6678c9e4494e1
+    - name: Day & Nignt Cycle_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 42a62b9b1ce73f842affcc2f220aefa7
+    - name: Day & Nignt Cycle_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 0a457497917ca9341a60be9d7b7ccb27
+    - name: Day & Nignt Cycle_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 81bd19df75f4cae479ac33daa475dabc
+    - name: Day & Nignt Cycle_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 5e4fceab35f76fa4d9361ba9130a139a
+    - name: Day & Nignt Cycle_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 37987249c59beb94bb3b54f6ae46b58c
+    - name: Day & Nignt Cycle_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 0c7e9ffc7da434742a133b6e0fe713b0
+    - name: Day & Nignt Cycle_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 3231b1ddf034bd4479e85601ebb18aac
+    - name: Day & Nignt Cycle_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 778a85606615ba546a2ab65bb05c2896
+    - name: Day & Nignt Cycle_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 2695c48adb553fd4b98b741eac9669fa
+    - name: Day & Nignt Cycle_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 77fd2f5ba55101642bafa4a06ebbfad6
+    - name: Day & Nignt Cycle_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 8a4df90b538f67b4fa0cc8bccd5637f0
+    - name: Day & Nignt Cycle_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 61f369c3514302048bef40bd59e40ad3
+    - name: Day & Nignt Cycle_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: fd7ecdd291c8c44478f8d94349e10e2c
+    - name: Day & Nignt Cycle_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 84abdafe8cd944f4e8ddce95782f91d9
+    - name: Day & Nignt Cycle_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 70be6f4ad750fc8489ada9bf1ba6f97c
+    - name: Day & Nignt Cycle_Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: c6c9373ecde29344d9888dedf074aa8f
+    - name: Day & Nignt Cycle_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 4951e8f5b8a782b4aaac700ffff00b0c
+    - name: Day & Nignt Cycle_Frame_24
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: face9065263ba8044b782e08d7bd8287
+    - name: Day & Nignt Cycle_Frame_25
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: bd112357cc73ddd40bff53e5594561ab
+    - name: Day & Nignt Cycle_Frame_26
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 6e72393e5914c854e8e41a26ce678b5c
+    - name: Day & Nignt Cycle_Frame_27
+      frameIndex: 27
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 995372306877df54fb2614d7722c3bd0
+    - name: Day & Nignt Cycle_Frame_30
+      frameIndex: 30
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 183170f5b9239d94cbd7f86123550cfe
+    - name: Day & Nignt Cycle_Frame_31
+      frameIndex: 31
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 397fe6e3d66036c4d8cfc73789d252a6
+    - name: Day & Nignt Cycle_Frame_32
+      frameIndex: 32
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 0b5d0cd07c12add47a79b058120f9b5e
+    - name: Day & Nignt Cycle_Frame_33
+      frameIndex: 33
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: c17842dd7b650274b9072a4a9d2ea08d
+    - name: Day & Nignt Cycle_Frame_34
+      frameIndex: 34
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: cec05a22db315794ca0dbd62719db87e
+    - name: Day & Nignt Cycle_Frame_35
+      frameIndex: 35
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 2e3aed27984df454c91b0bd019797972
+    - name: Day & Nignt Cycle_Frame_36
+      frameIndex: 36
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 14cfd04bd76df1a489010f0524d97aaf
+    - name: Day & Nignt Cycle_Frame_39
+      frameIndex: 39
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: a02c761d7a8a72a4fb060966e4705a46
+    - name: Day & Nignt Cycle_Frame_40
+      frameIndex: 40
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: db0dcd15f3f3def468c4a3ab7059dca0
+    - name: Day & Nignt Cycle_Frame_41
+      frameIndex: 41
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 6bc40e3d377203942bc038c2c9566fb5
+    - name: Day & Nignt Cycle_Frame_42
+      frameIndex: 42
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 3b116d31c60a3c348bcf9c3fef10fb49
+    - name: Day & Nignt Cycle_Frame_43
+      frameIndex: 43
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 0e8a686ec6133ca4cbc91880b06fb461
+    - name: Day & Nignt Cycle_Frame_44
+      frameIndex: 44
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 3fdb56db4f6293f4c849b81b3ccf36c9
+    - name: Day & Nignt Cycle_Frame_45
+      frameIndex: 45
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: aa781e4d9d22c68428df8046af2fc8d3
+    - name: Day & Nignt Cycle_Frame_48
+      frameIndex: 48
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 4ed7430aa33103540b3380b4b0e96b15
+    - name: Day & Nignt Cycle_Frame_49
+      frameIndex: 49
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 9477d9d40d9e0e94b84b776df6bbf880
+    - name: Day & Nignt Cycle_Frame_50
+      frameIndex: 50
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 8d154838ffe3d1543804d3f8edde90f3
+    - name: Day & Nignt Cycle_Frame_51
+      frameIndex: 51
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 0d17c1e5aae13a84ca77b1a23fdce322
+    - name: Day & Nignt Cycle_Frame_52
+      frameIndex: 52
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 6993ec2f99684b14f90457e1661f50f1
+    - name: Day & Nignt Cycle_Frame_53
+      frameIndex: 53
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 1bcd12199caf0f843876bbae7ff247fc
+    - name: Day & Nignt Cycle_Frame_54
+      frameIndex: 54
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: c427918399dcf014889d7e9a167632eb
+    - name: Day & Nignt Cycle_Frame_57
+      frameIndex: 57
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 361524a5fa1e1fb48a1040f5ecd78e9f
+    - name: Day & Nignt Cycle_Frame_58
+      frameIndex: 58
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 759feab60f44cac4dafd3cc77ee6613a
+    - name: Day & Nignt Cycle_Frame_59
+      frameIndex: 59
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 93e749361fff2084eb9ef97b0d784b3e
+    - name: Day & Nignt Cycle_Frame_60
+      frameIndex: 60
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 70edf774db63b0f40a74a3b2dde8b651
+    - name: Day & Nignt Cycle_Frame_61
+      frameIndex: 61
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 68d7ac1800a99474587f1745a86ca77a
+    - name: Day & Nignt Cycle_Frame_62
+      frameIndex: 62
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 78242fb913a0c5a4ab30cc5af85f4e26
+    - name: Day & Nignt Cycle_Frame_63
+      frameIndex: 63
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: f41011ab4f4f5a54181fad2500dac3f9
+    - name: Day & Nignt Cycle_Frame_66
+      frameIndex: 66
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 9ffbe2f2df6ba5240b7df6077e97353a
+    - name: Day & Nignt Cycle_Frame_67
+      frameIndex: 67
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: cb8b2e6ef1c2f7f42892e92929817c46
+    - name: Day & Nignt Cycle_Frame_68
+      frameIndex: 68
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 111765b734ca4e24b94d274c1bb3b095
+    - name: Day & Nignt Cycle_Frame_69
+      frameIndex: 69
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 8ac3b1d0b2fa6d14d8348489a839c2af
+    - name: Day & Nignt Cycle_Frame_70
+      frameIndex: 70
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: ad28c5987e0d2ea4c9c2acc6527bb556
+    - name: Day & Nignt Cycle_Frame_71
+      frameIndex: 71
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: b82d7f47b33bae943a288ad22278bc28
+    - name: Day & Nignt Cycle_Frame_72
+      frameIndex: 72
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 9d4b113e916df1c479a30c23f9e6572e
+    - name: Day & Nignt Cycle_Frame_76
+      frameIndex: 76
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 64c30d0bf2333554684e6cdd00b6ecf7
+    - name: Day & Nignt Cycle_Frame_77
+      frameIndex: 77
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: dd61e375396e4134f9ff6c1c4764417a
+    - name: Day & Nignt Cycle_Frame_78
+      frameIndex: 78
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: c0f160a24d9a68f44b3f5311ddf40455
+    - name: Day & Nignt Cycle_Frame_79
+      frameIndex: 79
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 0efd5a9c355e58348b6dcfb164685b59
+    - name: Day & Nignt Cycle_Frame_80
+      frameIndex: 80
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: cc54f5f39997dbe4d85c07654231a8ab
+    - name: Day & Nignt Cycle_Frame_81
+      frameIndex: 81
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: c081d5dbab459e8478b8b32aed203e49
+    - name: Day & Nignt Cycle_Frame_82
+      frameIndex: 82
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: ffb563bd97c9f824cab4b7dd5c782d40
+    - name: Day & Nignt Cycle_Frame_83
+      frameIndex: 83
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 553c11e9e3fe21d45a771556c017f0f5
+    - name: Day & Nignt Cycle_Frame_85
+      frameIndex: 85
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: b4fd24e04a22b01469a8d80358651e1b
+    - name: Day & Nignt Cycle_Frame_86
+      frameIndex: 86
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 968f9503cc5ffa74da0401087551db21
+    - name: Day & Nignt Cycle_Frame_87
+      frameIndex: 87
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 152ca23d32808714ba3af941dc0c6b93
+    - name: Day & Nignt Cycle_Frame_88
+      frameIndex: 88
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 663f15414679a88469cfe975cf98a919
+    - name: Day & Nignt Cycle_Frame_89
+      frameIndex: 89
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 5341741219f61a54aa3d69b60a046c82
+    - name: Day & Nignt Cycle_Frame_90
+      frameIndex: 90
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 0f8693e2da468b34a888aa630f8546de
+    - name: Day & Nignt Cycle_Frame_91
+      frameIndex: 91
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 5f85d49ba39f967438834dbb3fea361f
+    - name: Day & Nignt Cycle_Frame_92
+      frameIndex: 92
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 5f9020bdf83722a449937ab6fd851301
+    - name: Day & Nignt Cycle_Frame_94
+      frameIndex: 94
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 7f8cb78653b018e4c903386bed891978
+    - name: Day & Nignt Cycle_Frame_95
+      frameIndex: 95
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 2fa748bcf1949774b9375f10afb73974
+    - name: Day & Nignt Cycle_Frame_96
+      frameIndex: 96
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 6d19b3eb44c1e5e4b91a1c4856ba3c81
+    - name: Day & Nignt Cycle_Frame_97
+      frameIndex: 97
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 306305a57b23927439c7f22944564946
+    - name: Day & Nignt Cycle_Frame_98
+      frameIndex: 98
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 07877bd971fbbca47bb744b4a96ba32f
+    - name: Day & Nignt Cycle_Frame_99
+      frameIndex: 99
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 60c388dee00383a48883235caceb4129
+    - name: Day & Nignt Cycle_Frame_100
+      frameIndex: 100
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 09e66b32b323e0343ac18c36a826ba7c
+    - name: Day & Nignt Cycle_Frame_101
+      frameIndex: 101
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 61d8e355e94a92249ac7c136ac41b4a8
+    - name: Day & Nignt Cycle_Frame_103
+      frameIndex: 103
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 5ed177b2dffba19499d4042dc5511ef0
+    - name: Day & Nignt Cycle_Frame_104
+      frameIndex: 104
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 03fa5cc1be1712d4a87aceed7cdd2f11
+    - name: Day & Nignt Cycle_Frame_105
+      frameIndex: 105
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: af6af1128d6e36342859b2b87fbbea1c
+    - name: Day & Nignt Cycle_Frame_106
+      frameIndex: 106
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: ee101f4de1d4e7043b3af66fd582ebed
+    - name: Day & Nignt Cycle_Frame_107
+      frameIndex: 107
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 5240f84c14f33af4aaf2950eb640da5d
+    - name: Day & Nignt Cycle_Frame_108
+      frameIndex: 108
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: df2dc70ab92a42a4baa762b29240e243
+    - name: Day & Nignt Cycle_Frame_109
+      frameIndex: 109
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 91c6024b796d6854691be0339f20be53
+    - name: Day & Nignt Cycle_Frame_110
+      frameIndex: 110
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: f1c7c4dab7cbe9541b4252c61dda0a2f
+    - name: Day & Nignt Cycle_Frame_112
+      frameIndex: 112
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: adc3c8428002bfe41818ed244a7c7214
+    - name: Day & Nignt Cycle_Frame_113
+      frameIndex: 113
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: f8158330211db77419793d84256f6ae4
+    - name: Day & Nignt Cycle_Frame_114
+      frameIndex: 114
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: fb38d8aab1610c748b89ce5c40aabef2
+    - name: Day & Nignt Cycle_Frame_115
+      frameIndex: 115
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 4460c420d5325e24a81657230f8b338a
+    - name: Day & Nignt Cycle_Frame_116
+      frameIndex: 116
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: c7751d09ad162fb4e91ec5c7c5360071
+    - name: Day & Nignt Cycle_Frame_117
+      frameIndex: 117
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 0e7934071deae9b4fb59975b5049d141
+    - name: Day & Nignt Cycle_Frame_118
+      frameIndex: 118
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 44804017234c8f0498ac9ae6cc30fd12
+    - name: Day & Nignt Cycle_Frame_119
+      frameIndex: 119
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: e28cebf1a183f1447a2a46a25288e28e
+    - name: Day & Nignt Cycle_Frame_121
+      frameIndex: 121
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 778e9c3c8d3d1e44590146984ebc5326
+    - name: Day & Nignt Cycle_Frame_122
+      frameIndex: 122
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 3bb7b4f2cd4c41c40ad3faee2a8fc09c
+    - name: Day & Nignt Cycle_Frame_123
+      frameIndex: 123
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: fefde3ad60b4b234b8b849ac8d455551
+    - name: Day & Nignt Cycle_Frame_124
+      frameIndex: 124
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 65e06258e405b3a42989005c5a31e770
+    - name: Day & Nignt Cycle_Frame_125
+      frameIndex: 125
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: b8f06b36d94f38a4eb391ecd5b0b9af8
+    - name: Day & Nignt Cycle_Frame_126
+      frameIndex: 126
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 437205a2ecd00014086183cdc2b249dc
+    - name: Day & Nignt Cycle_Frame_127
+      frameIndex: 127
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 5183dfaaa44a6f943ab3ebb282f4da52
+    - name: Day & Nignt Cycle_Frame_128
+      frameIndex: 128
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 7c7ba6975d3c0c348ab4420122b69ef0
+    - name: Day & Nignt Cycle_Frame_130
+      frameIndex: 130
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: a8c5e22176d45144ebd06386a22a77fb
+    - name: Day & Nignt Cycle_Frame_131
+      frameIndex: 131
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 94b07fb36faf3bf408fe30290c49152e
+    - name: Day & Nignt Cycle_Frame_132
+      frameIndex: 132
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 2236cd018e8e2d54ab9d64053b75e60c
+    - name: Day & Nignt Cycle_Frame_133
+      frameIndex: 133
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: f4b2aaeb5fe931144bdf7f431990e718
+    - name: Day & Nignt Cycle_Frame_134
+      frameIndex: 134
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 219e8e5df571fb142ba49f8ac8043f7b
+    - name: Day & Nignt Cycle_Frame_135
+      frameIndex: 135
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 934f66b3c49819a449fb0c0aa7661e50
+    - name: Day & Nignt Cycle_Frame_136
+      frameIndex: 136
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: eb4de8f4a524727478371c150a5131aa
+    - name: Day & Nignt Cycle_Frame_137
+      frameIndex: 137
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 2778bb66c65ab2d4da8de14bdeec1c1b
+    - name: Day & Nignt Cycle_Frame_139
+      frameIndex: 139
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 30780f209b92e474db01e141715ab2be
+    - name: Day & Nignt Cycle_Frame_140
+      frameIndex: 140
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 7b98349fdbc0f04429eea2ad19dbb7da
+    - name: Day & Nignt Cycle_Frame_141
+      frameIndex: 141
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 0927ecc23e8d9cf43a92c25d63b7e2d3
+    - name: Day & Nignt Cycle_Frame_142
+      frameIndex: 142
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 11aa22a5f4f514e41ae3f60c7d691669
+    - name: Day & Nignt Cycle_Frame_143
+      frameIndex: 143
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 7e2f55ced428aff42a299e38b183cb48
+    - name: Day & Nignt Cycle_Frame_144
+      frameIndex: 144
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: b358327f7d03b8841bba71ec9bb8df38
+    - name: Day & Nignt Cycle_Frame_145
+      frameIndex: 145
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: d807c15dccc94cd42b47e0fae7ae869c
+    - name: Day & Nignt Cycle_Frame_146
+      frameIndex: 146
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: beff8d1f4a811204bb71fd2f4dd32ad3
+    - name: Day & Nignt Cycle_Frame_148
+      frameIndex: 148
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 62c1d89dcaf91664580f570438935592
+    - name: Day & Nignt Cycle_Frame_149
+      frameIndex: 149
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 034dc5e7afeb2064dae4a2693dc4bff5
+    - name: Day & Nignt Cycle_Frame_150
+      frameIndex: 150
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: dafb5e249f9f3a048b5c4c421709476f
+    - name: Day & Nignt Cycle_Frame_151
+      frameIndex: 151
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: e44c655e06b388846b7a535dd2e3755f
+    - name: Day & Nignt Cycle_Frame_152
+      frameIndex: 152
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: 15b22361ff5db454599c6a5bb4f279ba
+    - name: Day & Nignt Cycle_Frame_153
+      frameIndex: 153
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: e36756638f294334e9a946119a43e29e
+    - name: Day & Nignt Cycle_Frame_154
+      frameIndex: 154
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: ea8dd4a0aa9747244bb9af580b68e54a
+    - name: Day & Nignt Cycle_Frame_155
+      frameIndex: 155
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 62
+        height: 61
+      spriteId: f4fb0baa65f7c9e42b9752f086d72735
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 78, y: 77}

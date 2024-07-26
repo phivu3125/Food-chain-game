@@ -1,0 +1,2952 @@
+fileFormatVersion: 2
+guid: 67e7926950a2b2d41a5cb4f7ba13b58b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Gold Inventory Book Source_Frame_0
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 736
+      height: 560
+    spriteID: 17e70fa25febe034eb66c4b187e80f6b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Gold Inventory Book Source_Frame_1
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 748
+      y: 4
+      width: 736
+      height: 560
+    spriteID: a6d2a3c0abbc4c9488ac3aeb2633ce53
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 748, y: 4}
+  - name: Gold Inventory Book Source_Frame_2
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1492
+      y: 4
+      width: 736
+      height: 560
+    spriteID: b1ac1ce0ceaa09248a485abdc0ce201e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1492, y: 4}
+  - name: Gold Inventory Book Source_Frame_3
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2236
+      y: 4
+      width: 736
+      height: 560
+    spriteID: d749303def75d274a9abab227b21a4e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2236, y: 4}
+  - name: Gold Inventory Book Source_Frame_4
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2980
+      y: 4
+      width: 736
+      height: 560
+    spriteID: feb1c17987cb62147bc6acc9ca1c7b62
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2980, y: 4}
+  - name: Gold Inventory Book Source_Frame_5
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3724
+      y: 4
+      width: 736
+      height: 560
+    spriteID: 89113c5ed7399dd4caa6d3fcaf6dd584
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3724, y: 4}
+  - name: Gold Inventory Book Source_Frame_7
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4468
+      y: 4
+      width: 736
+      height: 560
+    spriteID: 66dc84f75bcce654484dbf6cf112b709
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4468, y: 4}
+  - name: Gold Inventory Book Source_Frame_8
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5212
+      y: 4
+      width: 736
+      height: 560
+    spriteID: 709f4979437dfee4d97bf52f116b241b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5212, y: 4}
+  - name: Gold Inventory Book Source_Frame_9
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5956
+      y: 4
+      width: 736
+      height: 560
+    spriteID: 503e0eec3c5973a40875412a6373926d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5956, y: 4}
+  - name: Gold Inventory Book Source_Frame_10
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6700
+      y: 4
+      width: 736
+      height: 560
+    spriteID: f3a465f2e116c4d4db324d4d56713be9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6700, y: 4}
+  - name: Gold Inventory Book Source_Frame_11
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7444
+      y: 4
+      width: 736
+      height: 560
+    spriteID: 9e6f0afdd5f96934ab9b1375ea0f2b1c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7444, y: 4}
+  - name: Gold Inventory Book Source_Frame_12
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 572
+      width: 736
+      height: 560
+    spriteID: c79ca93a2ef6d1d4689361b48a946d5a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 572}
+  - name: Gold Inventory Book Source_Frame_14
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 748
+      y: 572
+      width: 736
+      height: 560
+    spriteID: 7e3287a2fc30319408e4c557ce85062f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 748, y: 572}
+  - name: Gold Inventory Book Source_Frame_15
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1492
+      y: 572
+      width: 736
+      height: 560
+    spriteID: 1b5930dadc180784283e73229b00e09b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1492, y: 572}
+  - name: Gold Inventory Book Source_Frame_16
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2236
+      y: 572
+      width: 736
+      height: 560
+    spriteID: 6f2c37a527471b84ebe25809f9940b0e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2236, y: 572}
+  - name: Gold Inventory Book Source_Frame_17
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2980
+      y: 572
+      width: 736
+      height: 560
+    spriteID: d26bd4f72a200cc4bb74e5e7ea32fdce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2980, y: 572}
+  - name: Gold Inventory Book Source_Frame_18
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3724
+      y: 572
+      width: 736
+      height: 560
+    spriteID: 07b44bdf5c8d4894cbc133c59d45459f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3724, y: 572}
+  - name: Gold Inventory Book Source_Frame_19
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4468
+      y: 572
+      width: 736
+      height: 560
+    spriteID: 1cd8ca1f68ed7de4090d539b8af28083
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4468, y: 572}
+  - name: Gold Inventory Book Source_Frame_20
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5212
+      y: 572
+      width: 736
+      height: 560
+    spriteID: 62442f8838e5e574797654b3f8df796c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5212, y: 572}
+  - name: Gold Inventory Book Source_Frame_21
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5956
+      y: 572
+      width: 736
+      height: 560
+    spriteID: e8b091eba1936cc45b58f062c53337a0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5956, y: 572}
+  - name: Gold Inventory Book Source_Frame_23
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6700
+      y: 572
+      width: 736
+      height: 560
+    spriteID: 414d5fe8765e0c342a89982ed1120fb6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6700, y: 572}
+  - name: Gold Inventory Book Source_Frame_24
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7444
+      y: 572
+      width: 736
+      height: 560
+    spriteID: 77e0ebeaafe981041a759f14cba55f77
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7444, y: 572}
+  - name: Gold Inventory Book Source_Frame_25
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1140
+      width: 736
+      height: 560
+    spriteID: 0cfa64ff7cf43db44ac6879065c4ad48
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1140}
+  - name: Gold Inventory Book Source_Frame_26
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 748
+      y: 1140
+      width: 736
+      height: 560
+    spriteID: fe5a29702ceade2489b812f9f6e39731
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 748, y: 1140}
+  - name: Gold Inventory Book Source_Frame_27
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1492
+      y: 1140
+      width: 736
+      height: 560
+    spriteID: 4fd402de1d600fa4e985c2e305baa087
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1492, y: 1140}
+  - name: Gold Inventory Book Source_Frame_28
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2236
+      y: 1140
+      width: 736
+      height: 560
+    spriteID: 34a4ece77beb1bb458d3ff84e9f948af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2236, y: 1140}
+  - name: Gold Inventory Book Source_Frame_29
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2980
+      y: 1140
+      width: 736
+      height: 560
+    spriteID: 8309d620a3a5792448eca6a3b55376e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2980, y: 1140}
+  - name: Gold Inventory Book Source_Frame_30
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3724
+      y: 1140
+      width: 736
+      height: 560
+    spriteID: 07793313fe1852c41b1e60a639d2da4a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3724, y: 1140}
+  - name: Gold Inventory Book Source_Frame_32
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4468
+      y: 1140
+      width: 736
+      height: 560
+    spriteID: e4c604b7a78a12347a6c4e6aa67a65bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4468, y: 1140}
+  - name: Gold Inventory Book Source_Frame_33
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5212
+      y: 1140
+      width: 736
+      height: 560
+    spriteID: 417f5521508bac44e884ad27e9eb83d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5212, y: 1140}
+  - name: Gold Inventory Book Source_Frame_34
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5956
+      y: 1140
+      width: 736
+      height: 560
+    spriteID: eb9fd3c68f671d946a028f4893b4eeae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5956, y: 1140}
+  - name: Gold Inventory Book Source_Frame_35
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6700
+      y: 1140
+      width: 736
+      height: 560
+    spriteID: 56b897e2d7db14346a4b442cf9c17c19
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6700, y: 1140}
+  - name: Gold Inventory Book Source_Frame_36
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7444
+      y: 1140
+      width: 736
+      height: 560
+    spriteID: 9e613028d6347f44c8bf5f57ceb60f5d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7444, y: 1140}
+  - name: Gold Inventory Book Source_Frame_37
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1708
+      width: 736
+      height: 560
+    spriteID: f673ff8df2e534c42889315c39336c35
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1708}
+  - name: Gold Inventory Book Source_Frame_38
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 748
+      y: 1708
+      width: 736
+      height: 560
+    spriteID: fbc3a45b08cf9104393fb2c444d59d18
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 748, y: 1708}
+  - name: Gold Inventory Book Source_Frame_39
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1492
+      y: 1708
+      width: 736
+      height: 560
+    spriteID: 75f92904866a7c14497550a839fb18d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1492, y: 1708}
+  - name: Gold Inventory Book Source_Frame_41
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2236
+      y: 1708
+      width: 736
+      height: 560
+    spriteID: b963925889e87764db8f88c017717330
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2236, y: 1708}
+  - name: Gold Inventory Book Source_Frame_42
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2980
+      y: 1708
+      width: 736
+      height: 560
+    spriteID: f4b3ebc079f9ef743970418b9d16ec0e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2980, y: 1708}
+  - name: Gold Inventory Book Source_Frame_43
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3724
+      y: 1708
+      width: 736
+      height: 560
+    spriteID: 045a595716b323e49986178a73f787d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3724, y: 1708}
+  - name: Gold Inventory Book Source_Frame_44
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4468
+      y: 1708
+      width: 736
+      height: 560
+    spriteID: c9fe0ba15aea8ab46985ca3423cd55fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4468, y: 1708}
+  - name: Gold Inventory Book Source_Frame_45
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5212
+      y: 1708
+      width: 736
+      height: 560
+    spriteID: fc552eff6f15c4442a66ac76e45b1fd0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5212, y: 1708}
+  - name: Gold Inventory Book Source_Frame_46
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5956
+      y: 1708
+      width: 736
+      height: 560
+    spriteID: a59fea9d48114944daab5cc31e1f8746
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5956, y: 1708}
+  - name: Gold Inventory Book Source_Frame_47
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6700
+      y: 1708
+      width: 736
+      height: 560
+    spriteID: 0d5ffabe5fb9b8e4fb15a82cd091f186
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6700, y: 1708}
+  - name: Gold Inventory Book Source_Frame_48
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7444
+      y: 1708
+      width: 736
+      height: 560
+    spriteID: 062dc6ca08393fc4c8eedf2ae089e633
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7444, y: 1708}
+  - name: Gold Inventory Book Source_Frame_50
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2276
+      width: 736
+      height: 560
+    spriteID: 462a650c00b8d5746aea5f0cca267b53
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2276}
+  - name: Gold Inventory Book Source_Frame_51
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 748
+      y: 2276
+      width: 736
+      height: 560
+    spriteID: e98cccc98eb616a4c809ca38eee4102d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 748, y: 2276}
+  - name: Gold Inventory Book Source_Frame_52
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1492
+      y: 2276
+      width: 736
+      height: 560
+    spriteID: 7e65444a6bcee93469aa21372d5fc29f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1492, y: 2276}
+  - name: Gold Inventory Book Source_Frame_53
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2236
+      y: 2276
+      width: 736
+      height: 560
+    spriteID: 74c2a9247ffe33343a2db41ac514db48
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2236, y: 2276}
+  - name: Gold Inventory Book Source_Frame_54
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2980
+      y: 2276
+      width: 736
+      height: 560
+    spriteID: 7d9334046185a1f4b96580fc0c0fe995
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2980, y: 2276}
+  - name: Gold Inventory Book Source_Frame_55
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3724
+      y: 2276
+      width: 736
+      height: 560
+    spriteID: 7a52988815994ad45b5651cc8e414da6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3724, y: 2276}
+  - name: Gold Inventory Book Source_Frame_56
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4468
+      y: 2276
+      width: 736
+      height: 560
+    spriteID: 3df80c78482c5b941a452fcec9df4efa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4468, y: 2276}
+  - name: Gold Inventory Book Source_Frame_58
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5212
+      y: 2276
+      width: 736
+      height: 560
+    spriteID: b11f1338b3ca83e42b63820c2dee7d53
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5212, y: 2276}
+  - name: Gold Inventory Book Source_Frame_59
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5956
+      y: 2276
+      width: 736
+      height: 560
+    spriteID: 171efa55a51ec0f4989c3f0379a0d67e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5956, y: 2276}
+  - name: Gold Inventory Book Source_Frame_60
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6700
+      y: 2276
+      width: 736
+      height: 560
+    spriteID: 57ca5dc755482a548ba50bdff8161ac3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6700, y: 2276}
+  - name: Gold Inventory Book Source_Frame_61
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7444
+      y: 2276
+      width: 736
+      height: 560
+    spriteID: 5424b772fcdb42a4d835eb4baa6155c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7444, y: 2276}
+  - name: Gold Inventory Book Source_Frame_62
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2844
+      width: 736
+      height: 560
+    spriteID: 991fe630bd1ae9c47af46bf446ae5727
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2844}
+  - name: Gold Inventory Book Source_Frame_63
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 748
+      y: 2844
+      width: 736
+      height: 560
+    spriteID: 2375a964c43a23d49b62664eb4b89568
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 748, y: 2844}
+  - name: Gold Inventory Book Source_Frame_64
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1492
+      y: 2844
+      width: 736
+      height: 560
+    spriteID: f782a67ff9ded6b4eb9f51cded11bc20
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1492, y: 2844}
+  - name: Gold Inventory Book Source_Frame_66
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2236
+      y: 2844
+      width: 736
+      height: 560
+    spriteID: 7d301333d496c8e4f8d2f14cdc4a7b46
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2236, y: 2844}
+  - name: Gold Inventory Book Source_Frame_67
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2980
+      y: 2844
+      width: 736
+      height: 560
+    spriteID: 8830b196c233074478905beb85cc8391
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2980, y: 2844}
+  - name: Gold Inventory Book Source_Frame_68
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3724
+      y: 2844
+      width: 736
+      height: 560
+    spriteID: 8152dba5533c30e4ca665061b087eaba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3724, y: 2844}
+  - name: Gold Inventory Book Source_Frame_69
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4468
+      y: 2844
+      width: 736
+      height: 560
+    spriteID: db000a6118fe1dd4dafcebba46ec9c40
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4468, y: 2844}
+  - name: Gold Inventory Book Source_Frame_70
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5212
+      y: 2844
+      width: 736
+      height: 560
+    spriteID: 95693e30089ce6844bda1d2d01b16248
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5212, y: 2844}
+  - name: Gold Inventory Book Source_Frame_71
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5956
+      y: 2844
+      width: 736
+      height: 560
+    spriteID: 4bf3087e1e86900419e8585472385f56
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5956, y: 2844}
+  - name: Gold Inventory Book Source_Frame_72
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6700
+      y: 2844
+      width: 736
+      height: 560
+    spriteID: 742892700208e1f45818488e0fecf8c6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6700, y: 2844}
+  - name: Gold Inventory Book Source_Frame_73
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7444
+      y: 2844
+      width: 736
+      height: 560
+    spriteID: 9919e114d9ee42545a0e8545d99c708d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7444, y: 2844}
+  - name: Gold Inventory Book Source_Frame_74
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3412
+      width: 736
+      height: 560
+    spriteID: bae1ea055e253b54cb23c56b75f1e389
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3412}
+  - name: Gold Inventory Book Source_Frame_75
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 748
+      y: 3412
+      width: 736
+      height: 560
+    spriteID: e7984ceebaff77f478998c88f6fda404
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 748, y: 3412}
+  - name: Gold Inventory Book Source_Frame_76
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1492
+      y: 3412
+      width: 736
+      height: 560
+    spriteID: 024a2a8c23410df40b8a3d18e9a45ed3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1492, y: 3412}
+  - name: Gold Inventory Book Source_Frame_77
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2236
+      y: 3412
+      width: 736
+      height: 560
+    spriteID: 12723698e04dd1c488822d6872206566
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2236, y: 3412}
+  - name: Gold Inventory Book Source_Frame_78
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2980
+      y: 3412
+      width: 736
+      height: 560
+    spriteID: aa4fce3469a18944185e1338d7348a56
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2980, y: 3412}
+  - name: Gold Inventory Book Source_Frame_79
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3724
+      y: 3412
+      width: 736
+      height: 560
+    spriteID: 2c1a1d92ed47cd049a8a1bfb8ddfbc80
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3724, y: 3412}
+  - name: Gold Inventory Book Source_Frame_80
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4468
+      y: 3412
+      width: 736
+      height: 560
+    spriteID: 1dd841bfdfb29a64b88ef136b5613dae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4468, y: 3412}
+  - name: Gold Inventory Book Source_Frame_82
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5212
+      y: 3412
+      width: 736
+      height: 560
+    spriteID: fc03a70bbbcdc644fbf126675ec7019a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5212, y: 3412}
+  - name: Gold Inventory Book Source_Frame_83
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5956
+      y: 3412
+      width: 736
+      height: 560
+    spriteID: d50c04aa2225de94390929f6ed8ca7f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5956, y: 3412}
+  - name: Gold Inventory Book Source_Frame_84
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6700
+      y: 3412
+      width: 736
+      height: 560
+    spriteID: 596dd12368622174abd9498ab42431f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6700, y: 3412}
+  - name: Gold Inventory Book Source_Frame_85
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7444
+      y: 3412
+      width: 736
+      height: 560
+    spriteID: 205f51214db1b454d850493ee8a753b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7444, y: 3412}
+  - name: Gold Inventory Book Source_Frame_86
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3980
+      width: 736
+      height: 560
+    spriteID: 27638b0c146c12648ad52c5c4864baad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3980}
+  - name: Gold Inventory Book Source_Frame_87
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 748
+      y: 3980
+      width: 736
+      height: 560
+    spriteID: 86b142aab9247ef4783bf0a532ab3193
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 748, y: 3980}
+  - name: Gold Inventory Book Source_Frame_88
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1492
+      y: 3980
+      width: 736
+      height: 560
+    spriteID: 69ef0ea98c2e3e74c8529031618763de
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1492, y: 3980}
+  - name: Gold Inventory Book Source_Frame_89
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2236
+      y: 3980
+      width: 736
+      height: 560
+    spriteID: dfa04e011acaa244290c83de3625a9c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2236, y: 3980}
+  - name: Gold Inventory Book Source_Frame_90
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2980
+      y: 3980
+      width: 736
+      height: 560
+    spriteID: 3ab791397444c4241b4f9209d3feed46
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2980, y: 3980}
+  - name: Gold Inventory Book Source_Frame_92
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3724
+      y: 3980
+      width: 736
+      height: 560
+    spriteID: 5fb24180d9de8ec42bb1ca37143906c6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3724, y: 3980}
+  - name: Gold Inventory Book Source_Frame_93
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4468
+      y: 3980
+      width: 736
+      height: 560
+    spriteID: 3bdbc8e5c87fee54794e911ad54938f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4468, y: 3980}
+  - name: Gold Inventory Book Source_Frame_94
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5212
+      y: 3980
+      width: 736
+      height: 560
+    spriteID: 465d3515c1a1df7488ba52b8ec677fb0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5212, y: 3980}
+  - name: Gold Inventory Book Source_Frame_95
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5956
+      y: 3980
+      width: 736
+      height: 560
+    spriteID: 36c3bbef3e04e084fa2f775a14da592e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5956, y: 3980}
+  - name: Gold Inventory Book Source_Frame_96
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6700
+      y: 3980
+      width: 736
+      height: 560
+    spriteID: 3c3c1ca137744514e9a22918d0435643
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6700, y: 3980}
+  - name: Gold Inventory Book Source_Frame_97
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7444
+      y: 3980
+      width: 736
+      height: 560
+    spriteID: 199be8aa00233054996671288d2b708f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7444, y: 3980}
+  - name: Gold Inventory Book Source_Frame_98
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4548
+      width: 736
+      height: 560
+    spriteID: 0f41e661278d8414cb3d91c5d40842e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4548}
+  - name: Gold Inventory Book Source_Frame_99
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 748
+      y: 4548
+      width: 736
+      height: 560
+    spriteID: 4e5b6780d6eab9e4899e8061abc58231
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 748, y: 4548}
+  - name: Gold Inventory Book Source_Frame_100
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1492
+      y: 4548
+      width: 736
+      height: 560
+    spriteID: ab5fb1e82dbcabf489ab1aa95a6106e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1492, y: 4548}
+  - name: Gold Inventory Book Source_Frame_101
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2236
+      y: 4548
+      width: 736
+      height: 560
+    spriteID: ba201fb1bcdbcff4eb4760d6f8a4b054
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2236, y: 4548}
+  - name: Gold Inventory Book Source_Frame_102
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2980
+      y: 4548
+      width: 736
+      height: 560
+    spriteID: 7104171b1cb221e4682c2a3f0712a049
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2980, y: 4548}
+  - name: Gold Inventory Book Source_Frame_103
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3724
+      y: 4548
+      width: 736
+      height: 560
+    spriteID: fa620afd0a07a4a42a23f69cad76a843
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3724, y: 4548}
+  - name: Gold Inventory Book Source_Frame_104
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4468
+      y: 4548
+      width: 736
+      height: 560
+    spriteID: 7edfaf125a288cf4e8b0e9a7f225b776
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4468, y: 4548}
+  - name: Gold Inventory Book Source_Frame_105
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5212
+      y: 4548
+      width: 736
+      height: 560
+    spriteID: 2e62e5717e0b5934592ab0ead62a970e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5212, y: 4548}
+  - name: Gold Inventory Book Source_Frame_106
+    originalName: 
+    pivot: {x: 0.5108695, y: -0.085714296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5956
+      y: 4548
+      width: 736
+      height: 560
+    spriteID: 7cac0b4bf2cd1074ca5f6b14231515ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5956, y: 4548}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -379919082
+    name: Gold Inventory Book Source
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Gold Inventory Book Source_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 17e70fa25febe034eb66c4b187e80f6b
+    - name: Gold Inventory Book Source_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: a6d2a3c0abbc4c9488ac3aeb2633ce53
+    - name: Gold Inventory Book Source_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: b1ac1ce0ceaa09248a485abdc0ce201e
+    - name: Gold Inventory Book Source_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: d749303def75d274a9abab227b21a4e2
+    - name: Gold Inventory Book Source_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: feb1c17987cb62147bc6acc9ca1c7b62
+    - name: Gold Inventory Book Source_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 89113c5ed7399dd4caa6d3fcaf6dd584
+    - name: Gold Inventory Book Source_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 66dc84f75bcce654484dbf6cf112b709
+    - name: Gold Inventory Book Source_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 709f4979437dfee4d97bf52f116b241b
+    - name: Gold Inventory Book Source_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 503e0eec3c5973a40875412a6373926d
+    - name: Gold Inventory Book Source_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: f3a465f2e116c4d4db324d4d56713be9
+    - name: Gold Inventory Book Source_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 9e6f0afdd5f96934ab9b1375ea0f2b1c
+    - name: Gold Inventory Book Source_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: c79ca93a2ef6d1d4689361b48a946d5a
+    - name: Gold Inventory Book Source_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 7e3287a2fc30319408e4c557ce85062f
+    - name: Gold Inventory Book Source_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 1b5930dadc180784283e73229b00e09b
+    - name: Gold Inventory Book Source_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 6f2c37a527471b84ebe25809f9940b0e
+    - name: Gold Inventory Book Source_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: d26bd4f72a200cc4bb74e5e7ea32fdce
+    - name: Gold Inventory Book Source_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 07b44bdf5c8d4894cbc133c59d45459f
+    - name: Gold Inventory Book Source_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 1cd8ca1f68ed7de4090d539b8af28083
+    - name: Gold Inventory Book Source_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 62442f8838e5e574797654b3f8df796c
+    - name: Gold Inventory Book Source_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: e8b091eba1936cc45b58f062c53337a0
+    - name: Gold Inventory Book Source_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 414d5fe8765e0c342a89982ed1120fb6
+    - name: Gold Inventory Book Source_Frame_24
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 77e0ebeaafe981041a759f14cba55f77
+    - name: Gold Inventory Book Source_Frame_25
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 0cfa64ff7cf43db44ac6879065c4ad48
+    - name: Gold Inventory Book Source_Frame_26
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: fe5a29702ceade2489b812f9f6e39731
+    - name: Gold Inventory Book Source_Frame_27
+      frameIndex: 27
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 4fd402de1d600fa4e985c2e305baa087
+    - name: Gold Inventory Book Source_Frame_28
+      frameIndex: 28
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 34a4ece77beb1bb458d3ff84e9f948af
+    - name: Gold Inventory Book Source_Frame_29
+      frameIndex: 29
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 8309d620a3a5792448eca6a3b55376e2
+    - name: Gold Inventory Book Source_Frame_30
+      frameIndex: 30
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 07793313fe1852c41b1e60a639d2da4a
+    - name: Gold Inventory Book Source_Frame_32
+      frameIndex: 32
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: e4c604b7a78a12347a6c4e6aa67a65bf
+    - name: Gold Inventory Book Source_Frame_33
+      frameIndex: 33
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 417f5521508bac44e884ad27e9eb83d3
+    - name: Gold Inventory Book Source_Frame_34
+      frameIndex: 34
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: eb9fd3c68f671d946a028f4893b4eeae
+    - name: Gold Inventory Book Source_Frame_35
+      frameIndex: 35
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 56b897e2d7db14346a4b442cf9c17c19
+    - name: Gold Inventory Book Source_Frame_36
+      frameIndex: 36
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 9e613028d6347f44c8bf5f57ceb60f5d
+    - name: Gold Inventory Book Source_Frame_37
+      frameIndex: 37
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: f673ff8df2e534c42889315c39336c35
+    - name: Gold Inventory Book Source_Frame_38
+      frameIndex: 38
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: fbc3a45b08cf9104393fb2c444d59d18
+    - name: Gold Inventory Book Source_Frame_39
+      frameIndex: 39
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 75f92904866a7c14497550a839fb18d5
+    - name: Gold Inventory Book Source_Frame_41
+      frameIndex: 41
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: b963925889e87764db8f88c017717330
+    - name: Gold Inventory Book Source_Frame_42
+      frameIndex: 42
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: f4b3ebc079f9ef743970418b9d16ec0e
+    - name: Gold Inventory Book Source_Frame_43
+      frameIndex: 43
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 045a595716b323e49986178a73f787d5
+    - name: Gold Inventory Book Source_Frame_44
+      frameIndex: 44
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: c9fe0ba15aea8ab46985ca3423cd55fb
+    - name: Gold Inventory Book Source_Frame_45
+      frameIndex: 45
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: fc552eff6f15c4442a66ac76e45b1fd0
+    - name: Gold Inventory Book Source_Frame_46
+      frameIndex: 46
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: a59fea9d48114944daab5cc31e1f8746
+    - name: Gold Inventory Book Source_Frame_47
+      frameIndex: 47
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 0d5ffabe5fb9b8e4fb15a82cd091f186
+    - name: Gold Inventory Book Source_Frame_48
+      frameIndex: 48
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 062dc6ca08393fc4c8eedf2ae089e633
+    - name: Gold Inventory Book Source_Frame_50
+      frameIndex: 50
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 462a650c00b8d5746aea5f0cca267b53
+    - name: Gold Inventory Book Source_Frame_51
+      frameIndex: 51
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: e98cccc98eb616a4c809ca38eee4102d
+    - name: Gold Inventory Book Source_Frame_52
+      frameIndex: 52
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 7e65444a6bcee93469aa21372d5fc29f
+    - name: Gold Inventory Book Source_Frame_53
+      frameIndex: 53
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 74c2a9247ffe33343a2db41ac514db48
+    - name: Gold Inventory Book Source_Frame_54
+      frameIndex: 54
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 7d9334046185a1f4b96580fc0c0fe995
+    - name: Gold Inventory Book Source_Frame_55
+      frameIndex: 55
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 7a52988815994ad45b5651cc8e414da6
+    - name: Gold Inventory Book Source_Frame_56
+      frameIndex: 56
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 3df80c78482c5b941a452fcec9df4efa
+    - name: Gold Inventory Book Source_Frame_58
+      frameIndex: 58
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: b11f1338b3ca83e42b63820c2dee7d53
+    - name: Gold Inventory Book Source_Frame_59
+      frameIndex: 59
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 171efa55a51ec0f4989c3f0379a0d67e
+    - name: Gold Inventory Book Source_Frame_60
+      frameIndex: 60
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 57ca5dc755482a548ba50bdff8161ac3
+    - name: Gold Inventory Book Source_Frame_61
+      frameIndex: 61
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 5424b772fcdb42a4d835eb4baa6155c5
+    - name: Gold Inventory Book Source_Frame_62
+      frameIndex: 62
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 991fe630bd1ae9c47af46bf446ae5727
+    - name: Gold Inventory Book Source_Frame_63
+      frameIndex: 63
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 2375a964c43a23d49b62664eb4b89568
+    - name: Gold Inventory Book Source_Frame_64
+      frameIndex: 64
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: f782a67ff9ded6b4eb9f51cded11bc20
+    - name: Gold Inventory Book Source_Frame_66
+      frameIndex: 66
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 7d301333d496c8e4f8d2f14cdc4a7b46
+    - name: Gold Inventory Book Source_Frame_67
+      frameIndex: 67
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 8830b196c233074478905beb85cc8391
+    - name: Gold Inventory Book Source_Frame_68
+      frameIndex: 68
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 8152dba5533c30e4ca665061b087eaba
+    - name: Gold Inventory Book Source_Frame_69
+      frameIndex: 69
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: db000a6118fe1dd4dafcebba46ec9c40
+    - name: Gold Inventory Book Source_Frame_70
+      frameIndex: 70
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 95693e30089ce6844bda1d2d01b16248
+    - name: Gold Inventory Book Source_Frame_71
+      frameIndex: 71
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 4bf3087e1e86900419e8585472385f56
+    - name: Gold Inventory Book Source_Frame_72
+      frameIndex: 72
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 742892700208e1f45818488e0fecf8c6
+    - name: Gold Inventory Book Source_Frame_73
+      frameIndex: 73
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 9919e114d9ee42545a0e8545d99c708d
+    - name: Gold Inventory Book Source_Frame_74
+      frameIndex: 74
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: bae1ea055e253b54cb23c56b75f1e389
+    - name: Gold Inventory Book Source_Frame_75
+      frameIndex: 75
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: e7984ceebaff77f478998c88f6fda404
+    - name: Gold Inventory Book Source_Frame_76
+      frameIndex: 76
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 024a2a8c23410df40b8a3d18e9a45ed3
+    - name: Gold Inventory Book Source_Frame_77
+      frameIndex: 77
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 12723698e04dd1c488822d6872206566
+    - name: Gold Inventory Book Source_Frame_78
+      frameIndex: 78
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: aa4fce3469a18944185e1338d7348a56
+    - name: Gold Inventory Book Source_Frame_79
+      frameIndex: 79
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 2c1a1d92ed47cd049a8a1bfb8ddfbc80
+    - name: Gold Inventory Book Source_Frame_80
+      frameIndex: 80
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 1dd841bfdfb29a64b88ef136b5613dae
+    - name: Gold Inventory Book Source_Frame_82
+      frameIndex: 82
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: fc03a70bbbcdc644fbf126675ec7019a
+    - name: Gold Inventory Book Source_Frame_83
+      frameIndex: 83
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: d50c04aa2225de94390929f6ed8ca7f6
+    - name: Gold Inventory Book Source_Frame_84
+      frameIndex: 84
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 596dd12368622174abd9498ab42431f2
+    - name: Gold Inventory Book Source_Frame_85
+      frameIndex: 85
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 205f51214db1b454d850493ee8a753b6
+    - name: Gold Inventory Book Source_Frame_86
+      frameIndex: 86
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 27638b0c146c12648ad52c5c4864baad
+    - name: Gold Inventory Book Source_Frame_87
+      frameIndex: 87
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 86b142aab9247ef4783bf0a532ab3193
+    - name: Gold Inventory Book Source_Frame_88
+      frameIndex: 88
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 69ef0ea98c2e3e74c8529031618763de
+    - name: Gold Inventory Book Source_Frame_89
+      frameIndex: 89
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: dfa04e011acaa244290c83de3625a9c8
+    - name: Gold Inventory Book Source_Frame_90
+      frameIndex: 90
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 3ab791397444c4241b4f9209d3feed46
+    - name: Gold Inventory Book Source_Frame_92
+      frameIndex: 92
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 5fb24180d9de8ec42bb1ca37143906c6
+    - name: Gold Inventory Book Source_Frame_93
+      frameIndex: 93
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 3bdbc8e5c87fee54794e911ad54938f9
+    - name: Gold Inventory Book Source_Frame_94
+      frameIndex: 94
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 465d3515c1a1df7488ba52b8ec677fb0
+    - name: Gold Inventory Book Source_Frame_95
+      frameIndex: 95
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 36c3bbef3e04e084fa2f775a14da592e
+    - name: Gold Inventory Book Source_Frame_96
+      frameIndex: 96
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 3c3c1ca137744514e9a22918d0435643
+    - name: Gold Inventory Book Source_Frame_97
+      frameIndex: 97
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 199be8aa00233054996671288d2b708f
+    - name: Gold Inventory Book Source_Frame_98
+      frameIndex: 98
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 0f41e661278d8414cb3d91c5d40842e2
+    - name: Gold Inventory Book Source_Frame_99
+      frameIndex: 99
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 4e5b6780d6eab9e4899e8061abc58231
+    - name: Gold Inventory Book Source_Frame_100
+      frameIndex: 100
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: ab5fb1e82dbcabf489ab1aa95a6106e9
+    - name: Gold Inventory Book Source_Frame_101
+      frameIndex: 101
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: ba201fb1bcdbcff4eb4760d6f8a4b054
+    - name: Gold Inventory Book Source_Frame_102
+      frameIndex: 102
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 7104171b1cb221e4682c2a3f0712a049
+    - name: Gold Inventory Book Source_Frame_103
+      frameIndex: 103
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: fa620afd0a07a4a42a23f69cad76a843
+    - name: Gold Inventory Book Source_Frame_104
+      frameIndex: 104
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 7edfaf125a288cf4e8b0e9a7f225b776
+    - name: Gold Inventory Book Source_Frame_105
+      frameIndex: 105
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 2e62e5717e0b5934592ab0ead62a970e
+    - name: Gold Inventory Book Source_Frame_106
+      frameIndex: 106
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 48
+        width: 736
+        height: 560
+      spriteId: 7cac0b4bf2cd1074ca5f6b14231515ab
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 848, y: 640}

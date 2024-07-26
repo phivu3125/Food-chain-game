@@ -1,0 +1,108 @@
+{
+    "items": [
+        {
+            "name": "Invisibility",
+            "use": "An ally becomes invisible and cannot be attacked.",
+            "effectiveTime": "5",
+            "cooldownTime": "",
+            "price": "100",
+            "url": "3"
+        },
+        {
+            "name": "Speed",
+            "use": "Increases the movement speed of 1 ally.",
+            "effective_time": "5",
+            "cooldown_time": "",
+            "price": "100",
+            "url": "shazam"
+        },
+        {
+            "name": "Detoxify",
+            "use": "Removes all negative effects for 1 ally.",
+            "effective_time": "",
+            "cooldown_time": "",
+            "price": "300",
+            "url": "6"
+        },
+        {
+            "name": "Teleport",
+            "use": "Teleports 1 ally to another lane.",
+            "effective_time": "",
+            "cooldown_time": "5",
+            "price": "100",
+            "url": "teleport"
+        },
+        {
+            "name": "Elephant",
+            "use": "Revive used elephants on lane.",
+            "effective_time": "",
+            "cooldown_time": "",
+            "price": "300",
+            "url": ""
+        },
+        {
+            "name": "Barrier",
+            "use": "Creates a barrier that prevents enemies from getting through.",
+            "effective_time": "5",
+            "cooldown_time": "",
+            "price": "500",
+            "url": ""
+        },
+        {
+            "name": "Trap",
+            "use": "Set a trap to hold an enemy when they enter.",
+            "effective_time": "5",
+            "cooldown_time": "",
+            "price": "300",
+            "url": ""
+        },
+        {
+            "name": "Mine",
+            "use": "Enemies are destroyed when stepped on.",
+            "effective_time": "5",
+            "cooldown_time": "",
+            "price": "500",
+            "url": ""
+        },
+        {
+            "name": "Frostbite Bomb",
+            "use": "Freezes all enemies within 3 adjacent cells.",
+            "effective_time": "5",
+            "cooldown_time": "20",
+            "price": "500",
+            "url": "freepotion1"
+        },
+        {
+            "name": "Free Summon",
+            "use": "The next summon is free.",
+            "effective_time": "",
+            "cooldown_time": "",
+            "price": "300",
+            "url": "17"
+        },
+        {
+            "name": "Mind Control",
+            "use": "All enemies on a lane will turn around and attack their allies.",
+            "effective_time": "",
+            "cooldown_time": "",
+            "price": "1000",
+            "url": ""
+        },
+        {
+            "name": "Energy Booster",
+            "use": "Reduces the waiting time for flowers to generate energy.",
+            "effective_time": "15",
+            "cooldown_time": "",
+            "price": "200",
+            "url": ""
+        },
+        {
+            "name": "Weather Control",
+            "use": "Summon a storm that reduces the movement speed of all enemies.",
+            "effective_time": "10",
+            "cooldown_time": "",
+            "price": "1000",
+            "url": "snowing"
+        }
+    ]
+}
