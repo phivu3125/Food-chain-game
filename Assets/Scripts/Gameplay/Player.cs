@@ -11,7 +11,10 @@ public class Player : MonoBehaviour
     private AnimalCard selectedAnimalCard;
     private bool isSelected = false;
     private Cell currentHighlightedCell = null;
-
+    void Awake()
+    {
+        GameManager.Instance.ResetGameManager();
+    }
     void Start()
     {
         RegisterInputEvents(); // Đăng ký các sự kiện đầu vào
@@ -57,12 +60,17 @@ public class Player : MonoBehaviour
     private void HandlePickEnergy(Vector3 worldPosition)
     {
         // Kiểm tra va chạm với các đối tượng năng lượng và thêm năng lượng
-        RaycastHit2D hit = Physics2D.Raycast(worldPosition, Vector2.zero);
+        Vector2 PointerPos = Camera.main.WorldToScreenPoint(worldPosition); // Lấy vị trí trên màn hình vì thẻ nằm theo UI;
+        Ray ray = Camera.main.ScreenPointToRay(new Vector3(PointerPos.x, PointerPos.y, 0f));
+        RaycastHit[] hits3D = Physics.RaycastAll(ray);
 
-        if (hit.collider != null && hit.transform.CompareTag("Energy"))
+        foreach (RaycastHit hit3D in hits3D)
         {
-            Energy energy = hit.transform.GetComponent<Energy>();
-            StartCoroutine(energy.GainEnergyValue());
+            if (hit3D.collider != null && hit3D.collider.CompareTag("Energy"))
+            {
+                Energy energy = hit3D.transform.GetComponent<Energy>();
+                StartCoroutine(energy.GainEnergyValue());
+            }
         }
     }
 
@@ -272,7 +280,7 @@ public class Player : MonoBehaviour
     private bool CanPlaceFlower(out Cell cell)
     {
         // Kiểm tra xem có thể đặt hoa vào ô không
-        Collider2D[] hitColliders = Physics2D.OverlapPointAll(draggedAnimal.transform.position);
+        Collider[] hitColliders = Physics.OverlapSphere(draggedAnimal.transform.position, 5f);
         foreach (var hitCollider in hitColliders)
         {
             if (hitCollider.CompareTag("Cell"))

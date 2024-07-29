@@ -52,7 +52,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c31d4c0c49d83ea40be5081a08626aaa, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -109,8 +109,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 817301289621888594}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.19659223, w: 0.9804854}
-  m_LocalPosition: {x: -9.493179, y: 2.7062416, z: 0.01614045}
+  m_LocalRotation: {x: 0, y: 0, z: -0.20185038, w: 0.9794164}
+  m_LocalPosition: {x: -9.405312, y: 2.8480368, z: 0.01614045}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -136,7 +136,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c31d4c0c49d83ea40be5081a08626aaa, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -220,7 +220,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c31d4c0c49d83ea40be5081a08626aaa, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -277,8 +277,8 @@ Transform:
   m_GameObject: {fileID: 2324227743019100005}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 31, y: -6.4, z: 0}
-  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
+  m_LocalPosition: {x: 31, y: -5.3, z: -0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9084227206853052234}
@@ -299,7 +299,7 @@ GameObject:
   - component: {fileID: 1813219342450633343}
   m_Layer: 0
   m_Name: Bird
-  m_TagString: AnimalEnemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -313,7 +313,7 @@ Transform:
   m_GameObject: {fileID: 3510952520859194703}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -510.9759, y: 0, z: 0}
+  m_LocalPosition: {x: -135.99657, y: 0, z: 65}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -361,9 +361,9 @@ MonoBehaviour:
   poisonedByAnimals: []
   pricePerKill: 100
   maxHealth: 20
-  animator: {fileID: 5475439850106156757}
-  animalPlayerBound: 15
-  animalEnemyBound: -6
+  animalPlayerBound: 500
+  animalEnemyBound: -810
+  dissolveAnimEase: 9
 --- !u!54 &4060735000056122131
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -438,7 +438,7 @@ Transform:
   m_GameObject: {fileID: 4361466937413200355}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 11.84384, z: 0}
+  m_LocalPosition: {x: 0, y: 13.217709, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -525,8 +525,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6587630242164058577}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.19659223, w: 0.9804854}
-  m_LocalPosition: {x: -5.5090456, y: 5.809713, z: 0.01614045}
+  m_LocalRotation: {x: 0, y: 0, z: -0.20185038, w: 0.9794164}
+  m_LocalPosition: {x: -5.387996, y: 5.908621, z: 0.01614045}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -552,7 +552,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c31d4c0c49d83ea40be5081a08626aaa, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -609,9 +609,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8352004055492533840}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.025818175, w: 0.9996667}
-  m_LocalPosition: {x: -12.465627, y: 4.3839164, z: 0.016140446}
-  m_LocalScale: {x: 0.99628514, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -0.1726199, w: 0.9849886}
+  m_LocalPosition: {x: -11.935285, y: 4.668808, z: 0.016140446}
+  m_LocalScale: {x: 1.0344284, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9084227206853052234}
@@ -636,7 +636,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c31d4c0c49d83ea40be5081a08626aaa, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -693,8 +693,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8877274537494444347}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.17058699, w: 0.9853426}
-  m_LocalPosition: {x: -2.5318325, y: 1.7049469, z: 0.01614045}
+  m_LocalRotation: {x: 0, y: 0, z: -0.17587472, w: 0.9844126}
+  m_LocalPosition: {x: -2.4549615, y: 1.772034, z: 0.01614045}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -720,7 +720,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c31d4c0c49d83ea40be5081a08626aaa, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -777,8 +777,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9012288147444712756}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.19659223, w: 0.9804854}
-  m_LocalPosition: {x: -5.9620705, y: 5.814769, z: 0.01614045}
+  m_LocalRotation: {x: 0, y: 0, z: -0.20185038, w: 0.9794164}
+  m_LocalPosition: {x: -5.840951, y: 5.918541, z: 0.01614045}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -804,7 +804,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c31d4c0c49d83ea40be5081a08626aaa, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

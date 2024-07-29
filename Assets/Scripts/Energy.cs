@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
+using DG.Tweening;
 using UnityEngine;
+using System.Linq;
 
 
 public class Energy : MonoBehaviour
@@ -15,6 +17,8 @@ public class Energy : MonoBehaviour
     private Vector3 destroyPos; // Vị trí đích để di chuyển tới
     private GameObject targetText; // Đối tượng văn bản mục tiêu hiển thị số tiền
     private bool canFall = true; // Kiểm tra xem năng lượng có thể rơi hay không
+
+    [SerializeField] private Ease dissolveAnimEase;
 
     public bool CanFall { get => canFall; set => canFall = value; }
 
@@ -52,7 +56,6 @@ public class Energy : MonoBehaviour
     void Update()
     {
         EnergyFallDown();
-        CheckForDestroyEnergy();
     }
 
     private void EnergyFallDown()
@@ -61,15 +64,6 @@ public class Energy : MonoBehaviour
         {
             // Di chuyển năng lượng xuống dưới
             transform.position += Vector3.down * fallSpeed * Time.deltaTime;
-        }
-    }
-
-    private void CheckForDestroyEnergy()
-    {
-        // Hủy năng lượng nếu nó rơi xuống dưới vị trí Y đã định
-        if (transform.position.y < yPosistionToDestroy)
-        {
-            Destroy(gameObject);
         }
     }
     public IEnumerator GainEnergyValue()
@@ -95,11 +89,35 @@ public class Energy : MonoBehaviour
     public Energy SpawnEnergy(Vector3 spawnPos)
     {
         // Tạo ra một đối tượng năng lượng mới tại vị trí spawnPos
-        GameObject energyObject = Instantiate(gameObject, spawnPos, Quaternion.identity);
+        GameObject energyObject = Instantiate(gameObject, spawnPos, Quaternion.Euler(20, 0, 0));
         energyObject.name = energyObject.name.Replace("(Clone)", "").Trim();
 
         Energy energyComponent = energyObject.GetComponent<Energy>();
 
         return energyComponent;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Lane"))
+        {
+            if (other.gameObject.CompareTag("Lane"))
+            {
+                canFall = false;
+
+                List<SpriteRenderer> spriteRenderers = GetComponentsInChildren<SpriteRenderer>().ToList();
+                var sequence = DOTween.Sequence(); // Create a new sequence
+
+                foreach (var spriteRenderer in spriteRenderers)
+                {
+                    sequence.Join(spriteRenderer.material.DOFloat(0, "Vector1_E974001A", 1).SetEase(dissolveAnimEase));
+                }
+
+                sequence.OnComplete(() =>
+                {
+                    Destroy(gameObject);
+                });
+            }
+        }
     }
 }

@@ -4,5 +4,6 @@ using UnityEngine;
 
 public enum EventID{
     MONEY_CHANGED,
-    LIVE_CHANGED
+    LIVE_CHANGED,
+    IS_WIN_GAME_CHANGED
 }

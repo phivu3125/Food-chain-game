@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Linq;
+using UnityEditor.ShaderGraph.Internal;
+using DG.Tweening;
 using UnityEngine;
+using System.Collections.Generic;
 
 public class Animal : MonoBehaviour
 {
@@ -10,12 +13,10 @@ public class Animal : MonoBehaviour
 
     [SerializeField] protected int pricePerKill; // Giá trị khi giết được động vật này
     [SerializeField] protected int maxHealth; // Máu tối đa của động vật này
-    [SerializeField] protected Animator animator; // Animator của động vật
     [SerializeField] protected float animalPlayerBound; // Giới hạn của player animal
     [SerializeField] protected float animalEnemyBound; // Giới hạn của player animal
-
-
-
+    [SerializeField] protected Ease dissolveAnimEase;
+    protected Animator animator; // Animator của động vật
     protected int currentHealth; // Máu hiện tại của động vật
     protected HealthBar healthBar; // Thanh máu của động vật
     protected GameObject targetAnimal = null; // Đối tượng mục tiêu mà động vật này đang tấn công
@@ -30,6 +31,7 @@ public class Animal : MonoBehaviour
 
     protected void Start()
     {
+        animator = GetComponent<Animator>();
         InitializeHealth(); // Khởi tạo máu của động vật
     }
 
@@ -52,7 +54,6 @@ public class Animal : MonoBehaviour
     protected void HandleMovement()
     {
         if (!canRun) return;
-
         Vector3 direction = gameObject.CompareTag("AnimalPlayer") ? Vector3.right : Vector3.left;
         transform.position += direction * moveSpeed * Time.deltaTime;
     }
@@ -61,12 +62,12 @@ public class Animal : MonoBehaviour
     {
         if (transform.position.x >= animalPlayerBound && transform.gameObject.CompareTag("AnimalPlayer"))
         {
-            // Destroy(gameObject);
+            Destroy(gameObject);
         }
         else if (transform.position.x <= animalEnemyBound && transform.gameObject.CompareTag("AnimalEnemy"))
         {
-            // Destroy(gameObject);
-            // GameManager.Instance.DecreaseLives(1);
+            Destroy(gameObject);
+            GameManager.Instance.DecreaseLives(1);
         }
     }
 
@@ -81,7 +82,7 @@ public class Animal : MonoBehaviour
 
     public Animal SpawnAnimal(Vector3 spawnPos)
     {
-        GameObject animalObject = Instantiate(gameObject, spawnPos, Quaternion.Euler(30, 0, 0));
+        GameObject animalObject = Instantiate(gameObject, spawnPos, Quaternion.Euler(20, 0, 0));
         animalObject.name = animalObject.name.Replace("(Clone)", "").Trim();
         Animal animalComponent = animalObject.GetComponent<Animal>();
         return animalComponent ?? animalObject.AddComponent<Animal>(); // Thêm component Animal nếu chưa có
@@ -127,7 +128,7 @@ public class Animal : MonoBehaviour
                 enemyAnimalComponent.isBeingAttacked = true;
                 enemyAnimalComponent.CurrentAttackerName = gameObject.name;
 
-                if (edibleAnimals.Contains(enemyAnimal.name) && enemyAnimalComponent.edibleAnimals.Contains(gameObject.name))
+                if (enemyAnimalComponent.edibleAnimals.Contains(gameObject.name))
                 {
                     PrepareForAttack(gameObject); // Tấn công qua lại
                 }
@@ -218,22 +219,28 @@ public class Animal : MonoBehaviour
         canRun = false;
         gameObject.GetComponent<BoxCollider>().enabled = false;
         animator?.SetTrigger("isDying");
-        // SetLayerForAllChildSprites(gameObject, "Dying");
         yield return null;
     }
-    // private void SetLayerForAllChildSprites(GameObject parent, string sortingLayerName)
-    // {
-    //     SpriteRenderer[] spriteRenderers = parent.GetComponentsInChildren<SpriteRenderer>();
-
-    //     foreach (var spriteRenderer in spriteRenderers)
-    //     {
-    //         spriteRenderer.sortingLayerName = sortingLayerName;
-    //     }
-    // }
 
     public void OnDyingAnimationEnd()
     {
-        Destroy(gameObject);
+        Dissolve();
         targetAnimalPrice = 0;
+    }
+
+    protected void Dissolve()
+    {
+        List<SpriteRenderer> spriteRenderers = GetComponentsInChildren<SpriteRenderer>().ToList();
+
+        foreach (var spriteRenderer in spriteRenderers)
+        {
+            spriteRenderer.material.DOFloat(0, "Vector1_E974001A", 1).SetEase(dissolveAnimEase).OnComplete(() =>
+            {
+                if (spriteRenderers.IndexOf(spriteRenderer) == spriteRenderers.Count() - 1)
+                {
+                    Destroy(gameObject);
+                }
+            });
+        }
     }
 }
