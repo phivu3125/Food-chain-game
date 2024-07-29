@@ -19,7 +19,7 @@ public class Flower : Animal
         _timeSinceLastSpawnEnergy += Time.deltaTime;
         if (_timeSinceLastSpawnEnergy > energySpawnInterval && energyInstance == null)
         {
-            energyInstance = energyPrefab.SpawnEnergy(transform.position);
+            energyInstance = energyPrefab.SpawnEnergy(transform.position + new Vector3(0, 30, 0));
             energyInstance.CanFall = false;
             _timeSinceLastSpawnEnergy = 0;
         }

@@ -20,7 +20,7 @@ public class LaneHandler : MonoBehaviour
         string _firstCellName = $"Cell{lastCharInName}1";
         _firstCell = transform.Find(_firstCellName);
 
-        string _lastCellName = $"Cell{lastCharInName}9";
+        string _lastCellName = $"Cell{lastCharInName}10";
         _lastCell = transform.Find(_lastCellName);
     }
     public void SpawnAnimalAtLane(Animal AnimalPlayer)
@@ -28,6 +28,7 @@ public class LaneHandler : MonoBehaviour
         if (AnimalPlayer.name.Equals("Flower")) return; // Xử lí spawn Flower ở chỗ khác
 
         AnimalPlayer.gameObject.tag = "AnimalPlayer";
+        AnimalPlayer.transform.rotation  = UnityEngine.Quaternion.Euler(20, 0, 0);
 
         Animal spawnedAnimal = AnimalPlayer.SpawnAnimal(_firstCell.position);
         spawnedAnimal.CanRun = true;
@@ -44,7 +45,7 @@ public class LaneHandler : MonoBehaviour
         AnimalEnemy.gameObject.tag = "AnimalEnemy";
 
         Animal spawnedAnimal = AnimalEnemy.SpawnAnimal(_lastCell.position);
-        spawnedAnimal.transform.Rotate(0, 180, 0);
+        spawnedAnimal.transform.localRotation  = UnityEngine.Quaternion.Euler(-20, 180, 0);
         spawnedAnimal.CanRun = true;
     }
 }

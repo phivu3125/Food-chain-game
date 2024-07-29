@@ -8,11 +8,17 @@ public class GameManager : Singleton<GameManager>
     public int initialMoney;
     public int maxLives;
 
-    public int currentMoney;
-    public int currentLives;
+    [SerializeField] private int currentMoney;
+    [SerializeField] private int currentLives;
+
+    private bool isWinGame = false;
+    private int selectedLevel;
+    
 
     public int CurrentLives { get => currentLives; set => currentLives = value; }
     public int CurrentMoney { get => currentMoney; set => currentMoney = value; }
+    public bool IsWinGame { get => isWinGame; set => isWinGame = value; }
+    public int SelectedLevel { get => selectedLevel; set => selectedLevel = value; }
 
     protected override void Awake()
     {
@@ -34,9 +40,11 @@ public class GameManager : Singleton<GameManager>
     {
         InitializeMoney();
         InitializePlayerLives();
-        
+        IsWinGame = false;
+
         ListenerManager.Instance.Broadcast(EventID.MONEY_CHANGED, CurrentMoney);
         ListenerManager.Instance.Broadcast(EventID.LIVE_CHANGED, CurrentLives);
+        ListenerManager.Instance.Broadcast(EventID.IS_WIN_GAME_CHANGED, IsWinGame);
     }
 
     public bool SpendMoney(int amount)
@@ -71,6 +79,20 @@ public class GameManager : Singleton<GameManager>
         {
             CurrentLives -= amount;
             ListenerManager.Instance.Broadcast(EventID.LIVE_CHANGED, CurrentLives);
+        }
+    }
+
+    public void WinGame()
+    {
+        if (!IsWinGame)
+        {
+            IsWinGame = true;
+            ListenerManager.Instance.Broadcast(EventID.IS_WIN_GAME_CHANGED, IsWinGame);
+            
+            if (SelectedLevel == LevelMenu.unlockedLevel)
+            {
+                PlayerPrefs.SetInt("UnlockedLevel", ++SelectedLevel);
+            }
         }
     }
 }

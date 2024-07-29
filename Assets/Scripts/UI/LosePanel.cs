@@ -11,7 +11,7 @@ public class LosePanel : MonoBehaviour
     [SerializeField] private float topPos, middlePos;
     [SerializeField] private float tweenDuration;
     [SerializeField] private CanvasGroup darkPanelCanvasGroup;
-
+    [SerializeField] private Ease animEase;
 
     public void Lose()
     {
@@ -34,7 +34,7 @@ public class LosePanel : MonoBehaviour
 
     private void LosePanelIntro()
     {
-        darkPanelCanvasGroup.DOFade(1, tweenDuration).SetUpdate(true);
-        losePanelRect.DOAnchorPosY(middlePos, tweenDuration).SetUpdate(true);
+        darkPanelCanvasGroup.DOFade(1, tweenDuration).SetUpdate(true).SetEase(animEase);
+        losePanelRect.DOAnchorPosY(middlePos, tweenDuration).SetEase(animEase).SetUpdate(true);
     }
 }

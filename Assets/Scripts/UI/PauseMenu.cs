@@ -11,7 +11,7 @@ public class PauseMenu : MonoBehaviour
     [SerializeField] private float topPos, middlePos;
     [SerializeField] private float tweenDuration;
     [SerializeField] private CanvasGroup darkPanelCanvasGroup;
-
+    [SerializeField] private Ease animEase;
 
     public void Pause()
     {
@@ -42,15 +42,15 @@ public class PauseMenu : MonoBehaviour
 
     private void PausePanelIntro()
     {
-        darkPanelCanvasGroup.DOFade(1, tweenDuration).SetUpdate(true);
-        pausePanelRect.DOAnchorPosY(middlePos, tweenDuration).SetUpdate(true);
-        pauseButtonRect.DOAnchorPosX(130, tweenDuration).SetUpdate(true);
+        darkPanelCanvasGroup.DOFade(1, tweenDuration).SetEase(animEase).SetUpdate(true);
+        pausePanelRect.DOAnchorPosY(middlePos, tweenDuration).SetEase(animEase).SetUpdate(true);
+        pauseButtonRect.DOAnchorPosX(130, tweenDuration).SetEase(animEase).SetUpdate(true);
     }
 
     private async Task PausePanelOutro()
     {
-        darkPanelCanvasGroup.DOFade(0, tweenDuration).SetUpdate(true);
-        await pausePanelRect.DOAnchorPosY(topPos, tweenDuration).SetUpdate(true).AsyncWaitForCompletion();
-        pauseButtonRect.DOAnchorPosX(-105, tweenDuration).SetUpdate(true);
+        darkPanelCanvasGroup.DOFade(0, tweenDuration).SetEase(animEase).SetUpdate(true);
+        await pausePanelRect.DOAnchorPosY(topPos, tweenDuration).SetEase(animEase).SetUpdate(true).AsyncWaitForCompletion();
+        pauseButtonRect.DOAnchorPosX(-105, tweenDuration).SetEase(animEase).SetUpdate(true);
     }
 }

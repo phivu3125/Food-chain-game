@@ -12,11 +12,10 @@ public class EnemySpawner : MonoBehaviour
     public int enemiesPerSpawn = 1; // Số lượng quái thả mỗi lần
 
     private float timeSinceLastSpawn;
-    private int currentPhase = 1;
+    public int currentPhase = 1;
     private int enemiesSpawnedInPhase = 0;
     private int maxEnemiesInPhase;
     private float currentSpawnInterval;
-    private bool _isDoneGame = false;
 
     void Start()
     {        
@@ -26,7 +25,7 @@ public class EnemySpawner : MonoBehaviour
 
     void Update()
     {
-        if (_isDoneGame) return;
+        if (GameManager.Instance.IsWinGame) return;
 
         timeSinceLastSpawn += Time.deltaTime;
 
@@ -97,8 +96,8 @@ public class EnemySpawner : MonoBehaviour
         enemiesPerSpawn++; // Tăng số lượng quái thả mỗi lần
         Debug.Log("Advanced to phase " + currentPhase);
 
-        if (currentPhase == 4) 
-            _isDoneGame = true;
+        if (currentPhase == 2) 
+           GameManager.Instance.WinGame();
     }
 }
 
