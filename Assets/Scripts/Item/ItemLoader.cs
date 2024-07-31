@@ -144,18 +144,33 @@ public class ItemLoader : MonoBehaviour
                 }
             }
         }
+    }
 
+    void EnableAllBgSelectedObject()
+    {
+        for (int i = 0; i < itemContainer.childCount; i++)
+        {
+            Transform itemComponent = itemContainer.GetChild(i);
+            Transform selected = itemComponent.Find("Selected");
+
+            if (selected)
+            {
+                selected.gameObject.SetActive(false);
+            }
+        }
     }
 
     void ItemCompClicked(Transform itemComponent)
     {
         TextMeshProUGUI nameText = itemComponent.Find("Name").GetComponent<TextMeshProUGUI>();
+        Transform selected = itemComponent.Find("Selected");
 
         use.SetText(items.Find(item => item.getName() == nameText.text).use);
         icon.sprite = Resources.Load<Sprite>(items.Find(item => item.getName() == nameText.text).getUrl());
-        Debug.Log(items.Find(item => item.getName() == nameText.text).getUrl());
-        Debug.Log(icon.sprite);
         price.SetText(items.Find(item => item.getName() == nameText.text).getPrice());
+        
+        EnableAllBgSelectedObject();
+        selected.gameObject.SetActive(true);
     }
 
     void OnNextBtnClicked()

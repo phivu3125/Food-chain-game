@@ -10,10 +10,10 @@ using System;
 [System.Serializable]
 public class Gold
 {
-    public string gold;
-    public string money;
-    public string getGold() { return gold; }
-    public string getMoney() { return money; }
+    public int gold;
+    public float money;
+    public int getGold() { return gold; }
+    public float getMoney() { return money; }
     public override string ToString()
     {
         return $"Gold: {gold}, Money: {money}";
@@ -22,16 +22,16 @@ public class Gold
 
 public class GoldList
 {
-    public List<Gold> Golds;
+    public List<Gold> items;
 
     public override string ToString()
     {
-        return $"{string.Join(", ", Golds.Select(d => d.ToString()))}";
+        return $"{string.Join(", ", items.Select(d => d.ToString()))}";
     }
 
-    public List<Gold> GetGolds()
+    public List<Gold> Getitems()
     {
-        return Golds;
+        return items;
     }
 
 }
@@ -44,26 +44,28 @@ public class GoldLoader : MonoBehaviour
     public TextMeshProUGUI numPages = null;
     public TextMeshProUGUI pageOrderCurrent = null;
     public Transform GoldContainer = null;
-    // public TextMeshProUGUI price = null;
+    public TextMeshProUGUI price = null;
     // public Image icon = null;
     private GoldList GoldList;
     private List<Gold> Golds;
     private int GoldIndex = 0;
-    private int GoldsPerPage = 7;
+    private int GoldsPerPage;
     void Start()
     {
-        if (nextBtn != null && prevBtn != null && pageOrderCurrent != null && numPages != null && GoldContainer != null)
+        if (nextBtn != null && prevBtn != null && pageOrderCurrent != null && numPages != null && GoldContainer != null && price != null)
         {
             LoadJsonData();
             DisplayGolds();
             AddBtnComponent();
+            AddBtnComponentForGoldLabel();
         }
     }
     public void LoadJsonData()
     {
         string json = File.ReadAllText(jsonFilePath);
         GoldList = JsonUtility.FromJson<GoldList>(json);
-        Golds = GoldList.GetGolds();
+        Golds = GoldList.Getitems();
+        GoldsPerPage = Golds.Count;
 
         numPages.SetText(Math.Ceiling(Golds.Count * 1.0 / 7).ToString());
         pageOrderCurrent.SetText("1");
@@ -81,8 +83,11 @@ public class GoldLoader : MonoBehaviour
 
             Transform GoldComponent = GoldContainer.GetChild(i);
             TextMeshProUGUI nameText = GoldComponent.Find("Gold").GetComponent<TextMeshProUGUI>();
+            TextMeshProUGUI moneyText = GoldComponent.Find("Money").GetComponent<TextMeshProUGUI>();
 
-            nameText.text = "+" + Golds[startIndex + i].getGold();
+
+            nameText.text = "+" + Golds[startIndex + i].getGold().ToString();
+            moneyText.text = Golds[startIndex + i].getMoney().ToString() + " $";
         }
     }
 
@@ -92,8 +97,10 @@ public class GoldLoader : MonoBehaviour
         {
             Transform GoldComponent = GoldContainer.GetChild(i);
             TextMeshProUGUI nameText = GoldComponent.Find("Gold").GetComponent<TextMeshProUGUI>();
+            TextMeshProUGUI moneyText = GoldComponent.Find("Money").GetComponent<TextMeshProUGUI>();
 
             nameText.text = "";
+            moneyText.text = "";
         }
     }
 
@@ -115,36 +122,41 @@ public class GoldLoader : MonoBehaviour
         }
     }
 
-    // void AddBtnComponentForGoldLabel()
-    // {
-    //     for (int i = 0; i < GoldsPerPage; i++)
-    //     {
-    //         Transform GoldComponent = GoldContainer.GetChild(i);
-    //         GameObject GoldObj = GoldComponent.gameObject;
+    void AddBtnComponentForGoldLabel()
+    {
+        for (int i = 0; i < GoldsPerPage; i++)
+        {
+            Transform GoldComponent = GoldContainer.GetChild(i);
+            GameObject GoldObj = GoldComponent.gameObject;
 
-    //         if (GoldObj != null)
-    //         {
-    //             Button button = GoldObj.GetComponent<Button>();
-    //             if (button == null)
-    //             {
-    //                 button = GoldObj.AddComponent<Button>();
-    //                 button.onClick.AddListener(() => GoldCompClicked(GoldComponent));
-    //             }
-    //         }
-    //     }
+            if (GoldObj != null)
+            {
+                Button button = GoldObj.GetComponent<Button>();
+                if (button == null)
+                {
+                    button = GoldObj.AddComponent<Button>();
+                }
+                button.onClick.AddListener(() => GoldCompClicked(GoldComponent));
+            }
+        }
 
-    // }
+    }
 
-    // void GoldCompClicked(Transform GoldComponent)
-    // {
-    //     TextMeshProUGUI nameText = GoldComponent.Find("Name").GetComponent<TextMeshProUGUI>();
+    void GoldCompClicked(Transform GoldComponent)
+    {
+        TextMeshProUGUI nameText = GoldComponent.Find("Gold").GetComponent<TextMeshProUGUI>();
 
-    //     use.SetText(Golds.Find(Gold => Gold.getName() == nameText.text).use);
-    //     icon.sprite = Resources.Load<Sprite>(Golds.Find(Gold => Gold.getName() == nameText.text).getUrl());
-    //     Debug.Log(Golds.Find(Gold => Gold.getName() == nameText.text).getUrl());
-    //     Debug.Log(icon.sprite);
-    //     price.SetText(Golds.Find(Gold => Gold.getName() == nameText.text).getPrice());
-    // }
+        if (nameText != null && price != null)
+        {
+            Gold gold = Golds.Find(Gold => "+" + Gold.getGold().ToString() == nameText.text);
+            
+            if (gold != null)
+            {
+                price.SetText(gold.getMoney().ToString());
+            }
+        }
+
+    }
 
     void OnNextBtnClicked()
     {
