@@ -96,7 +96,7 @@ public class EnemySpawner : MonoBehaviour
         enemiesPerSpawn++; // Tăng số lượng quái thả mỗi lần
         Debug.Log("Advanced to phase " + currentPhase);
 
-        if (currentPhase == 2) 
+        if (currentPhase == 4) 
            GameManager.Instance.WinGame();
     }
 }

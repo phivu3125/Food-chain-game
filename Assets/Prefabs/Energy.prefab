@@ -68,7 +68,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5004e11cc8906484888838ddc96bc18a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallSpeed: 5
+  fallSpeed: 30
   yPosistionToDestroy: -6
   energyValue: 25
   flySpeed: 800

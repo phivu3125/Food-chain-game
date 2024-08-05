@@ -55,15 +55,23 @@ public class InputReader : ScriptableObject, GameInput.IGameplayActions
     {
         OnPointerDrag?.Invoke(context.ReadValue<Vector2>());
         PointerPos = context.ReadValue<Vector2>();
-        // RaycastHit hit;
-        // Ray ray = Camera.main.ScreenPointToRay(new(PointerPos.x, PointerPos.y, 0f));
-        
-        // if (Physics.Raycast(ray, out hit))
-        //     {
-        //         if (hit.collider != null)
-        //         {
-                    
-        //         }
-        //     }
+    }
+
+    public void OnTouch(InputAction.CallbackContext context)
+    {
+        if (context.phase == InputActionPhase.Started)
+        {
+            OnPointerClicked?.Invoke();
         }
+        else if (context.phase == InputActionPhase.Canceled)
+        {
+            OnPointerClickedRelease?.Invoke();
+        }
+    }
+
+    public void OnTouchPosition(InputAction.CallbackContext context)
+    {
+        OnPointerDrag?.Invoke(context.ReadValue<Vector2>());
+        PointerPos = context.ReadValue<Vector2>();
+    }
 }
